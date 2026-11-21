@@ -2,10 +2,19 @@
   "version": "AnimalAct 2.0",
   "source_dataset_uploaded": false,
   "old_AnimalAct_1_uploaded": false,
-  "raw_per_clip_labels_uploaded": false,
+  "raw_per_clip_labels_uploaded": true,
   "local_files_deleted": false,
-  "training_started": false,
   "test_inference_run": false,
   "runtime_model_asset": "animalact2-runtime-v2.zip",
-  "experiment_checkpoint_asset": "animalact2-experiment-checkpoints-v2.zip"
+  "experiment_checkpoint_asset": "animalact2-experiment-checkpoints-v2.zip",
+  "derived_clip_manifests_uploaded": true,
+  "training_caches_uploaded": true,
+  "raw_original_AnimalAct_uploaded": false,
+  "research_archive": "animalact2-research-reproduction-v2.zip",
+  "Bonus_implemented": false,
+  "formal_training_started": false,
+  "diagnostic_training_updates": 6,
+  "derived_Train_Valid_predictions_uploaded": true,
+  "Test_metadata_only": true,
+  "raw_AnimalAct_data_uploaded": false
 }

@@ -68,11 +68,18 @@ Linux/macOS使用 `python3 -m venv .venv` 与 `.venv/bin/python`。建议Python3
 - 空间池化得到变长[Lt,768]，传入原Proposal头，输出119个独立sigmoid分数。可输出零个或多个动作；无训练正例的Defensive Rearing(ID23)只展示分数，禁止作为正常识别动作。
 - 默认整文件作为一个Clip，亦可用户指定时间窗口。窗口边界是输入范围，**不是预测动作起止时间**。
 
-## 原始数据与训练资料
+## 完整研究资料、复现与继续开发
 
-原始 `AnimalAct/`（视频、标注、demo）继续由课程成员在个人电脑保存，**不上传本公开仓库**。逐Clip标签、原预测中的targets和特征缓存收据也不公开。查看页面、上传推理、读取汇总实验均不需要原始数据。
+现已补齐独立研究包：[完整复现说明](research_tools/README.md)、[研究Release](https://github.com/0Ofan/Multi-Label-Animal-Action-Recognition/releases/tag/v2.0-research-reproduction)。约995MiB，含正式Clip Manifest及派生标签、来源索引、两套全量缓存、原Checkpoint与预测、校验/配置、当前2.0研究阶段资料和预训练权重。原始AnimalAct/视频、JSON标注和demo仍仅保留在课程成员本地；1.0实际代码/模型/缓存不包含。
 
-原始训练代码、模型结构、配置、历史曲线及汇总统计保留于animalact2/。历史研究入口需要原始AnimalAct目录、正式私有Clip Manifest及已验证缓存，不能把公开演示所需模型包当成完整训练数据。公共仓库可恢复软件、运行模型和汇总实验，**不是原始数据的备份**；您已选择保留本机原始数据，不应因本仓库已上传而删除该数据。
+```powershell
+python research_tools/restore.py
+python research_tools/run.py --workspace research_workspace --family videomae --model model3 --smoke
+```
+
+组员可恢复现有实验资料、重算Valid、按明确命令重新训练或在新目录改进。原固定阶段脚本和封存字节原样保留；为解决异机文件时间/路径、固定输出与配置限制，新增独立portable训练入口，复用原数学、模型和评价规则，不覆盖历史结果。恢复后有数据/代码/缓存内容SHA检查。
+
+新增训练必须显式使用--train；上传工作本身未进行正式训练。加分项可基于代码及本地原始数据另行开发，但未提供已完成的Temporal Grounding实现。课程Brief与Proposal在[project_documents/](project_documents/)。
 
 ## 测试
 

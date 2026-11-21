@@ -1,0 +1,315 @@
+{
+  "totals": {
+    "valid_videos": 446,
+    "valid_intervals": 1055,
+    "multi_action_videos": 1248,
+    "empty_action_videos": 0,
+    "distinct_action_overlap_videos": 951,
+    "different_animal_name_overlap_videos": 245,
+    "valid_main025_concurrent_videos": 111,
+    "train_videos": 2075,
+    "train_intervals": 4977,
+    "train_main025_concurrent_videos": 485,
+    "test_videos": 447,
+    "test_intervals": 1091,
+    "test_main025_concurrent_videos": 108
+  },
+  "schema_field_occurrences": {
+    "root": {
+      "video_id": 2968,
+      "video": 2968,
+      "fps": 2968,
+      "list_animal": 2968,
+      "list_animal_action": 2968,
+      "source_labels": 2968,
+      "annotations": 2968
+    },
+    "animal": {
+      "animal": 3258,
+      "actions": 3258
+    },
+    "interval": {
+      "action": 7123,
+      "start": 7123,
+      "end": 7123,
+      "start_frame": 6954,
+      "end_frame": 6954
+    }
+  },
+  "anomaly_kinds": {
+    "subframe_end_overrun": 1043,
+    "optional_frame_field_missing": 338,
+    "no_frame_timestamp_inside_interval": 1,
+    "provided_frame_span_empty_or_inconsistent": 47
+  },
+  "anomaly_severity": {
+    "info": 1381,
+    "review": 48
+  },
+  "example_files": {
+    "multiple_intervals": {
+      "video_id": "AKFJYBGG",
+      "split": "valid",
+      "annotation_path": "AnimalAct/annotations/valid/AKFJYBGG.json",
+      "annotations": [
+        {
+          "animal": "Citrine Wagtail",
+          "actions": [
+            {
+              "action": "Shaking",
+              "start": 0.825,
+              "end": 1.722,
+              "start_frame": 20,
+              "end_frame": 41
+            },
+            {
+              "action": "Preening",
+              "start": 2.532,
+              "end": 2.97,
+              "start_frame": 61,
+              "end_frame": 71
+            },
+            {
+              "action": "Shaking",
+              "start": 2.887,
+              "end": 4.081,
+              "start_frame": 69,
+              "end_frame": 98
+            }
+          ]
+        }
+      ]
+    },
+    "multiple_action_labels": {
+      "video_id": "AKFJYBGG",
+      "split": "valid",
+      "annotation_path": "AnimalAct/annotations/valid/AKFJYBGG.json",
+      "annotations": [
+        {
+          "animal": "Citrine Wagtail",
+          "actions": [
+            {
+              "action": "Shaking",
+              "start": 0.825,
+              "end": 1.722,
+              "start_frame": 20,
+              "end_frame": 41
+            },
+            {
+              "action": "Preening",
+              "start": 2.532,
+              "end": 2.97,
+              "start_frame": 61,
+              "end_frame": 71
+            },
+            {
+              "action": "Shaking",
+              "start": 2.887,
+              "end": 4.081,
+              "start_frame": 69,
+              "end_frame": 98
+            }
+          ]
+        }
+      ]
+    },
+    "distinct_action_overlap": {
+      "video_id": "AKFJYBGG",
+      "split": "valid",
+      "annotation_path": "AnimalAct/annotations/valid/AKFJYBGG.json",
+      "annotations": [
+        {
+          "animal": "Citrine Wagtail",
+          "actions": [
+            {
+              "action": "Shaking",
+              "start": 0.825,
+              "end": 1.722,
+              "start_frame": 20,
+              "end_frame": 41
+            },
+            {
+              "action": "Preening",
+              "start": 2.532,
+              "end": 2.97,
+              "start_frame": 61,
+              "end_frame": 71
+            },
+            {
+              "action": "Shaking",
+              "start": 2.887,
+              "end": 4.081,
+              "start_frame": 69,
+              "end_frame": 98
+            }
+          ]
+        }
+      ]
+    },
+    "same_animal_entry_multiple_actions": {
+      "video_id": "AKFJYBGG",
+      "split": "valid",
+      "annotation_path": "AnimalAct/annotations/valid/AKFJYBGG.json",
+      "annotations": [
+        {
+          "animal": "Citrine Wagtail",
+          "actions": [
+            {
+              "action": "Shaking",
+              "start": 0.825,
+              "end": 1.722,
+              "start_frame": 20,
+              "end_frame": 41
+            },
+            {
+              "action": "Preening",
+              "start": 2.532,
+              "end": 2.97,
+              "start_frame": 61,
+              "end_frame": 71
+            },
+            {
+              "action": "Shaking",
+              "start": 2.887,
+              "end": 4.081,
+              "start_frame": 69,
+              "end_frame": 98
+            }
+          ]
+        }
+      ]
+    },
+    "different_animal_name_overlap": {
+      "video_id": "DFFYSWBO",
+      "split": "test",
+      "annotation_path": "AnimalAct/annotations/test/DFFYSWBO.json",
+      "annotations": [
+        {
+          "animal": "Golden Eagle",
+          "actions": [
+            {
+              "action": "Eating",
+              "start": 0.0,
+              "end": 3.0,
+              "start_frame": 0,
+              "end_frame": 72
+            },
+            {
+              "action": "Sensing",
+              "start": 2.875,
+              "end": 3.375,
+              "start_frame": 69,
+              "end_frame": 81
+            },
+            {
+              "action": "Jumping",
+              "start": 3.203,
+              "end": 3.708,
+              "start_frame": 77,
+              "end_frame": 89
+            },
+            {
+              "action": "Eating",
+              "start": 3.75,
+              "end": 4.0,
+              "start_frame": 90,
+              "end_frame": 96
+            }
+          ]
+        },
+        {
+          "animal": "Bird",
+          "actions": [
+            {
+              "action": "Sensing",
+              "start": 0.0,
+              "end": 0.625,
+              "start_frame": 0,
+              "end_frame": 15
+            },
+            {
+              "action": "Walking",
+              "start": 0.0,
+              "end": 2.13,
+              "start_frame": 0,
+              "end_frame": 51
+            },
+            {
+              "action": "Eating",
+              "start": 0.5,
+              "end": 2.875,
+              "start_frame": 12,
+              "end_frame": 69
+            },
+            {
+              "action": "Sensing",
+              "start": 1.125,
+              "end": 3.25,
+              "start_frame": 27,
+              "end_frame": 78
+            },
+            {
+              "action": "Carrying In Mouth",
+              "start": 2.625,
+              "end": 2.917,
+              "start_frame": 63,
+              "end_frame": 70
+            },
+            {
+              "action": "Walking",
+              "start": 2.875,
+              "end": 3.333,
+              "start_frame": 69,
+              "end_frame": 80
+            },
+            {
+              "action": "Jumping",
+              "start": 3.125,
+              "end": 3.458,
+              "start_frame": 75,
+              "end_frame": 83
+            },
+            {
+              "action": "Flying",
+              "start": 3.25,
+              "end": 3.708,
+              "start_frame": 78,
+              "end_frame": 89
+            },
+            {
+              "action": "Walking",
+              "start": 3.625,
+              "end": 4.0,
+              "start_frame": 87,
+              "end_frame": 96
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "planned_atomic_segment_counts_only": {
+    "valid_nonempty_atoms": 1221,
+    "valid_multilabel_atoms": 448,
+    "valid_under025_atoms": 218,
+    "valid_under050_atoms": 382,
+    "valid_no_frame_atoms": 43,
+    "train_nonempty_atoms": 5681,
+    "train_multilabel_atoms": 2061,
+    "train_under025_atoms": 1235,
+    "train_under050_atoms": 2022,
+    "train_no_frame_atoms": 236,
+    "test_nonempty_atoms": 1264,
+    "test_multilabel_atoms": 519,
+    "test_under025_atoms": 279,
+    "test_under050_atoms": 428,
+    "test_no_frame_atoms": 52
+  },
+  "classes_without_positive_intervals": [],
+  "classes_with_no_frame_support_intervals_by_split": {
+    "train": [
+      "Moving"
+    ]
+  },
+  "dataset_revision": "animalact-20261114-r2"
+}

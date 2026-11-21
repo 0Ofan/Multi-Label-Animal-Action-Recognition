@@ -20,3 +20,7 @@ features/
 .env
 .env.*
 .streamlit/secrets.toml
+
+research_workspace/
+research_restore_test/
+research_output/

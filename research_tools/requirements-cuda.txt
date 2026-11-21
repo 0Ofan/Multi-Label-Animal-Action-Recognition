@@ -1,0 +1,11 @@
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.14.1+cu130
+torchvision==0.29.1+cu130
+transformers==4.57.1
+safetensors==0.8.0
+numpy==2.5.4
+Pillow==13.0.0
+opencv-python-headless==5.1.0.95
+streamlit==1.67.0
+plotly==7.1.0
+pandas==3.1.1

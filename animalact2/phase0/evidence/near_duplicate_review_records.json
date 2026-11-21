@@ -1,0 +1,82 @@
+[
+  {
+    "left": "JVJPILKY",
+    "right": "SMKPDLKY",
+    "left_split": "train",
+    "right_split": "valid",
+    "cross_split": "True",
+    "same_published_group": "False",
+    "same_exact_file_hash": "False",
+    "matched_frame_positions": "5",
+    "hamming_distances": "0;0;1;0;0",
+    "status": "perceptual_similarity_candidate_not_recording_identity",
+    "reviewed_frame_positions": "first/middle/last",
+    "RGB_mean_absolute_differences": [
+      3.383851273148148,
+      4.696202256944445,
+      3.4373350694444444
+    ],
+    "manual_status": "reviewed_three_frames_each",
+    "manual_observation": "岩洞边的爬行动物，背景岩石和构图高度一致，主体时序有所错位；强同场景/疑似同源证据，非逐帧完全相同视频。"
+  },
+  {
+    "left": "GLOPHSEB",
+    "right": "TCLAGNQN",
+    "left_split": "train",
+    "right_split": "valid",
+    "cross_split": "True",
+    "same_published_group": "False",
+    "same_exact_file_hash": "False",
+    "matched_frame_positions": "5",
+    "hamming_distances": "0;2;0;1;1",
+    "status": "perceptual_similarity_candidate_not_recording_identity",
+    "reviewed_frame_positions": "first/middle/last",
+    "RGB_mean_absolute_differences": [
+      12.939030671296296,
+      9.979461805555555,
+      11.530280671296296
+    ],
+    "manual_status": "reviewed_three_frames_each",
+    "manual_observation": "同一红色鸟与高度一致枝叶构图，姿态不同且两个片段动作标签不同；疑似同一拍摄来源，缺原始recording ID。"
+  },
+  {
+    "left": "JZLXSRAC",
+    "right": "TYAODRAC",
+    "left_split": "train",
+    "right_split": "valid",
+    "cross_split": "True",
+    "same_published_group": "False",
+    "same_exact_file_hash": "False",
+    "matched_frame_positions": "5",
+    "hamming_distances": "0;0;0;3;2",
+    "status": "perceptual_similarity_candidate_not_recording_identity",
+    "reviewed_frame_positions": "first/middle/last",
+    "RGB_mean_absolute_differences": [
+      11.559704861111111,
+      5.455633680555556,
+      5.633246527777778
+    ],
+    "manual_status": "reviewed_three_frames_each",
+    "manual_observation": "相同相机标识及树林背景，画面时间戳Train约12:59:24–42、Valid约12:59:33–43，出现重叠；是强烈同源/重叠拍摄证据，待核原始记录。"
+  },
+  {
+    "left": "DYFAZKJZ",
+    "right": "GRLLPKJZ",
+    "left_split": "valid",
+    "right_split": "train",
+    "cross_split": "True",
+    "same_published_group": "False",
+    "same_exact_file_hash": "False",
+    "matched_frame_positions": "5",
+    "hamming_distances": "0;2;3;1;0",
+    "status": "perceptual_similarity_candidate_not_recording_identity",
+    "reviewed_frame_positions": "first/middle/last",
+    "RGB_mean_absolute_differences": [
+      3.5238266782407406,
+      3.8335416666666666,
+      1.6294502314814814
+    ],
+    "manual_status": "reviewed_three_frames_each",
+    "manual_observation": "树皮上的昆虫，取景、照明和纹理高度一致，主体运动时序略不同；强同场景证据，不能按文件hash不同就视为独立来源。"
+  }
+]

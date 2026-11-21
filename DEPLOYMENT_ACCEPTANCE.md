@@ -1,6 +1,6 @@
 # AnimalAct 2.0 portable deployment acceptance
 
-Scope: current 2.0 only. Original workspace, sealed experiments and source data were not modified. No 1.0 source/model/cache, raw AnimalAct videos, annotations, per-Clip targets or secrets are included in this public repository.
+Initial website-only publication scope, before the research supplement: current 2.0 only. Original workspace, sealed experiments and source data were not modified. No 1.0 source/model/cache, raw AnimalAct videos, annotations, per-Clip targets or secrets are included in this public repository.
 
 Local portable validation (2026-11-21): six tests passed, including real frozen VideoMAE CPU inference using both original heads, 3-frame and single-frame alignment, 119 outputs, padding masks, real evaluation tables and Streamlit AppTest on all three pages. Test input is a synthetic control video for interface validation, not an animal accuracy claim. No training or Test inference occurred.
 
@@ -22,3 +22,9 @@ Linux CPU CI and GitHub Release/download verification results are recorded below
 - The owner reported starting the Streamlit deployment. Community Cloud correctly exposes CPU only; it does not use the local RTX5060. No paid GPU services have been created.
 
 Hosted app operation is separate from Linux CI; the actual public Streamlit URL has not yet been independently checked by the publishing script.
+
+## Complete research supplement
+
+The owner subsequently authorized all current-version research dependencies. A separate v2.0-research-reproduction Release now contains the sealed Clip Manifests/derived labels, complete FP32 caches, checkpoints, predictions and preparation/experiment records, plus pretrained references and project documents. Raw AnimalAct videos/JSON/demo and actual1.0 files remain excluded. See research_tools/README.md and deployment/research_archive.json.
+
+A fresh isolated restoration verified43,903 file hashes. All six head/backbone combinations passed real-batch gradient/update checks. All12 Bests reproduced complete979-Clip Valid mAP/Macro-F1/BCE118/BCE119 exactly, including every119-class confusion count. Source5,010 Train/Valid video/annotation content hashes matched. No new formal experiments or Test inference were run. Research files do not change the web model/threshold and are never automatically downloaded by the website.

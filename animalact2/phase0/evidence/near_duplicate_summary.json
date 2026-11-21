@@ -1,0 +1,8 @@
+{
+  "videos": 2968,
+  "method": "5 relative-time frames; 64-bit dHash; >=3 aligned positions with Hamming<=4; low-information frames excluded from candidate generation; LSH8x8 bands",
+  "candidate_pairs": 600,
+  "cross_split_candidate_pairs": 244,
+  "same_published_group_pairs": 92,
+  "limitations": "Not exhaustive; may miss shifted/edited/cropped recordings and may yield similar-scene false positives. No split change and no confirmed source-identity claims."
+}

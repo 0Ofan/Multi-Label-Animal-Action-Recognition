@@ -1,0 +1,33 @@
+{
+  "videos": 2968,
+  "decoded_frames": 386617,
+  "total_bytes": 1409550699,
+  "decode_failures": [],
+  "hash_mismatches": [],
+  "metadata_mismatches": [],
+  "resolutions": {
+    "640x360": 2968
+  },
+  "fourcc": {
+    "h264": 2968
+  },
+  "fps": {
+    "24.0": 2968
+  },
+  "duration_seconds": {
+    "n": 2968,
+    "mean": 5.427574685534592,
+    "median": 3.7083333333333335,
+    "p10": 1.2083333333333333,
+    "p90": 11.416666666666666,
+    "min": 0.125,
+    "max": 68.41666666666667
+  },
+  "cross_split_exact_duplicate_groups": [],
+  "cross_split_published_groups": [],
+  "published_split_group_count": 2829,
+  "source_grouping": "Connected components of exact video hashes and non-uniform exact decoded sample frames; unknown original recording IDs; near-duplicates not exhaustively checked.",
+  "published_duplicate_links": 143,
+  "published_fingerprint_records": 15536,
+  "seconds": 89.07733140000346
+}

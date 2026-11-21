@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "single_batch_updates": 6,
+  "fixed_checkpoint_Valid_evaluations": 12,
+  "checks": [
+    {
+      "kind": "single_batch_update",
+      "family": "resnet18",
+      "model": "model1",
+      "status": "passed"
+    },
+    {
+      "kind": "single_batch_update",
+      "family": "resnet18",
+      "model": "model2",
+      "status": "passed"
+    },
+    {
+      "kind": "single_batch_update",
+      "family": "resnet18",
+      "model": "model3",
+      "status": "passed"
+    },
+    {
+      "kind": "single_batch_update",
+      "family": "videomae",
+      "model": "model1",
+      "status": "passed"
+    },
+    {
+      "kind": "single_batch_update",
+      "family": "videomae",
+      "model": "model2",
+      "status": "passed"
+    },
+    {
+      "kind": "single_batch_update",
+      "family": "videomae",
+      "model": "model3",
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "resnet18",
+      "model": "model1",
+      "seed": 42,
+      "mAP": 0.3994808933171012,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "resnet18",
+      "model": "model2",
+      "seed": 42,
+      "mAP": 0.41439770566724093,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "resnet18",
+      "model": "model3",
+      "seed": 42,
+      "mAP": 0.427183558160849,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model1",
+      "seed": 42,
+      "mAP": 0.43112808308764833,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model2",
+      "seed": 42,
+      "mAP": 0.458530883701369,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model3",
+      "seed": 42,
+      "mAP": 0.4695391421065502,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model1",
+      "seed": 123,
+      "mAP": 0.42601850880346576,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model2",
+      "seed": 123,
+      "mAP": 0.4654994004352804,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model3",
+      "seed": 123,
+      "mAP": 0.4578381497120361,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model1",
+      "seed": 2026,
+      "mAP": 0.43736288789130134,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model2",
+      "seed": 2026,
+      "mAP": 0.46431935222918985,
+      "mAP_error": 0.0,
+      "status": "passed"
+    },
+    {
+      "kind": "full_Valid_reproduction",
+      "family": "videomae",
+      "model": "model3",
+      "seed": 2026,
+      "mAP": 0.4760078004677253,
+      "mAP_error": 0.0,
+      "status": "passed"
+    }
+  ],
+  "seconds": 233.58689779997803,
+  "new_formal_training_runs": 0,
+  "Test_inference": false,
+  "raw_data_required_for_cached_training": false,
+  "restoration": "isolated directory; 43903 file SHA256s checked",
+  "max_metric_errors_vs_original": {
+    "main_mAP": 0.0,
+    "main_macro_f1": 0.0,
+    "BCE119": 0.0,
+    "BCE_Train_supported118": 0.0
+  },
+  "raw_Train_Valid_source_files_SHA_checked": 5010,
+  "original_data_folder_uploaded": false,
+  "relocated_encoder_check": {
+    "status": "passed",
+    "source_path_relocated": true,
+    "encoder_frozen": true,
+    "feature_shape": [
+      1,
+      1,
+      768
+    ],
+    "Test_read": false
+  }
+}

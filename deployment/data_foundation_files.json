@@ -1,0 +1,86 @@
+{
+  "animalact2/phase0/audit_dataset.py": {
+    "bytes": 17529,
+    "SHA256": "1fa550b6d4642df204c592d3b4684d91fde2419e682cca4f3bf7fa442b1c6cf1"
+  },
+  "animalact2/phase0/boundaries_and_duplicates.py": {
+    "bytes": 6912,
+    "SHA256": "b0fd2e3d02b939ef6d4b7597c889b7064d90399b34d5d8c15209314b0172a5a6"
+  },
+  "animalact2/phase0/review_frames.py": {
+    "bytes": 4283,
+    "SHA256": "5fdccb126b9476df826d28528854db8ee13f2a4656109974cb792e914e833056"
+  },
+  "animalact2/phase0/annotation_anomalies.csv": {
+    "bytes": 160972,
+    "SHA256": "9e9bd3f31f298ade9117eb51bbb50e11120002a216a2f41a9a36ab0ea4021fdd"
+  },
+  "animalact2/phase0/annotation_schema_audit.md": {
+    "bytes": 4389,
+    "SHA256": "8a9a4568a56fd6b99fbb55b9ae9858c74329f601995c6f11a273193928f39007"
+  },
+  "animalact2/phase0/annotation_statistics.csv": {
+    "bytes": 43067,
+    "SHA256": "27fada284bb60367814f8314d7dedc0925dba2bba778692e51bc2a7e79cf4023"
+  },
+  "animalact2/phase0/split_audit.md": {
+    "bytes": 3381,
+    "SHA256": "6c28ef638353a26c089375b51792ef71e2e2e1d9d65f47d538e52b7437c1dac5"
+  },
+  "animalact2/phase0/split_statistics.csv": {
+    "bytes": 449,
+    "SHA256": "a6e853a4be12cf731bbfbf1936c0f4e64e4b08113150a53b00ca1778bfe7d2cc"
+  },
+  "animalact2/phase0/evidence/action_intervals.csv": {
+    "bytes": 537751,
+    "SHA256": "fc92bfdba589d1140f923f91e1b42c4408a4b8ab9aa7b074f617ca8a83d27dea"
+  },
+  "animalact2/phase0/evidence/annotation_summary.json": {
+    "bytes": 8383,
+    "SHA256": "ee58eca2dc6bb35c17510c53ecce241c28a720d0c9108a1aedccaea6c62d2130"
+  },
+  "animalact2/phase0/evidence/boundary_policy_analysis.json": {
+    "bytes": 1815,
+    "SHA256": "99ed01bd2d88729ea4d93d04609caf98d06a8ad505940a87582afd0fa6889f05"
+  },
+  "animalact2/phase0/evidence/dataset_integrity_summary.json": {
+    "bytes": 936,
+    "SHA256": "04320357d7b093919fe32cff6cae4b6a24fed6fe01b0b08e68f7c7c8b3c02f11"
+  },
+  "animalact2/phase0/evidence/exact_duplicate_groups.json": {
+    "bytes": 2,
+    "SHA256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  "animalact2/phase0/evidence/near_duplicate_candidates.csv": {
+    "bytes": 69379,
+    "SHA256": "f01c5f1b40cce1ecbf8d6438f9f443c451fd4f0c9e42087d6597caf2bba73650"
+  },
+  "animalact2/phase0/evidence/near_duplicate_review_records.json": {
+    "bytes": 3172,
+    "SHA256": "33f993e8dde386c99f50f1dc9cbb995206c38e1d7d8d78722794b094cb372107"
+  },
+  "animalact2/phase0/evidence/near_duplicate_summary.json": {
+    "bytes": 472,
+    "SHA256": "1a750585b9f96d449855b628693993209a1abc5ec3e6453bda22ce7a427da2ba"
+  },
+  "animalact2/phase0/evidence/perceptual_frame_fingerprints.json": {
+    "bytes": 1735484,
+    "SHA256": "82f53d6868c49024c9acd5b5cb1f6c85f0a110311e6d719c18d6d47edabaa700"
+  },
+  "animalact2/phase0/evidence/source_provenance.json": {
+    "bytes": 467361,
+    "SHA256": "bee83f70cecd6291dd1795d4a12a6e251fbb061e168faa4c18c2abca546d65c5"
+  },
+  "animalact2/phase0/evidence/uniform16_label_coverage.csv": {
+    "bytes": 202590,
+    "SHA256": "3237a4cd0bfc7d30eaa6d0fa7117cf945504fe20e8e4438233e4c0767691519e"
+  },
+  "animalact2/phase0/evidence/video_annotation_index.csv": {
+    "bytes": 386024,
+    "SHA256": "83f330d494d8f3aa72d6b8e66e7192b322afb95820fe55cf99bed9ddd9bbddd0"
+  },
+  "animalact2/phase0/evidence/video_integrity.csv": {
+    "bytes": 636777,
+    "SHA256": "01a7c8779acc027d4dc6db8157403d9481a157a9563e18228fad186a0aa895b8"
+  }
+}

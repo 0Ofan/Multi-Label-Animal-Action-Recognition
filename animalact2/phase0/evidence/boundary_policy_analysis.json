@@ -1,0 +1,70 @@
+{
+  "counts": {
+    "provided_positive_frame_bounds": 6907,
+    "strict_point_no_frame": 1,
+    "proposed_conservative_no_frame": 0,
+    "fallback_exposure_overlap_bounds": 216,
+    "provided_nonpositive_or_inconsistent_frame_bounds": 47
+  },
+  "examples": [
+    {
+      "video_id": "CLZLJTLI",
+      "split": "train",
+      "action": "Moving",
+      "start": 0.578,
+      "end": 0.586,
+      "source_start_frame": 14,
+      "source_end_frame": 14,
+      "point_bounds": [
+        14,
+        15
+      ],
+      "proposed_frame_bounds": [
+        13,
+        15
+      ]
+    },
+    {
+      "video_id": "CLZLJTLI",
+      "split": "train",
+      "action": "Moving",
+      "start": 1.17,
+      "end": 1.208,
+      "source_start_frame": 28,
+      "source_end_frame": 29,
+      "point_bounds": [
+        29,
+        29
+      ],
+      "proposed_frame_bounds": [
+        28,
+        29
+      ]
+    }
+  ],
+  "proposed_frame_grid_counts_only": {
+    "valid_atoms": 1193,
+    "valid_multilabel": 443,
+    "valid_under4frames": 129,
+    "valid_under16frames": 454,
+    "train_atoms": 5470,
+    "train_multilabel": 1975,
+    "train_under4frames": 703,
+    "train_under16frames": 2224,
+    "test_atoms": 1221,
+    "test_multilabel": 502,
+    "test_under4frames": 157,
+    "test_under16frames": 490
+  },
+  "supported_classes_proposed": {
+    "train": 119,
+    "valid": 87,
+    "test": 87
+  },
+  "main31_supported_proposed": {
+    "train": 31,
+    "valid": 31,
+    "test": 31
+  },
+  "policy": "Design candidate: use provided positive consistent half-open frame bounds; otherwise derive frame exposure overlap [floor(start*fps),ceil(end*fps)), clamp to video. Compare against seconds-first point timestamps. No source field is changed, no clip manifest created."
+}

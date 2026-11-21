@@ -1,0 +1,1430 @@
+﻿split,video_id,animal_entry,interval_index,action,kind,severity,start,end,detail
+train,AOZOENCR,0,2,Keeping still,subframe_end_overrun,info,3.885,5.923,end-video_duration=0.006333333s; original untouched
+train,BBXCEBQT,0,0,Sensing,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,BHTRZPTK,0,25,Attending,subframe_end_overrun,info,27.867,30.512,end-video_duration=0.012000000s; original untouched
+valid,CNPMBNCR,0,2,Keeping still,subframe_end_overrun,info,3.125,4.417,end-video_duration=0.000333333s; original untouched
+train,CVYUTKBT,0,1,Sensing,subframe_end_overrun,info,0.0,6.009,end-video_duration=0.009000000s; original untouched
+train,DLMZYWUH,0,1,Sensing,subframe_end_overrun,info,0.317,0.523,end-video_duration=0.023000000s; original untouched
+train,DPFJYBGG,0,0,Sensing,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,DTNOZNCR,0,0,Swimming,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,DXNJLVEI,0,0,Sensing,subframe_end_overrun,info,1.25,1.917,end-video_duration=0.000333333s; original untouched
+train,FLTWPJVY,0,0,Flying,subframe_end_overrun,info,0.009,4.52,end-video_duration=0.020000000s; original untouched
+train,FLTWPJVY,0,1,Eating,subframe_end_overrun,info,0.021,4.52,end-video_duration=0.020000000s; original untouched
+test,GXVDMVEI,0,0,Preening,subframe_end_overrun,info,0.292,0.917,end-video_duration=0.000333333s; original untouched
+test,ILLOTTFT,0,3,Sensing,subframe_end_overrun,info,5.625,7.417,end-video_duration=0.000333333s; original untouched
+train,IWVCXVEI,0,3,Flapping Tail,subframe_end_overrun,info,3.708,5.225,end-video_duration=0.016666667s; original untouched
+test,JJLCDZJZ,0,2,Sensing,subframe_end_overrun,info,4.375,6.917,end-video_duration=0.000333333s; original untouched
+valid,JUIUWPKK,0,7,Shaking Head,subframe_end_overrun,info,7.892,8.517,end-video_duration=0.017000000s; original untouched
+train,KYLZAPTK,0,7,Flying,subframe_end_overrun,info,17.625,17.917,end-video_duration=0.000333333s; original untouched
+train,MPRQAPLS,1,4,Eating,subframe_end_overrun,info,6.13,6.505,end-video_duration=0.005000000s; original untouched
+train,NOLJHVEI,0,1,Keeping still,subframe_end_overrun,info,0.0,5.417,end-video_duration=0.000333333s; original untouched
+train,NOLJHVEI,0,4,Preening,subframe_end_overrun,info,2.875,5.417,end-video_duration=0.000333333s; original untouched
+test,NSHHEPIF,0,0,Attending,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+valid,NUXJCVEI,0,0,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,POJSSVTI,0,0,Sensing,subframe_end_overrun,info,0.0,3.212,end-video_duration=0.003666667s; original untouched
+train,QVFBYPTK,0,0,Sensing,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,UCFTQUUK,0,8,Chirping,subframe_end_overrun,info,27.25,27.417,end-video_duration=0.000333333s; original untouched
+valid,UPGNDRAH,0,0,Chirping,subframe_end_overrun,info,0.145,1.516,end-video_duration=0.016000000s; original untouched
+valid,URXIWTFT,0,4,Displaying Defensive Pose,subframe_end_overrun,info,4.625,6.417,end-video_duration=0.000333333s; original untouched
+valid,URXIWTFT,0,5,Disturbing Another Animal,subframe_end_overrun,info,4.625,6.417,end-video_duration=0.000333333s; original untouched
+valid,URXIWTFT,0,6,Drinking,subframe_end_overrun,info,5.75,6.417,end-video_duration=0.000333333s; original untouched
+train,VHYLFPTK,0,3,Keeping still,subframe_end_overrun,info,5.625,6.417,end-video_duration=0.000333333s; original untouched
+train,XBCSIPKK,0,16,Disturbing Another Animal,subframe_end_overrun,info,7.5,8.417,end-video_duration=0.000333333s; original untouched
+train,XBCSIPKK,0,17,Spreading Wings,subframe_end_overrun,info,7.5,8.417,end-video_duration=0.000333333s; original untouched
+train,XBCSIPKK,0,18,Eating,subframe_end_overrun,info,8.0,8.417,end-video_duration=0.000333333s; original untouched
+train,XBCSIPKK,0,19,Landing,subframe_end_overrun,info,8.0,8.417,end-video_duration=0.000333333s; original untouched
+train,YCQAIVMP,0,0,Eating,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,YEDLFDAL,2,0,Eating,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,ZIUQANQN,0,3,Keeping still,subframe_end_overrun,info,4.625,8.417,end-video_duration=0.000333333s; original untouched
+train,ZIUQANQN,0,4,Attending,subframe_end_overrun,info,7.0,8.417,end-video_duration=0.000333333s; original untouched
+train,BBFEBJVY,0,6,Eating,subframe_end_overrun,info,1.842,2.008,end-video_duration=0.008000000s; original untouched
+valid,BHXDCPTK,0,0,Chirping,subframe_end_overrun,info,0.001,4.52,end-video_duration=0.020000000s; original untouched
+train,BIAXPHFB,0,2,Chirping,subframe_end_overrun,info,2.912,4.017,end-video_duration=0.017000000s; original untouched
+valid,BTHXWUOO,0,0,Chirping,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+valid,BZSGJWUH,0,0,Preening,subframe_end_overrun,info,0.0,2.503,end-video_duration=0.003000000s; original untouched
+valid,BZSGJWUH,0,1,Sleeping in its nest,subframe_end_overrun,info,0.002,2.504,end-video_duration=0.004000000s; original untouched
+train,CBIOAADX,0,1,Flying,subframe_end_overrun,info,3.474,3.709,end-video_duration=0.000666667s; original untouched
+train,DKTLUSBA,0,0,Carrying In Mouth,subframe_end_overrun,info,0.531,2.506,end-video_duration=0.006000000s; original untouched
+valid,DSVZHMRN,0,0,Preening,subframe_end_overrun,info,0.0,4.009,end-video_duration=0.009000000s; original untouched
+train,EHIFMPDU,0,0,Eating,subframe_end_overrun,info,0.0,1.017,end-video_duration=0.017000000s; original untouched
+train,FBJJVKOU,0,0,Carrying In Mouth,subframe_end_overrun,info,0.137,1.018,end-video_duration=0.018000000s; original untouched
+train,FBJJVKOU,0,2,Sharing Food,subframe_end_overrun,info,0.483,1.015,end-video_duration=0.015000000s; original untouched
+train,FKEWOJBD,0,1,Sensing,subframe_end_overrun,info,3.131,4.017,end-video_duration=0.017000000s; original untouched
+train,GCOFNLOI,0,0,Sensing,subframe_end_overrun,info,0.0,5.512,end-video_duration=0.012000000s; original untouched
+train,GKOZPPTK,0,5,Preening,subframe_end_overrun,info,14.515,16.417,end-video_duration=0.000333333s; original untouched
+train,GTRMIUOY,0,0,Diving,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,GVOEDMWW,0,1,Keeping still,subframe_end_overrun,info,3.124,4.52,end-video_duration=0.020000000s; original untouched
+train,HJXBFHDU,0,0,Flying,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+train,HULDQPLS,0,5,Walking,subframe_end_overrun,info,2.631,9.222,end-video_duration=0.013666667s; original untouched
+train,HULDQPLS,0,7,Biting,subframe_end_overrun,info,5.357,9.222,end-video_duration=0.013666667s; original untouched
+train,HULDQPLS,1,2,Walking,subframe_end_overrun,info,2.696,9.222,end-video_duration=0.013666667s; original untouched
+train,HZFWEPTK,0,1,Chirping,subframe_end_overrun,info,2.484,8.02,end-video_duration=0.020000000s; original untouched
+train,IAWPBMRN,0,0,Keeping still,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+train,INVVMJVY,0,1,Eating,subframe_end_overrun,info,1.252,1.516,end-video_duration=0.016000000s; original untouched
+train,IQGICMWW,0,0,Chirping,subframe_end_overrun,info,0.0,6.042,end-video_duration=0.000333333s; original untouched
+train,JAFCGUDI,0,0,Attending,subframe_end_overrun,info,0.007,2.216,end-video_duration=0.007666667s; original untouched
+train,JCCMOVEI,0,0,Walking,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,JCCMOVEI,0,1,Shaking,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,JCCMOVEI,0,2,Flapping,subframe_end_overrun,info,0.004,2.221,end-video_duration=0.012666667s; original untouched
+train,JCCMOVEI,0,3,Eating,subframe_end_overrun,info,1.283,2.221,end-video_duration=0.012666667s; original untouched
+train,JCCMOVEI,1,0,Attending,subframe_end_overrun,info,0.01,2.221,end-video_duration=0.012666667s; original untouched
+train,JCCMOVEI,1,1,Shaking,subframe_end_overrun,info,1.338,2.221,end-video_duration=0.012666667s; original untouched
+train,JTWBUFGA,0,0,Turning Around,subframe_end_overrun,info,0.0,0.419,end-video_duration=0.002333333s; original untouched
+train,JTWBUFGA,0,1,Walking,subframe_end_overrun,info,0.0,0.419,end-video_duration=0.002333333s; original untouched
+train,KIYRFSBA,0,2,Flapping,subframe_end_overrun,info,4.678,5.721,end-video_duration=0.012666667s; original untouched
+train,KPEFLFYS,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,KPEFLFYS,0,1,Biting,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,KPEFLFYS,0,2,Eating,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+test,KPXLDMRN,0,0,Walking,subframe_end_overrun,info,0.564,6.417,end-video_duration=0.000333333s; original untouched
+test,KPXLDMRN,0,3,Preening,subframe_end_overrun,info,1.713,6.417,end-video_duration=0.000333333s; original untouched
+test,KPXLDMRN,0,4,Flapping,subframe_end_overrun,info,1.958,6.417,end-video_duration=0.000333333s; original untouched
+test,KPXLDMRN,0,6,Eating,subframe_end_overrun,info,5.499,6.417,end-video_duration=0.000333333s; original untouched
+test,KTFCWVEI,0,0,Eating,subframe_end_overrun,info,0.003,3.501,end-video_duration=0.001000000s; original untouched
+train,LCMZSZQJ,0,0,Landing,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,LCMZSZQJ,0,1,Flying,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,LCQNROTL,0,0,Fighting,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+train,LDKOZPLS,0,0,Walking,subframe_end_overrun,info,0.0,5.225,end-video_duration=0.016666667s; original untouched
+train,LJSDZSBA,0,0,Chirping,optional_frame_field_missing,info,0.0,1.6,start_frame
+train,LJSDZSBA,0,0,Chirping,optional_frame_field_missing,info,0.0,1.6,end_frame
+train,LJSDZSBA,0,1,Sensing,optional_frame_field_missing,info,1.6,3.83,start_frame
+train,LJSDZSBA,0,1,Sensing,optional_frame_field_missing,info,1.6,3.83,end_frame
+train,LLOQHRHB,0,0,Chirping,subframe_end_overrun,info,0.0,5.21,end-video_duration=0.001666667s; original untouched
+train,LLOQHRHB,0,0,Chirping,optional_frame_field_missing,info,0.0,5.21,start_frame
+train,LLOQHRHB,0,0,Chirping,optional_frame_field_missing,info,0.0,5.21,end_frame
+valid,LMOHUTFT,0,0,Drinking,optional_frame_field_missing,info,0.0,3.9,start_frame
+valid,LMOHUTFT,0,0,Drinking,optional_frame_field_missing,info,0.0,3.9,end_frame
+valid,LMOHUTFT,0,1,Disturbing Another Animal,optional_frame_field_missing,info,3.9,4.4,start_frame
+valid,LMOHUTFT,0,1,Disturbing Another Animal,optional_frame_field_missing,info,3.9,4.4,end_frame
+valid,LMOHUTFT,0,2,Drinking,optional_frame_field_missing,info,4.4,13.3,start_frame
+valid,LMOHUTFT,0,2,Drinking,optional_frame_field_missing,info,4.4,13.3,end_frame
+valid,LMOHUTFT,0,3,Sensing,optional_frame_field_missing,info,13.3,14.2,start_frame
+valid,LMOHUTFT,0,3,Sensing,optional_frame_field_missing,info,13.3,14.2,end_frame
+valid,LMOHUTFT,0,4,Drinking,optional_frame_field_missing,info,14.2,20.0,start_frame
+valid,LMOHUTFT,0,4,Drinking,optional_frame_field_missing,info,14.2,20.0,end_frame
+valid,LMOHUTFT,0,5,Sensing,optional_frame_field_missing,info,20.0,22.6,start_frame
+valid,LMOHUTFT,0,5,Sensing,optional_frame_field_missing,info,20.0,22.6,end_frame
+valid,LMOHUTFT,0,6,Drinking,optional_frame_field_missing,info,22.6,29.9,start_frame
+valid,LMOHUTFT,0,6,Drinking,optional_frame_field_missing,info,22.6,29.9,end_frame
+valid,LMOHUTFT,0,7,Preening,optional_frame_field_missing,info,29.9,31.4,start_frame
+valid,LMOHUTFT,0,7,Preening,optional_frame_field_missing,info,29.9,31.4,end_frame
+valid,LMOHUTFT,0,8,Drinking,optional_frame_field_missing,info,31.4,34.4,start_frame
+valid,LMOHUTFT,0,8,Drinking,optional_frame_field_missing,info,31.4,34.4,end_frame
+valid,LMOHUTFT,0,9,Fighting,optional_frame_field_missing,info,34.5,35.4,start_frame
+valid,LMOHUTFT,0,9,Fighting,optional_frame_field_missing,info,34.5,35.4,end_frame
+valid,LMOHUTFT,0,10,Displaying Defensive Pose,optional_frame_field_missing,info,35.4,36.1,start_frame
+valid,LMOHUTFT,0,10,Displaying Defensive Pose,optional_frame_field_missing,info,35.4,36.1,end_frame
+valid,LMOHUTFT,0,11,Drinking,subframe_end_overrun,info,36.1,37.71,end-video_duration=0.001666667s; original untouched
+valid,LMOHUTFT,0,11,Drinking,optional_frame_field_missing,info,36.1,37.71,start_frame
+valid,LMOHUTFT,0,11,Drinking,optional_frame_field_missing,info,36.1,37.71,end_frame
+train,LODDKPTK,0,0,Chirping,optional_frame_field_missing,info,0.0,6.0,start_frame
+train,LODDKPTK,0,0,Chirping,optional_frame_field_missing,info,0.0,6.0,end_frame
+train,MILRKZQJ,0,0,Shaking Head,optional_frame_field_missing,info,0.2,0.8,start_frame
+train,MILRKZQJ,0,0,Shaking Head,optional_frame_field_missing,info,0.2,0.8,end_frame
+train,MIMNBONO,0,0,Chirping,optional_frame_field_missing,info,0.0,2.9,start_frame
+train,MIMNBONO,0,0,Chirping,optional_frame_field_missing,info,0.0,2.9,end_frame
+train,MIMNBONO,0,1,Sensing,optional_frame_field_missing,info,2.9,8.6,start_frame
+train,MIMNBONO,0,1,Sensing,optional_frame_field_missing,info,2.9,8.6,end_frame
+train,MIMNBONO,0,2,Chirping,optional_frame_field_missing,info,8.6,10.83,start_frame
+train,MIMNBONO,0,2,Chirping,optional_frame_field_missing,info,8.6,10.83,end_frame
+train,MJUIFMRN,0,0,Preening,optional_frame_field_missing,info,0.0,12.12,start_frame
+train,MJUIFMRN,0,0,Preening,optional_frame_field_missing,info,0.0,12.12,end_frame
+train,MLEMKEWB,0,0,Walking,optional_frame_field_missing,info,0.0,1.8,start_frame
+train,MLEMKEWB,0,0,Walking,optional_frame_field_missing,info,0.0,1.8,end_frame
+train,MLEMKEWB,0,1,Spreading Wings,optional_frame_field_missing,info,1.8,4.0,start_frame
+train,MLEMKEWB,0,1,Spreading Wings,optional_frame_field_missing,info,1.8,4.0,end_frame
+train,MLEMKEWB,0,2,Sensing,optional_frame_field_missing,info,4.0,5.5,start_frame
+train,MLEMKEWB,0,2,Sensing,optional_frame_field_missing,info,4.0,5.5,end_frame
+train,MMNBXXGD,0,0,Flying,optional_frame_field_missing,info,0.0,0.62,start_frame
+train,MMNBXXGD,0,0,Flying,optional_frame_field_missing,info,0.0,0.62,end_frame
+train,MNBPBVEI,0,0,Washing,optional_frame_field_missing,info,0.0,0.9,start_frame
+train,MNBPBVEI,0,0,Washing,optional_frame_field_missing,info,0.0,0.9,end_frame
+train,MNBPBVEI,0,1,Shaking Head,optional_frame_field_missing,info,0.9,1.3,start_frame
+train,MNBPBVEI,0,1,Shaking Head,optional_frame_field_missing,info,0.9,1.3,end_frame
+train,MNBPBVEI,0,2,Walking,optional_frame_field_missing,info,1.3,3.4,start_frame
+train,MNBPBVEI,0,2,Walking,optional_frame_field_missing,info,1.3,3.4,end_frame
+train,MNBPBVEI,0,3,Chirping,optional_frame_field_missing,info,3.4,4.5,start_frame
+train,MNBPBVEI,0,3,Chirping,optional_frame_field_missing,info,3.4,4.5,end_frame
+train,MNBPBVEI,0,4,Keeping still,optional_frame_field_missing,info,4.5,6.2,start_frame
+train,MNBPBVEI,0,4,Keeping still,optional_frame_field_missing,info,4.5,6.2,end_frame
+train,MNBPBVEI,0,5,Turning Around,optional_frame_field_missing,info,6.2,7.0,start_frame
+train,MNBPBVEI,0,5,Turning Around,optional_frame_field_missing,info,6.2,7.0,end_frame
+train,MNBPBVEI,0,6,Eating,optional_frame_field_missing,info,7.8,8.6,start_frame
+train,MNBPBVEI,0,6,Eating,optional_frame_field_missing,info,7.8,8.6,end_frame
+train,MNBPBVEI,0,7,Attending,optional_frame_field_missing,info,9.0,10.4,start_frame
+train,MNBPBVEI,0,7,Attending,optional_frame_field_missing,info,9.0,10.4,end_frame
+train,MNBPBVEI,0,8,Sensing,optional_frame_field_missing,info,10.4,12.0,start_frame
+train,MNBPBVEI,0,8,Sensing,optional_frame_field_missing,info,10.4,12.0,end_frame
+train,MNBPBVEI,0,9,Walking,optional_frame_field_missing,info,12.0,13.5,start_frame
+train,MNBPBVEI,0,9,Walking,optional_frame_field_missing,info,12.0,13.5,end_frame
+valid,MVVYDFXO,0,0,Chirping,optional_frame_field_missing,info,0.0,1.9,start_frame
+valid,MVVYDFXO,0,0,Chirping,optional_frame_field_missing,info,0.0,1.9,end_frame
+valid,MVVYDFXO,0,1,Sensing,optional_frame_field_missing,info,1.9,5.1,start_frame
+valid,MVVYDFXO,0,1,Sensing,optional_frame_field_missing,info,1.9,5.1,end_frame
+valid,MVVYDFXO,0,2,Chirping,optional_frame_field_missing,info,5.1,6.12,start_frame
+valid,MVVYDFXO,0,2,Chirping,optional_frame_field_missing,info,5.1,6.12,end_frame
+train,MZQSFSPG,0,0,Turning Around,optional_frame_field_missing,info,0.15,0.6,start_frame
+train,MZQSFSPG,0,0,Turning Around,optional_frame_field_missing,info,0.15,0.6,end_frame
+test,NAFDZPTK,0,0,Attending,optional_frame_field_missing,info,0.0,2.0,start_frame
+test,NAFDZPTK,0,0,Attending,optional_frame_field_missing,info,0.0,2.0,end_frame
+test,NAFDZPTK,0,1,Keeping still,optional_frame_field_missing,info,2.0,6.1,start_frame
+test,NAFDZPTK,0,1,Keeping still,optional_frame_field_missing,info,2.0,6.1,end_frame
+test,NAFDZPTK,0,2,Chirping,optional_frame_field_missing,info,6.1,7.5,start_frame
+test,NAFDZPTK,0,2,Chirping,optional_frame_field_missing,info,6.1,7.5,end_frame
+test,NAFDZPTK,0,3,Sensing,optional_frame_field_missing,info,7.5,10.7,start_frame
+test,NAFDZPTK,0,3,Sensing,optional_frame_field_missing,info,7.5,10.7,end_frame
+test,NAFDZPTK,0,4,Chirping,optional_frame_field_missing,info,10.7,12.5,start_frame
+test,NAFDZPTK,0,4,Chirping,optional_frame_field_missing,info,10.7,12.5,end_frame
+test,NAFDZPTK,0,5,Keeping still,optional_frame_field_missing,info,12.5,19.9,start_frame
+test,NAFDZPTK,0,5,Keeping still,optional_frame_field_missing,info,12.5,19.9,end_frame
+test,NAFDZPTK,0,6,Chirping,optional_frame_field_missing,info,19.9,20.7,start_frame
+test,NAFDZPTK,0,6,Chirping,optional_frame_field_missing,info,19.9,20.7,end_frame
+test,NAFDZPTK,0,7,Keeping still,optional_frame_field_missing,info,20.7,24.9,start_frame
+test,NAFDZPTK,0,7,Keeping still,optional_frame_field_missing,info,20.7,24.9,end_frame
+test,NAFDZPTK,0,8,Chirping,optional_frame_field_missing,info,24.9,26.6,start_frame
+test,NAFDZPTK,0,8,Chirping,optional_frame_field_missing,info,24.9,26.6,end_frame
+test,NAFDZPTK,0,9,Preening,optional_frame_field_missing,info,26.6,29.8,start_frame
+test,NAFDZPTK,0,9,Preening,optional_frame_field_missing,info,26.6,29.8,end_frame
+test,NAFDZPTK,0,10,Attending,optional_frame_field_missing,info,29.8,33.0,start_frame
+test,NAFDZPTK,0,10,Attending,optional_frame_field_missing,info,29.8,33.0,end_frame
+test,NAFDZPTK,0,11,Chirping,subframe_end_overrun,info,33.0,36.92,end-video_duration=0.003333333s; original untouched
+test,NAFDZPTK,0,11,Chirping,optional_frame_field_missing,info,33.0,36.92,start_frame
+test,NAFDZPTK,0,11,Chirping,optional_frame_field_missing,info,33.0,36.92,end_frame
+train,NIUKZVEI,0,0,Preening,optional_frame_field_missing,info,0.0,0.5,start_frame
+train,NIUKZVEI,0,0,Preening,optional_frame_field_missing,info,0.0,0.5,end_frame
+train,NIUKZVEI,0,1,Sensing,optional_frame_field_missing,info,0.5,2.5,start_frame
+train,NIUKZVEI,0,1,Sensing,optional_frame_field_missing,info,0.5,2.5,end_frame
+train,NIUKZVEI,0,2,Walking,optional_frame_field_missing,info,2.5,3.2,start_frame
+train,NIUKZVEI,0,2,Walking,optional_frame_field_missing,info,2.5,3.2,end_frame
+train,NIUKZVEI,0,3,Sensing,optional_frame_field_missing,info,3.2,4.0,start_frame
+train,NIUKZVEI,0,3,Sensing,optional_frame_field_missing,info,3.2,4.0,end_frame
+valid,NORQKHCU,0,0,Chirping,subframe_end_overrun,info,0.0,12.92,end-video_duration=0.003333333s; original untouched
+valid,NORQKHCU,0,0,Chirping,optional_frame_field_missing,info,0.0,12.92,start_frame
+valid,NORQKHCU,0,0,Chirping,optional_frame_field_missing,info,0.0,12.92,end_frame
+test,NRFZKJIR,0,0,Chirping,optional_frame_field_missing,info,0.0,8.0,start_frame
+test,NRFZKJIR,0,0,Chirping,optional_frame_field_missing,info,0.0,8.0,end_frame
+train,NSDJNPTK,0,0,Chirping,optional_frame_field_missing,info,0.0,5.4,start_frame
+train,NSDJNPTK,0,0,Chirping,optional_frame_field_missing,info,0.0,5.4,end_frame
+train,NSDJNPTK,0,1,Keeping still,subframe_end_overrun,info,5.4,7.92,end-video_duration=0.003333333s; original untouched
+train,NSDJNPTK,0,1,Keeping still,optional_frame_field_missing,info,5.4,7.92,start_frame
+train,NSDJNPTK,0,1,Keeping still,optional_frame_field_missing,info,5.4,7.92,end_frame
+train,NTPYJVEI,0,0,Walking,optional_frame_field_missing,info,0.0,2.4,start_frame
+train,NTPYJVEI,0,0,Walking,optional_frame_field_missing,info,0.0,2.4,end_frame
+train,NTPYJVEI,0,1,Flapping Tail,optional_frame_field_missing,info,1.2,1.6,start_frame
+train,NTPYJVEI,0,1,Flapping Tail,optional_frame_field_missing,info,1.2,1.6,end_frame
+train,NTPYJVEI,0,2,Shaking,optional_frame_field_missing,info,2.4,2.8,start_frame
+train,NTPYJVEI,0,2,Shaking,optional_frame_field_missing,info,2.4,2.8,end_frame
+train,NTPYJVEI,0,3,Attending,optional_frame_field_missing,info,2.8,4.0,start_frame
+train,NTPYJVEI,0,3,Attending,optional_frame_field_missing,info,2.8,4.0,end_frame
+train,NTPYJVEI,0,4,Eating,optional_frame_field_missing,info,4.0,5.2,start_frame
+train,NTPYJVEI,0,4,Eating,optional_frame_field_missing,info,4.0,5.2,end_frame
+train,NTPYJVEI,1,0,Preening,optional_frame_field_missing,info,0.0,2.4,start_frame
+train,NTPYJVEI,1,0,Preening,optional_frame_field_missing,info,0.0,2.4,end_frame
+train,NTPYJVEI,1,1,Attending,optional_frame_field_missing,info,2.4,3.6,start_frame
+train,NTPYJVEI,1,1,Attending,optional_frame_field_missing,info,2.4,3.6,end_frame
+train,NTPYJVEI,1,2,Walking,optional_frame_field_missing,info,3.6,4.5,start_frame
+train,NTPYJVEI,1,2,Walking,optional_frame_field_missing,info,3.6,4.5,end_frame
+train,NTPYJVEI,1,3,Shaking Head,optional_frame_field_missing,info,4.5,5.2,start_frame
+train,NTPYJVEI,1,3,Shaking Head,optional_frame_field_missing,info,4.5,5.2,end_frame
+train,NTPYJVEI,1,4,Flapping Tail,optional_frame_field_missing,info,5.7,6.1,start_frame
+train,NTPYJVEI,1,4,Flapping Tail,optional_frame_field_missing,info,5.7,6.1,end_frame
+train,NTPYJVEI,1,5,Eating,subframe_end_overrun,info,6.1,7.21,end-video_duration=0.001666667s; original untouched
+train,NTPYJVEI,1,5,Eating,optional_frame_field_missing,info,6.1,7.21,start_frame
+train,NTPYJVEI,1,5,Eating,optional_frame_field_missing,info,6.1,7.21,end_frame
+train,NVVNJEOD,0,0,Chirping,optional_frame_field_missing,info,1.4,5.4,start_frame
+train,NVVNJEOD,0,0,Chirping,optional_frame_field_missing,info,1.4,5.4,end_frame
+train,NVVNJEOD,0,1,Sensing,optional_frame_field_missing,info,5.4,7.3,start_frame
+train,NVVNJEOD,0,1,Sensing,optional_frame_field_missing,info,5.4,7.3,end_frame
+train,NVVNJEOD,0,2,Chirping,optional_frame_field_missing,info,7.3,9.12,start_frame
+train,NVVNJEOD,0,2,Chirping,optional_frame_field_missing,info,7.3,9.12,end_frame
+test,OEBUMUPH,0,0,Sensing,optional_frame_field_missing,info,0.0,0.95,start_frame
+test,OEBUMUPH,0,0,Sensing,optional_frame_field_missing,info,0.0,0.95,end_frame
+test,OEBUMUPH,0,1,Jumping,subframe_end_overrun,info,1.35,1.71,end-video_duration=0.001666667s; original untouched
+test,OEBUMUPH,0,1,Jumping,optional_frame_field_missing,info,1.35,1.71,start_frame
+test,OEBUMUPH,0,1,Jumping,optional_frame_field_missing,info,1.35,1.71,end_frame
+valid,OQVOTNQN,0,0,Chirping,optional_frame_field_missing,info,0.0,2.2,start_frame
+valid,OQVOTNQN,0,0,Chirping,optional_frame_field_missing,info,0.0,2.2,end_frame
+valid,OQVOTNQN,0,1,Sensing,optional_frame_field_missing,info,2.2,3.4,start_frame
+valid,OQVOTNQN,0,1,Sensing,optional_frame_field_missing,info,2.2,3.4,end_frame
+valid,OQVOTNQN,0,2,Chirping,optional_frame_field_missing,info,3.4,4.5,start_frame
+valid,OQVOTNQN,0,2,Chirping,optional_frame_field_missing,info,3.4,4.5,end_frame
+train,ORGTTPTK,0,0,Chirping,subframe_end_overrun,info,0.0,4.92,end-video_duration=0.003333333s; original untouched
+train,ORGTTPTK,0,0,Chirping,optional_frame_field_missing,info,0.0,4.92,start_frame
+train,ORGTTPTK,0,0,Chirping,optional_frame_field_missing,info,0.0,4.92,end_frame
+valid,OTPLJSBA,0,0,Flapping,optional_frame_field_missing,info,0.3,0.8,start_frame
+valid,OTPLJSBA,0,0,Flapping,optional_frame_field_missing,info,0.3,0.8,end_frame
+valid,OTPLJSBA,0,1,Chirping,optional_frame_field_missing,info,0.8,1.5,start_frame
+valid,OTPLJSBA,0,1,Chirping,optional_frame_field_missing,info,0.8,1.5,end_frame
+train,PGQBSEOD,0,0,Keeping still,optional_frame_field_missing,info,0.0,3.0,start_frame
+train,PGQBSEOD,0,0,Keeping still,optional_frame_field_missing,info,0.0,3.0,end_frame
+train,PGQBSEOD,0,1,Walking,optional_frame_field_missing,info,3.0,6.0,start_frame
+train,PGQBSEOD,0,1,Walking,optional_frame_field_missing,info,3.0,6.0,end_frame
+valid,PIJNTKOU,0,0,Chirping,subframe_end_overrun,info,0.0,2.71,end-video_duration=0.001666667s; original untouched
+valid,PIJNTKOU,0,0,Chirping,optional_frame_field_missing,info,0.0,2.71,start_frame
+valid,PIJNTKOU,0,0,Chirping,optional_frame_field_missing,info,0.0,2.71,end_frame
+test,PKRJSVMP,0,0,Landing,optional_frame_field_missing,info,0.15,0.5,start_frame
+test,PKRJSVMP,0,0,Landing,optional_frame_field_missing,info,0.15,0.5,end_frame
+train,PMQTXPLS,0,0,Keeping still,optional_frame_field_missing,info,0.0,1.3,start_frame
+train,PMQTXPLS,0,0,Keeping still,optional_frame_field_missing,info,0.0,1.3,end_frame
+train,PMQTXPLS,0,1,Attending,optional_frame_field_missing,info,1.3,2.4,start_frame
+train,PMQTXPLS,0,1,Attending,optional_frame_field_missing,info,1.3,2.4,end_frame
+train,PMQTXPLS,0,2,Walking,optional_frame_field_missing,info,2.4,3.0,start_frame
+train,PMQTXPLS,0,2,Walking,optional_frame_field_missing,info,2.4,3.0,end_frame
+train,PMQTXPLS,0,3,Landing,optional_frame_field_missing,info,3.0,3.4,start_frame
+train,PMQTXPLS,0,3,Landing,optional_frame_field_missing,info,3.0,3.4,end_frame
+train,PMQTXPLS,0,4,Eating,optional_frame_field_missing,info,3.4,4.5,start_frame
+train,PMQTXPLS,0,4,Eating,optional_frame_field_missing,info,3.4,4.5,end_frame
+train,PMQTXPLS,1,0,Keeping still,optional_frame_field_missing,info,0.0,2.6,start_frame
+train,PMQTXPLS,1,0,Keeping still,optional_frame_field_missing,info,0.0,2.6,end_frame
+train,PMQTXPLS,1,1,Walking,optional_frame_field_missing,info,2.6,4.5,start_frame
+train,PMQTXPLS,1,1,Walking,optional_frame_field_missing,info,2.6,4.5,end_frame
+train,PQOSAHCU,0,0,Chirping,optional_frame_field_missing,info,0.0,3.2,start_frame
+train,PQOSAHCU,0,0,Chirping,optional_frame_field_missing,info,0.0,3.2,end_frame
+train,PQOSAHCU,0,1,Sensing,optional_frame_field_missing,info,3.2,4.4,start_frame
+train,PQOSAHCU,0,1,Sensing,optional_frame_field_missing,info,3.2,4.4,end_frame
+train,PQOSAHCU,0,2,Chirping,optional_frame_field_missing,info,4.4,13.62,start_frame
+train,PQOSAHCU,0,2,Chirping,optional_frame_field_missing,info,4.4,13.62,end_frame
+valid,PTEKBMME,0,0,Walking,optional_frame_field_missing,info,0.0,2.4,start_frame
+valid,PTEKBMME,0,0,Walking,optional_frame_field_missing,info,0.0,2.4,end_frame
+valid,PTEKBMME,0,1,Eating,optional_frame_field_missing,info,2.4,3.3,start_frame
+valid,PTEKBMME,0,1,Eating,optional_frame_field_missing,info,2.4,3.3,end_frame
+valid,PTEKBMME,0,2,Walking,optional_frame_field_missing,info,3.3,4.0,start_frame
+valid,PTEKBMME,0,2,Walking,optional_frame_field_missing,info,3.3,4.0,end_frame
+valid,PTEKBMME,0,3,Eating,optional_frame_field_missing,info,4.0,5.7,start_frame
+valid,PTEKBMME,0,3,Eating,optional_frame_field_missing,info,4.0,5.7,end_frame
+valid,PTEKBMME,0,4,Walking,optional_frame_field_missing,info,5.7,6.8,start_frame
+valid,PTEKBMME,0,4,Walking,optional_frame_field_missing,info,5.7,6.8,end_frame
+valid,PTEKBMME,0,5,Eating,optional_frame_field_missing,info,6.8,8.0,start_frame
+valid,PTEKBMME,0,5,Eating,optional_frame_field_missing,info,6.8,8.0,end_frame
+train,QDKYKBGG,0,0,Preening,optional_frame_field_missing,info,0.0,1.2,start_frame
+train,QDKYKBGG,0,0,Preening,optional_frame_field_missing,info,0.0,1.2,end_frame
+train,QDKYKBGG,0,1,Attending,optional_frame_field_missing,info,1.2,3.4,start_frame
+train,QDKYKBGG,0,1,Attending,optional_frame_field_missing,info,1.2,3.4,end_frame
+train,QDKYKBGG,0,2,Shaking,optional_frame_field_missing,info,3.4,4.0,start_frame
+train,QDKYKBGG,0,2,Shaking,optional_frame_field_missing,info,3.4,4.0,end_frame
+train,QDKYKBGG,0,3,Chirping,optional_frame_field_missing,info,4.0,4.9,start_frame
+train,QDKYKBGG,0,3,Chirping,optional_frame_field_missing,info,4.0,4.9,end_frame
+train,QDKYKBGG,0,4,Preening,optional_frame_field_missing,info,4.9,5.5,start_frame
+train,QDKYKBGG,0,4,Preening,optional_frame_field_missing,info,4.9,5.5,end_frame
+train,QIFXLAEM,0,0,Eating,optional_frame_field_missing,info,0.0,2.83,start_frame
+train,QIFXLAEM,0,0,Eating,optional_frame_field_missing,info,0.0,2.83,end_frame
+train,QJVVAHFB,0,0,Keeping still,optional_frame_field_missing,info,0.0,7.2,start_frame
+train,QJVVAHFB,0,0,Keeping still,optional_frame_field_missing,info,0.0,7.2,end_frame
+train,QJVVAHFB,0,1,Chirping,optional_frame_field_missing,info,7.2,8.0,start_frame
+train,QJVVAHFB,0,1,Chirping,optional_frame_field_missing,info,7.2,8.0,end_frame
+train,QJVVAHFB,0,2,Sensing,optional_frame_field_missing,info,8.0,9.5,start_frame
+train,QJVVAHFB,0,2,Sensing,optional_frame_field_missing,info,8.0,9.5,end_frame
+train,QJVVAHFB,0,3,Keeping still,optional_frame_field_missing,info,9.5,20.0,start_frame
+train,QJVVAHFB,0,3,Keeping still,optional_frame_field_missing,info,9.5,20.0,end_frame
+train,QJVVAHFB,0,4,Chirping,optional_frame_field_missing,info,20.0,20.8,start_frame
+train,QJVVAHFB,0,4,Chirping,optional_frame_field_missing,info,20.0,20.8,end_frame
+train,QJVVAHFB,0,5,Sensing,optional_frame_field_missing,info,20.8,24.0,start_frame
+train,QJVVAHFB,0,5,Sensing,optional_frame_field_missing,info,20.8,24.0,end_frame
+train,QJVVAHFB,0,6,Keeping still,optional_frame_field_missing,info,24.0,29.12,start_frame
+train,QJVVAHFB,0,6,Keeping still,optional_frame_field_missing,info,24.0,29.12,end_frame
+train,QKKDMVEI,0,0,Landing,optional_frame_field_missing,info,0.25,0.65,start_frame
+train,QKKDMVEI,0,0,Landing,optional_frame_field_missing,info,0.25,0.65,end_frame
+train,QKKDMVEI,0,1,Doing A Face Dip,subframe_end_overrun,info,0.65,0.92,end-video_duration=0.003333333s; original untouched
+train,QKKDMVEI,0,1,Doing A Face Dip,optional_frame_field_missing,info,0.65,0.92,start_frame
+train,QKKDMVEI,0,1,Doing A Face Dip,optional_frame_field_missing,info,0.65,0.92,end_frame
+train,QOSMKPKK,0,0,Preening,optional_frame_field_missing,info,0.0,1.4,start_frame
+train,QOSMKPKK,0,0,Preening,optional_frame_field_missing,info,0.0,1.4,end_frame
+train,QOSMKPKK,0,1,Drinking,optional_frame_field_missing,info,1.4,1.9,start_frame
+train,QOSMKPKK,0,1,Drinking,optional_frame_field_missing,info,1.4,1.9,end_frame
+train,QOSMKPKK,0,2,Walking,optional_frame_field_missing,info,1.9,2.1,start_frame
+train,QOSMKPKK,0,2,Walking,optional_frame_field_missing,info,1.9,2.1,end_frame
+train,QOSMKPKK,0,3,Drinking,optional_frame_field_missing,info,2.1,3.9,start_frame
+train,QOSMKPKK,0,3,Drinking,optional_frame_field_missing,info,2.1,3.9,end_frame
+train,QOSMKPKK,0,4,Keeping still,optional_frame_field_missing,info,3.9,5.3,start_frame
+train,QOSMKPKK,0,4,Keeping still,optional_frame_field_missing,info,3.9,5.3,end_frame
+train,QOSMKPKK,0,5,Shaking Head,optional_frame_field_missing,info,5.3,5.9,start_frame
+train,QOSMKPKK,0,5,Shaking Head,optional_frame_field_missing,info,5.3,5.9,end_frame
+train,QOSMKPKK,0,6,Keeping still,optional_frame_field_missing,info,5.9,7.2,start_frame
+train,QOSMKPKK,0,6,Keeping still,optional_frame_field_missing,info,5.9,7.2,end_frame
+train,QOSMKPKK,0,7,Walking,optional_frame_field_missing,info,7.2,8.33,start_frame
+train,QOSMKPKK,0,7,Walking,optional_frame_field_missing,info,7.2,8.33,end_frame
+train,QZWMTKOU,0,0,Eating,optional_frame_field_missing,info,2.9,17.0,start_frame
+train,QZWMTKOU,0,0,Eating,optional_frame_field_missing,info,2.9,17.0,end_frame
+train,QZWMTKOU,0,1,Sensing,subframe_end_overrun,info,17.2,22.92,end-video_duration=0.003333333s; original untouched
+train,QZWMTKOU,0,1,Sensing,optional_frame_field_missing,info,17.2,22.92,start_frame
+train,QZWMTKOU,0,1,Sensing,optional_frame_field_missing,info,17.2,22.92,end_frame
+train,QZWMTKOU,1,0,Chirping,optional_frame_field_missing,info,0.0,2.8,start_frame
+train,QZWMTKOU,1,0,Chirping,optional_frame_field_missing,info,0.0,2.8,end_frame
+train,QZWMTKOU,1,1,Carrying In Mouth,optional_frame_field_missing,info,2.9,3.4,start_frame
+train,QZWMTKOU,1,1,Carrying In Mouth,optional_frame_field_missing,info,2.9,3.4,end_frame
+train,QZWMTKOU,1,2,Sharing Food,optional_frame_field_missing,info,2.9,17.0,start_frame
+train,QZWMTKOU,1,2,Sharing Food,optional_frame_field_missing,info,2.9,17.0,end_frame
+train,QZWMTKOU,1,3,Walking,optional_frame_field_missing,info,17.2,18.2,start_frame
+train,QZWMTKOU,1,3,Walking,optional_frame_field_missing,info,17.2,18.2,end_frame
+train,QZWMTKOU,1,4,Sensing,subframe_end_overrun,info,18.2,22.92,end-video_duration=0.003333333s; original untouched
+train,QZWMTKOU,1,4,Sensing,optional_frame_field_missing,info,18.2,22.92,start_frame
+train,QZWMTKOU,1,4,Sensing,optional_frame_field_missing,info,18.2,22.92,end_frame
+train,RBBJRVKA,0,0,Attending,optional_frame_field_missing,info,0.0,2.0,start_frame
+train,RBBJRVKA,0,0,Attending,optional_frame_field_missing,info,0.0,2.0,end_frame
+train,RBBJRVKA,0,1,Sensing,optional_frame_field_missing,info,2.0,4.2,start_frame
+train,RBBJRVKA,0,1,Sensing,optional_frame_field_missing,info,2.0,4.2,end_frame
+train,RBBJRVKA,0,2,Squatting,optional_frame_field_missing,info,4.2,6.6,start_frame
+train,RBBJRVKA,0,2,Squatting,optional_frame_field_missing,info,4.2,6.6,end_frame
+train,RBBJRVKA,0,3,Attending,optional_frame_field_missing,info,6.6,10.0,start_frame
+train,RBBJRVKA,0,3,Attending,optional_frame_field_missing,info,6.6,10.0,end_frame
+train,RCIARPTK,0,0,Chirping,optional_frame_field_missing,info,0.4,4.0,start_frame
+train,RCIARPTK,0,0,Chirping,optional_frame_field_missing,info,0.4,4.0,end_frame
+train,RCIARPTK,0,1,Keeping still,optional_frame_field_missing,info,4.0,12.0,start_frame
+train,RCIARPTK,0,1,Keeping still,optional_frame_field_missing,info,4.0,12.0,end_frame
+train,RCIARPTK,0,2,Attending,optional_frame_field_missing,info,12.0,16.0,start_frame
+train,RCIARPTK,0,2,Attending,optional_frame_field_missing,info,12.0,16.0,end_frame
+train,RCIARPTK,0,3,Chirping,optional_frame_field_missing,info,16.0,20.83,start_frame
+train,RCIARPTK,0,3,Chirping,optional_frame_field_missing,info,16.0,20.83,end_frame
+train,RDLOTXYT,0,0,Shaking Head,optional_frame_field_missing,info,0.4,0.9,start_frame
+train,RDLOTXYT,0,0,Shaking Head,optional_frame_field_missing,info,0.4,0.9,end_frame
+train,RDLOTXYT,0,1,Rubbing its head,optional_frame_field_missing,info,0.9,2.5,start_frame
+train,RDLOTXYT,0,1,Rubbing its head,optional_frame_field_missing,info,0.9,2.5,end_frame
+train,RDLOTXYT,0,2,Shaking Head,optional_frame_field_missing,info,2.5,3.12,start_frame
+train,RDLOTXYT,0,2,Shaking Head,optional_frame_field_missing,info,2.5,3.12,end_frame
+train,RGGWGVEI,0,0,Preening,optional_frame_field_missing,info,0.0,2.4,start_frame
+train,RGGWGVEI,0,0,Preening,optional_frame_field_missing,info,0.0,2.4,end_frame
+train,RGGWGVEI,0,1,Eating,subframe_end_overrun,info,2.4,4.21,end-video_duration=0.001666667s; original untouched
+train,RGGWGVEI,0,1,Eating,optional_frame_field_missing,info,2.4,4.21,start_frame
+train,RGGWGVEI,0,1,Eating,optional_frame_field_missing,info,2.4,4.21,end_frame
+train,RGGWGVEI,1,0,Preening,optional_frame_field_missing,info,0.0,1.4,start_frame
+train,RGGWGVEI,1,0,Preening,optional_frame_field_missing,info,0.0,1.4,end_frame
+train,RGGWGVEI,1,1,Keeping still,subframe_end_overrun,info,1.4,4.21,end-video_duration=0.001666667s; original untouched
+train,RGGWGVEI,1,1,Keeping still,optional_frame_field_missing,info,1.4,4.21,start_frame
+train,RGGWGVEI,1,1,Keeping still,optional_frame_field_missing,info,1.4,4.21,end_frame
+train,RMYSJPTK,0,0,Attending,optional_frame_field_missing,info,0.0,0.62,start_frame
+train,RMYSJPTK,0,0,Attending,optional_frame_field_missing,info,0.0,0.62,end_frame
+train,SDCQMUPH,0,0,Sensing,optional_frame_field_missing,info,0.0,4.0,start_frame
+train,SDCQMUPH,0,0,Sensing,optional_frame_field_missing,info,0.0,4.0,end_frame
+test,SEBPFADX,0,0,Sensing,optional_frame_field_missing,info,0.0,3.5,start_frame
+test,SEBPFADX,0,0,Sensing,optional_frame_field_missing,info,0.0,3.5,end_frame
+test,SEBPFADX,0,1,Pecking,optional_frame_field_missing,info,3.5,5.0,start_frame
+test,SEBPFADX,0,1,Pecking,optional_frame_field_missing,info,3.5,5.0,end_frame
+test,SEBPFADX,0,2,Sensing,optional_frame_field_missing,info,5.0,9.0,start_frame
+test,SEBPFADX,0,2,Sensing,optional_frame_field_missing,info,5.0,9.0,end_frame
+test,SEBPFADX,0,3,Pecking,optional_frame_field_missing,info,9.0,10.5,start_frame
+test,SEBPFADX,0,3,Pecking,optional_frame_field_missing,info,9.0,10.5,end_frame
+test,SEBPFADX,0,4,Eating,optional_frame_field_missing,info,10.5,14.0,start_frame
+test,SEBPFADX,0,4,Eating,optional_frame_field_missing,info,10.5,14.0,end_frame
+test,SEBPFADX,0,5,Sensing,optional_frame_field_missing,info,14.0,20.83,start_frame
+test,SEBPFADX,0,5,Sensing,optional_frame_field_missing,info,14.0,20.83,end_frame
+train,SETYFPKK,0,0,Walking,optional_frame_field_missing,info,0.0,1.5,start_frame
+train,SETYFPKK,0,0,Walking,optional_frame_field_missing,info,0.0,1.5,end_frame
+train,SETYFPKK,0,1,Keeping still,optional_frame_field_missing,info,1.5,2.3,start_frame
+train,SETYFPKK,0,1,Keeping still,optional_frame_field_missing,info,1.5,2.3,end_frame
+train,SETYFPKK,0,2,Disturbing Another Animal,optional_frame_field_missing,info,2.3,2.6,start_frame
+train,SETYFPKK,0,2,Disturbing Another Animal,optional_frame_field_missing,info,2.3,2.6,end_frame
+train,SETYFPKK,0,3,Flying,subframe_end_overrun,info,2.6,3.21,end-video_duration=0.001666667s; original untouched
+train,SETYFPKK,0,3,Flying,optional_frame_field_missing,info,2.6,3.21,start_frame
+train,SETYFPKK,0,3,Flying,optional_frame_field_missing,info,2.6,3.21,end_frame
+train,SIOKDKTH,0,0,Sensing,optional_frame_field_missing,info,0.0,3.12,start_frame
+train,SIOKDKTH,0,0,Sensing,optional_frame_field_missing,info,0.0,3.12,end_frame
+train,SIVZXDAL,0,0,Keeping still,subframe_end_overrun,info,0.0,3.42,end-video_duration=0.003333333s; original untouched
+train,SIVZXDAL,0,0,Keeping still,optional_frame_field_missing,info,0.0,3.42,start_frame
+train,SIVZXDAL,0,0,Keeping still,optional_frame_field_missing,info,0.0,3.42,end_frame
+valid,SUMCRXFE,0,0,Flying,subframe_end_overrun,info,0.0,2.21,end-video_duration=0.001666667s; original untouched
+valid,SUMCRXFE,0,0,Flying,optional_frame_field_missing,info,0.0,2.21,start_frame
+valid,SUMCRXFE,0,0,Flying,optional_frame_field_missing,info,0.0,2.21,end_frame
+test,SVNLOGHA,0,0,Attending,optional_frame_field_missing,info,0.0,1.6,start_frame
+test,SVNLOGHA,0,0,Attending,optional_frame_field_missing,info,0.0,1.6,end_frame
+test,SVNLOGHA,0,1,Chirping,subframe_end_overrun,info,1.6,9.71,end-video_duration=0.001666667s; original untouched
+test,SVNLOGHA,0,1,Chirping,optional_frame_field_missing,info,1.6,9.71,start_frame
+test,SVNLOGHA,0,1,Chirping,optional_frame_field_missing,info,1.6,9.71,end_frame
+train,SVQMEXRE,0,0,Sensing,optional_frame_field_missing,info,0.0,1.5,start_frame
+train,SVQMEXRE,0,0,Sensing,optional_frame_field_missing,info,0.0,1.5,end_frame
+train,SVQMEXRE,0,1,Attending,optional_frame_field_missing,info,1.5,2.6,start_frame
+train,SVQMEXRE,0,1,Attending,optional_frame_field_missing,info,1.5,2.6,end_frame
+train,SVQMEXRE,0,2,Keeping still,optional_frame_field_missing,info,2.6,8.5,start_frame
+train,SVQMEXRE,0,2,Keeping still,optional_frame_field_missing,info,2.6,8.5,end_frame
+train,SVQMEXRE,0,3,Shaking,optional_frame_field_missing,info,8.5,9.3,start_frame
+train,SVQMEXRE,0,3,Shaking,optional_frame_field_missing,info,8.5,9.3,end_frame
+train,SVQMEXRE,0,4,Flying,subframe_end_overrun,info,9.3,10.42,end-video_duration=0.003333333s; original untouched
+train,SVQMEXRE,0,4,Flying,optional_frame_field_missing,info,9.3,10.42,start_frame
+train,SVQMEXRE,0,4,Flying,optional_frame_field_missing,info,9.3,10.42,end_frame
+train,SWJOBGIW,0,0,Drinking,optional_frame_field_missing,info,0.0,1.7,start_frame
+train,SWJOBGIW,0,0,Drinking,optional_frame_field_missing,info,0.0,1.7,end_frame
+test,TEGUAADX,0,3,Climbing,subframe_end_overrun,info,4.977,5.512,end-video_duration=0.012000000s; original untouched
+train,TMNOSPTK,0,1,Keeping still,subframe_end_overrun,info,4.689,6.009,end-video_duration=0.009000000s; original untouched
+train,TVANSPTK,0,14,Sensing,subframe_end_overrun,info,46.564,68.417,end-video_duration=0.000333333s; original untouched
+valid,UBXNOVEI,0,0,Walking,subframe_end_overrun,info,0.0,0.918,end-video_duration=0.001333333s; original untouched
+valid,UBXNOVEI,1,0,Eating,subframe_end_overrun,info,0.459,0.918,end-video_duration=0.001333333s; original untouched
+train,UGQVFSBA,0,5,Sensing,subframe_end_overrun,info,4.778,8.007,end-video_duration=0.007000000s; original untouched
+train,UKMOZLSQ,0,11,Keeping still,subframe_end_overrun,info,11.39,14.525,end-video_duration=0.025000000s; original untouched
+train,UOVQPREH,0,0,Sensing,subframe_end_overrun,info,0.0,8.042,end-video_duration=0.000333333s; original untouched
+train,UZNEBTFT,0,1,Sensing,subframe_end_overrun,info,0.0,15.006,end-video_duration=0.006000000s; original untouched
+train,UZNEBTFT,0,8,Drinking,subframe_end_overrun,info,7.716,15.021,end-video_duration=0.021000000s; original untouched
+train,VEHJCQTX,0,1,Attending,subframe_end_overrun,info,0.508,1.019,end-video_duration=0.019000000s; original untouched
+valid,VYPCVPLS,0,9,Sensing,subframe_end_overrun,info,8.523,10.839,end-video_duration=0.005666667s; original untouched
+valid,WVZWFONO,0,1,Sensing,subframe_end_overrun,info,0.007,11.917,end-video_duration=0.000333333s; original untouched
+valid,WVZWFONO,0,3,Chirping,subframe_end_overrun,info,9.326,11.917,end-video_duration=0.000333333s; original untouched
+test,XQZGXPKK,0,8,Sensing,subframe_end_overrun,info,7.623,26.515,end-video_duration=0.015000000s; original untouched
+test,XVCRDEWB,0,0,Preening,subframe_end_overrun,info,0.001,1.017,end-video_duration=0.017000000s; original untouched
+test,XVCRDEWB,0,1,Chirping,subframe_end_overrun,info,0.001,1.018,end-video_duration=0.018000000s; original untouched
+test,YYCPYHAQ,0,0,Sensing,subframe_end_overrun,info,0.001,0.917,end-video_duration=0.000333333s; original untouched
+valid,ZMFOEFXO,0,0,Chirping,subframe_end_overrun,info,0.0,0.524,end-video_duration=0.024000000s; original untouched
+train,ZXDBPVEI,0,3,Walking,subframe_end_overrun,info,2.483,5.011,end-video_duration=0.011000000s; original untouched
+train,DKMGAJKU,0,1,Keeping still,subframe_end_overrun,info,0.759,3.917,end-video_duration=0.000333333s; original untouched
+train,LTXOMVMP,0,0,Flapping,subframe_end_overrun,info,0.0,1.358,end-video_duration=0.024666667s; original untouched
+train,LURBCPTK,0,0,Chirping,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,OFGPGVKA,0,0,Chirping,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+train,OLCWRAYR,0,0,Keeping still,subframe_end_overrun,info,0.0,8.417,end-video_duration=0.000333333s; original untouched
+train,PYWHLPTK,0,0,Chirping,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,ANKXBPTK,0,11,Keeping still,subframe_end_overrun,info,35.868,38.923,end-video_duration=0.006333333s; original untouched
+train,ANKXBPTK,0,12,Sensing,subframe_end_overrun,info,37.324,38.923,end-video_duration=0.006333333s; original untouched
+train,CXYKJMVW,0,0,Sensing,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,EEMLSVKA,0,0,Sensing,subframe_end_overrun,info,0.0,6.917,end-video_duration=0.000333333s; original untouched
+train,HGDXNONO,0,1,Chirping,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+test,JGYFRSEB,0,0,Chirping,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+test,KBSVTKOU,0,0,Chirping,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,KKVMKVEI,0,1,Walking,subframe_end_overrun,info,0.01,3.214,end-video_duration=0.005666667s; original untouched
+valid,KNZZMPLS,0,0,Keeping still,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+train,MZIJLSUS,0,0,Chirping,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,PWBRBPTK,0,6,Flying,subframe_end_overrun,info,23.594,23.917,end-video_duration=0.000333333s; original untouched
+train,QEUAGVTI,0,0,Keeping still,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+test,RNGABTFT,0,1,Drinking,subframe_end_overrun,info,0.0,8.417,end-video_duration=0.000333333s; original untouched
+train,UCEHAPTK,0,0,Chirping,subframe_end_overrun,info,0.0,14.417,end-video_duration=0.000333333s; original untouched
+valid,VBSKWNQN,0,0,Chirping,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,VCRQNDAL,0,1,Keeping still,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+test,WZWXEPTK,0,0,Keeping still,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+valid,XNJWHONO,0,1,Chirping,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+valid,YUVNXFGA,0,1,Moving,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+test,BFWTXDAL,0,3,Doing A Face Dip,subframe_end_overrun,info,1.93,3.709,end-video_duration=0.000666667s; original untouched
+test,BFWTXDAL,1,0,Keeping still,subframe_end_overrun,info,0.001,3.71,end-video_duration=0.001666667s; original untouched
+train,BOIVXVTI,0,3,Attending,subframe_end_overrun,info,2.931,3.214,end-video_duration=0.005666667s; original untouched
+test,BSCIGUFF,0,5,Eating,subframe_end_overrun,info,3.427,4.52,end-video_duration=0.020000000s; original untouched
+train,CVEJANPL,0,4,Attending,subframe_end_overrun,info,0.684,1.019,end-video_duration=0.019000000s; original untouched
+train,CYNUVVKA,0,13,Walking,subframe_end_overrun,info,7.86,9.013,end-video_duration=0.013000000s; original untouched
+train,CYNUVVKA,0,14,Attending,subframe_end_overrun,info,7.9,9.013,end-video_duration=0.013000000s; original untouched
+train,CYNUVVKA,0,15,Sensing,subframe_end_overrun,info,8.296,9.013,end-video_duration=0.013000000s; original untouched
+train,DQUHCMRN,0,0,Swimming,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,DQUHCMRN,2,0,Preening,subframe_end_overrun,info,0.013,2.508,end-video_duration=0.008000000s; original untouched
+train,EGKQRPLS,0,2,Keeping still,subframe_end_overrun,info,1.421,7.917,end-video_duration=0.000333333s; original untouched
+train,EGKQRPLS,1,3,Keeping still,subframe_end_overrun,info,1.436,7.917,end-video_duration=0.000333333s; original untouched
+train,EGKQRPLS,1,5,Eating,subframe_end_overrun,info,3.108,7.917,end-video_duration=0.000333333s; original untouched
+train,FDQFIPTK,0,14,Attending,subframe_end_overrun,info,25.28,27.717,end-video_duration=0.008666667s; original untouched
+train,FTPSZZTV,0,0,Resting,subframe_end_overrun,info,0.0,5.503,end-video_duration=0.003000000s; original untouched
+train,FTPSZZTV,0,3,Attending,subframe_end_overrun,info,3.382,5.512,end-video_duration=0.012000000s; original untouched
+test,GHACONQN,0,1,Chirping,subframe_end_overrun,info,3.144,5.512,end-video_duration=0.012000000s; original untouched
+train,GWAQSQTX,0,0,Keeping still,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,HIVXXEOD,0,0,Flying,subframe_end_overrun,info,0.0,3.423,end-video_duration=0.006333333s; original untouched
+valid,HQZNVVEI,0,0,Walking,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+valid,HQZNVVEI,0,1,Eating,subframe_end_overrun,info,0.623,2.717,end-video_duration=0.008666667s; original untouched
+valid,HQZNVVEI,1,0,Sensing,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+valid,HQZNVVEI,2,0,Walking,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+valid,HWDUNZJZ,0,0,Sensing,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,HXARBFXO,0,1,Sensing,subframe_end_overrun,info,1.127,2.417,end-video_duration=0.000333333s; original untouched
+train,IBBMNUHU,0,0,Attending,subframe_end_overrun,info,1.831,4.917,end-video_duration=0.000333333s; original untouched
+train,INCJXPTK,0,6,Keeping still,subframe_end_overrun,info,8.664,9.917,end-video_duration=0.000333333s; original untouched
+valid,IWCLQQTX,0,0,Sensing,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,JFLXXNXN,0,0,Drifting,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,JKLSOTKX,0,0,Sensing,subframe_end_overrun,info,0.0,6.505,end-video_duration=0.005000000s; original untouched
+train,JNWRVJIR,0,1,Keeping still,subframe_end_overrun,info,2.286,5.721,end-video_duration=0.012666667s; original untouched
+train,JNWRVJIR,0,2,Attending,subframe_end_overrun,info,2.291,5.721,end-video_duration=0.012666667s; original untouched
+train,KDFRHGIW,0,0,Sensing,subframe_end_overrun,info,0.0,6.505,end-video_duration=0.005000000s; original untouched
+train,KFRNCKOU,0,0,Sensing,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+train,KKTPQFGA,0,4,Flying,subframe_end_overrun,info,1.829,2.508,end-video_duration=0.008000000s; original untouched
+test,KNWBVMME,0,0,Attending,subframe_end_overrun,info,0.852,10.006,end-video_duration=0.006000000s; original untouched
+valid,LAQNWIYC,0,1,Sensing,subframe_end_overrun,info,1.496,3.919,end-video_duration=0.002333333s; original untouched
+train,LBVVBZJZ,0,0,Walking,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,LBVVBZJZ,0,1,Sensing,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,LDKCYDGW,0,0,Flying,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,LGSHOSOM,0,0,Flying,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,LHDJAYTZ,0,0,Preening,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,LLLYGTFT,0,0,Sensing,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+train,LLLYGTFT,0,1,Drinking,subframe_end_overrun,info,0.77,5.016,end-video_duration=0.016000000s; original untouched
+train,LMPMSUDI,0,1,Attending,subframe_end_overrun,info,1.614,1.917,end-video_duration=0.000333333s; original untouched
+train,LQEVNPTK,0,2,Chirping,subframe_end_overrun,info,7.328,12.017,end-video_duration=0.017000000s; original untouched
+test,LUUGDPTK,0,0,Keeping still,subframe_end_overrun,info,0.185,1.417,end-video_duration=0.000333333s; original untouched
+train,MLNZZFXO,0,2,Sensing,subframe_end_overrun,info,0.801,8.726,end-video_duration=0.017666667s; original untouched
+train,MLNZZFXO,0,9,Washing,subframe_end_overrun,info,7.559,8.726,end-video_duration=0.017666667s; original untouched
+train,MTXDDNPL,0,0,Sensing,subframe_end_overrun,info,0.198,1.019,end-video_duration=0.019000000s; original untouched
+train,OGPQXNQN,0,0,Sensing,subframe_end_overrun,info,0.17,7.419,end-video_duration=0.002333333s; original untouched
+valid,OLQOIHAQ,0,2,Sensing,subframe_end_overrun,info,5.814,18.417,end-video_duration=0.000333333s; original untouched
+valid,OLQOIHAQ,0,4,Preening,subframe_end_overrun,info,11.853,18.417,end-video_duration=0.000333333s; original untouched
+train,ORHQIUQK,0,0,Sensing,subframe_end_overrun,info,0.17,9.222,end-video_duration=0.013666667s; original untouched
+train,OXSFMZLK,0,4,Jumping,subframe_end_overrun,info,7.848,8.517,end-video_duration=0.017000000s; original untouched
+train,OXSFMZLK,0,5,Flying,subframe_end_overrun,info,7.928,8.517,end-video_duration=0.017000000s; original untouched
+train,PDGGSPTK,0,9,Chirping,subframe_end_overrun,info,15.204,19.917,end-video_duration=0.000333333s; original untouched
+train,QTQUGUDI,0,0,Attending,subframe_end_overrun,info,0.238,1.717,end-video_duration=0.008666667s; original untouched
+train,QTQUGUDI,0,1,Keeping still,subframe_end_overrun,info,0.239,1.721,end-video_duration=0.012666667s; original untouched
+valid,QVNSCPIF,0,6,Falling,subframe_end_overrun,info,9.5,10.423,end-video_duration=0.006333333s; original untouched
+train,RWFNVPLS,0,2,Keeping still,subframe_end_overrun,info,1.983,2.417,end-video_duration=0.000333333s; original untouched
+train,SAPEBSBA,0,1,Eating,subframe_end_overrun,info,0.713,1.211,end-video_duration=0.002666667s; original untouched
+train,SFPBBJVY,0,5,Sensing,subframe_end_overrun,info,2.666,6.714,end-video_duration=0.005666667s; original untouched
+train,SRQKKMRN,1,7,Walking,subframe_end_overrun,info,5.414,6.009,end-video_duration=0.009000000s; original untouched
+train,SRQKKMRN,1,8,Sensing,subframe_end_overrun,info,5.754,6.009,end-video_duration=0.009000000s; original untouched
+train,SZDSGVEI,0,0,Shaking,subframe_end_overrun,info,0.628,1.019,end-video_duration=0.019000000s; original untouched
+valid,TCOJXUUK,0,0,Chirping,subframe_end_overrun,info,0.0,5.512,end-video_duration=0.012000000s; original untouched
+train,TXLADFXO,0,7,Sensing,subframe_end_overrun,info,11.962,22.126,end-video_duration=0.001000000s; original untouched
+train,UKRNPNQN,0,0,Sensing,subframe_end_overrun,info,0.0,14.917,end-video_duration=0.000333333s; original untouched
+valid,USWDZXYT,0,0,Rubbing its head,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,UWICVZJZ,1,0,Sensing,subframe_end_overrun,info,0.0,4.241,end-video_duration=0.032666667s; original untouched
+train,VDDLPXSF,0,0,Sharing Food,subframe_end_overrun,info,0.364,1.417,end-video_duration=0.000333333s; original untouched
+train,VDDLPXSF,1,0,Sensing,subframe_end_overrun,info,0.002,1.417,end-video_duration=0.000333333s; original untouched
+train,VDDLPXSF,1,1,Chirping,subframe_end_overrun,info,0.179,1.417,end-video_duration=0.000333333s; original untouched
+test,VELORNQN,0,1,Sensing,subframe_end_overrun,info,0.0,5.225,end-video_duration=0.016666667s; original untouched
+test,VELORNQN,0,2,Chirping,subframe_end_overrun,info,3.983,5.225,end-video_duration=0.016666667s; original untouched
+train,VJIPOMRN,0,6,Sensing,subframe_end_overrun,info,8.264,9.718,end-video_duration=0.009666667s; original untouched
+train,VJIPOMRN,0,7,Walking,subframe_end_overrun,info,8.857,9.718,end-video_duration=0.009666667s; original untouched
+train,VJIPOMRN,1,6,Sensing,subframe_end_overrun,info,5.568,9.718,end-video_duration=0.009666667s; original untouched
+train,VJIPOMRN,1,7,Walking,subframe_end_overrun,info,5.622,9.718,end-video_duration=0.009666667s; original untouched
+train,VJIPOMRN,1,8,Attending,subframe_end_overrun,info,7.385,9.718,end-video_duration=0.009666667s; original untouched
+test,VPDAGPLS,0,1,Keeping still,subframe_end_overrun,info,0.0,7.001,end-video_duration=0.001000000s; original untouched
+test,VPDAGPLS,0,2,Attending,subframe_end_overrun,info,0.0,7.001,end-video_duration=0.001000000s; original untouched
+test,VPDAGPLS,0,4,Sensing,subframe_end_overrun,info,0.006,7.001,end-video_duration=0.001000000s; original untouched
+test,VPDAGPLS,0,10,Running,subframe_end_overrun,info,5.44,7.001,end-video_duration=0.001000000s; original untouched
+test,VTEUZEWB,0,0,Walking,subframe_end_overrun,info,0.0,5.225,end-video_duration=0.016666667s; original untouched
+test,VTEUZEWB,0,1,Preening,subframe_end_overrun,info,0.639,5.225,end-video_duration=0.016666667s; original untouched
+train,WAKRYKRV,0,2,Flying,subframe_end_overrun,info,11.21,13.01,end-video_duration=0.010000000s; original untouched
+train,WRYMMMCW,0,0,Sensing,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+test,WVQLRPLS,0,3,Preening,subframe_end_overrun,info,1.884,3.423,end-video_duration=0.006333333s; original untouched
+test,WVQLRPLS,0,4,Eating,subframe_end_overrun,info,2.956,3.423,end-video_duration=0.006333333s; original untouched
+valid,XGDAWBXG,0,2,Keeping still,subframe_end_overrun,info,1.705,3.501,end-video_duration=0.001000000s; original untouched
+valid,XGDAWBXG,0,3,Preening,subframe_end_overrun,info,2.701,3.501,end-video_duration=0.001000000s; original untouched
+train,XWMKEMVW,0,1,Sensing,subframe_end_overrun,info,0.668,1.917,end-video_duration=0.000333333s; original untouched
+train,YFOATMVW,0,8,Flying,subframe_end_overrun,info,18.42,18.626,end-video_duration=0.001000000s; original untouched
+train,YFPUJPKK,0,0,Walking,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+test,YGZZKNQN,0,0,Chirping,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,ZANXSSBA,0,2,Walking,subframe_end_overrun,info,2.975,4.917,end-video_duration=0.000333333s; original untouched
+train,ZANXSSBA,0,3,Eating,subframe_end_overrun,info,4.836,4.917,end-video_duration=0.000333333s; original untouched
+train,ZKGXSPIF,0,0,Sensing,subframe_end_overrun,info,1.476,3.005,end-video_duration=0.005000000s; original untouched
+train,ZPXBKVEI,0,6,Attending,subframe_end_overrun,info,5.343,9.222,end-video_duration=0.013666667s; original untouched
+train,ZUDKUNJC,0,0,Sensing,subframe_end_overrun,info,0.01,1.516,end-video_duration=0.016000000s; original untouched
+valid,ZWIXWDAL,0,0,Walking,subframe_end_overrun,info,0.016,16.917,end-video_duration=0.000333333s; original untouched
+valid,ZWIXWDAL,0,1,Sensing,subframe_end_overrun,info,0.023,16.917,end-video_duration=0.000333333s; original untouched
+train,ACQFUVKA,0,4,Attending,subframe_end_overrun,info,4.205,5.632,end-video_duration=0.007000000s; original untouched
+train,AGJKWLSQ,0,0,Keeping still,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,AOAWLNSU,0,0,Walking,subframe_end_overrun,info,0.0,1.515,end-video_duration=0.015000000s; original untouched
+train,BGMYAHSA,0,1,Sensing,subframe_end_overrun,info,2.391,11.417,end-video_duration=0.000333333s; original untouched
+train,BGMYAHSA,0,3,Attending,subframe_end_overrun,info,8.704,11.417,end-video_duration=0.000333333s; original untouched
+train,BMZLLMVW,0,8,Sensing,subframe_end_overrun,info,16.179,19.018,end-video_duration=0.018000000s; original untouched
+train,BQOEHVEI,1,3,Shaking,subframe_end_overrun,info,2.581,3.423,end-video_duration=0.006333333s; original untouched
+train,BQOEHVEI,1,4,Shaking Head,subframe_end_overrun,info,3.14,3.423,end-video_duration=0.006333333s; original untouched
+train,BYQFILHH,0,0,Running,subframe_end_overrun,info,0.166,1.516,end-video_duration=0.016000000s; original untouched
+valid,CKKKUVMP,0,0,Attending,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+train,DFBWDDAL,0,0,Keeping still,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+train,DGCFPZQJ,0,3,Biting,subframe_end_overrun,info,3.708,8.917,end-video_duration=0.000333333s; original untouched
+train,DRJWXPLS,1,1,Keeping still,subframe_end_overrun,info,0.0,3.71,end-video_duration=0.001666667s; original untouched
+train,EFJDMGHA,0,1,Flying,subframe_end_overrun,info,8.442,8.726,end-video_duration=0.017666667s; original untouched
+test,EGGPWFXO,0,0,Chirping,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+test,ELHWHYTZ,0,0,Preening,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,EMHTLVTI,0,1,Swimming,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,EMHTLVTI,0,2,Attending,subframe_end_overrun,info,1.254,1.917,end-video_duration=0.000333333s; original untouched
+train,ENDQONQN,0,0,Chirping,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+valid,ESJIKDAL,0,4,Keeping still,subframe_end_overrun,info,11.667,15.517,end-video_duration=0.017000000s; original untouched
+valid,ESJIKDAL,0,5,Walking,subframe_end_overrun,info,13.759,15.517,end-video_duration=0.017000000s; original untouched
+train,ESMXMPKK,0,6,Walking,subframe_end_overrun,info,4.09,12.722,end-video_duration=0.013666667s; original untouched
+train,ESMXMPKK,0,13,Eating,subframe_end_overrun,info,10.075,12.722,end-video_duration=0.013666667s; original untouched
+valid,FTPZYVEI,0,1,Walking,subframe_end_overrun,info,1.48,1.917,end-video_duration=0.000333333s; original untouched
+train,GAOUGEWB,0,2,Preening,subframe_end_overrun,info,1.222,3.919,end-video_duration=0.002333333s; original untouched
+train,GNNOPSBA,0,4,Sensing,subframe_end_overrun,info,3.576,4.917,end-video_duration=0.000333333s; original untouched
+train,HPPMIDCC,0,0,Flying,subframe_end_overrun,info,0.286,0.523,end-video_duration=0.023000000s; original untouched
+train,IWJUMPLS,0,4,Sensing,subframe_end_overrun,info,6.436,11.024,end-video_duration=0.024000000s; original untouched
+train,IWJUMPLS,0,6,Attending,subframe_end_overrun,info,6.444,11.024,end-video_duration=0.024000000s; original untouched
+valid,JPQLAPKK,0,4,Sensing,subframe_end_overrun,info,3.939,4.52,end-video_duration=0.020000000s; original untouched
+train,JRGKHBXG,0,11,Shaking Head,subframe_end_overrun,info,9.099,9.417,end-video_duration=0.000333333s; original untouched
+train,JSKBJEWB,0,2,Preening,subframe_end_overrun,info,9.131,9.417,end-video_duration=0.000333333s; original untouched
+train,KNXCBXMC,0,6,Sensing,subframe_end_overrun,info,9.342,10.711,end-video_duration=0.002666667s; original untouched
+train,KPJWQHSA,0,2,Sensing,subframe_end_overrun,info,2.717,3.423,end-video_duration=0.006333333s; original untouched
+test,KWWKFSOM,0,0,Gliding,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,KYCHMPTK,0,5,Chirping,subframe_end_overrun,info,9.021,14.42,end-video_duration=0.003333333s; original untouched
+train,KZLMYPKK,0,1,Drinking,subframe_end_overrun,info,1.928,3.71,end-video_duration=0.001666667s; original untouched
+train,LJFOBPLS,0,1,Keeping still,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,LJFOBPLS,0,2,Attending,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,LRMIPFXO,0,1,Sensing,subframe_end_overrun,info,2.3,5.512,end-video_duration=0.012000000s; original untouched
+valid,NBBOHMRN,0,0,Eating,subframe_end_overrun,info,0.292,1.417,end-video_duration=0.000333333s; original untouched
+valid,NBBOHMRN,0,2,Shaking,subframe_end_overrun,info,1.292,1.417,end-video_duration=0.000333333s; original untouched
+valid,NBBOHMRN,1,1,Preening,subframe_end_overrun,info,0.208,1.417,end-video_duration=0.000333333s; original untouched
+train,NGQQTFIO,0,0,Chirping,subframe_end_overrun,info,0.0,14.417,end-video_duration=0.000333333s; original untouched
+valid,NKBPXHGW,0,0,Sensing,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+valid,NKBPXHGW,0,1,Turning Around,subframe_end_overrun,info,0.375,2.417,end-video_duration=0.000333333s; original untouched
+train,NLNMGPLS,0,1,Keeping still,subframe_end_overrun,info,0.0,6.417,end-video_duration=0.000333333s; original untouched
+train,NLNMGPLS,1,1,Preening,subframe_end_overrun,info,4.833,6.417,end-video_duration=0.000333333s; original untouched
+test,OGHGXVEI,0,0,Keeping still,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+valid,OZSQHVEI,0,0,Eating,subframe_end_overrun,info,0.0,15.417,end-video_duration=0.000333333s; original untouched
+valid,OZSQHVEI,1,0,Eating,subframe_end_overrun,info,0.0,15.417,end-video_duration=0.000333333s; original untouched
+train,PLVWJMME,0,0,Sensing,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+test,RFMGHVEI,0,1,Keeping still,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,TEMFQUDI,0,3,Keeping still,subframe_end_overrun,info,4.333,6.417,end-video_duration=0.000333333s; original untouched
+train,TIKBFEWB,0,3,Sensing,subframe_end_overrun,info,2.333,2.917,end-video_duration=0.000333333s; original untouched
+train,TIKBFEWB,0,4,Walking,subframe_end_overrun,info,2.417,2.917,end-video_duration=0.000333333s; original untouched
+train,TMPQYDAL,0,1,Swimming,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,TMPQYDAL,0,3,Shaking Head,subframe_end_overrun,info,2.833,2.917,end-video_duration=0.000333333s; original untouched
+train,TMPQYDAL,1,2,Sensing,subframe_end_overrun,info,1.667,2.917,end-video_duration=0.000333333s; original untouched
+train,TOZTMHGA,0,2,Sensing,subframe_end_overrun,info,0.0,15.917,end-video_duration=0.000333333s; original untouched
+train,TOZTMHGA,0,5,Walking,subframe_end_overrun,info,9.458,15.917,end-video_duration=0.000333333s; original untouched
+train,UEANASUS,0,0,Chirping,subframe_end_overrun,info,0.0,12.417,end-video_duration=0.000333333s; original untouched
+train,XPEQQSBA,0,4,Sensing,subframe_end_overrun,info,10.667,12.417,end-video_duration=0.000333333s; original untouched
+train,XYALEBXG,0,6,Flapping,subframe_end_overrun,info,8.208,10.417,end-video_duration=0.000333333s; original untouched
+train,XYALEBXG,0,9,Jumping,subframe_end_overrun,info,10.167,10.417,end-video_duration=0.000333333s; original untouched
+test,ZWWSSFXO,0,6,Sensing,subframe_end_overrun,info,7.792,9.417,end-video_duration=0.000333333s; original untouched
+test,ABRMTNXN,0,0,Drifting,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,AHKLQIKV,0,0,Playing,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,CBSKBFYY,0,0,Eating,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,CCKWWDSN,0,0,Walking,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,CJTABRSU,0,0,Carrying In Mouth,subframe_end_overrun,info,0.0,5.917,end-video_duration=0.000333333s; original untouched
+test,DOJHHKEW,0,0,Sensing,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+test,DOJHHKEW,1,0,Jumping,subframe_end_overrun,info,0.125,0.417,end-video_duration=0.000333333s; original untouched
+train,ECJSDXGD,0,1,Running,subframe_end_overrun,info,4.708,5.417,end-video_duration=0.000333333s; original untouched
+train,EYEOZNSU,0,0,Walking,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,FETWZXDO,0,0,Eating,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+train,HPVZLFFP,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+test,HZCCWTHG,0,2,Keeping still,subframe_end_overrun,info,2.042,3.917,end-video_duration=0.000333333s; original untouched
+test,JPZJJBME,0,0,Exploring,subframe_end_overrun,info,1.75,3.417,end-video_duration=0.000333333s; original untouched
+test,KMUGKXDO,0,0,Walking,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+train,KYDOXNPO,0,0,Exploring,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,LIBPIDPR,0,0,Walking,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+test,LJFWLQRY,0,1,Sensing,subframe_end_overrun,info,15.292,18.042,end-video_duration=0.000333333s; original untouched
+train,MTVJCEBY,0,0,Sensing,subframe_end_overrun,info,0.0,5.417,end-video_duration=0.000333333s; original untouched
+train,NTWBIDSN,0,0,Walking,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,NYUDTUDX,0,0,Sensing,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+valid,QCJKIQCN,0,3,Jumping,subframe_end_overrun,info,4.792,5.417,end-video_duration=0.000333333s; original untouched
+train,RBZZJXGD,0,0,Jumping,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,RNHWUNPO,0,0,Running,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+test,TIQWILQI,0,3,Sensing,subframe_end_overrun,info,20.375,21.542,end-video_duration=0.000333333s; original untouched
+valid,TYAXSBME,0,1,Sensing,subframe_end_overrun,info,0.821,1.417,end-video_duration=0.000333333s; original untouched
+train,VEAHIIVA,0,0,Attending,subframe_end_overrun,info,1.667,3.917,end-video_duration=0.000333333s; original untouched
+train,VEAHIIVA,1,0,Swimming,subframe_end_overrun,info,1.75,3.917,end-video_duration=0.000333333s; original untouched
+train,WXAHYDSN,0,0,Jumping,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,XIMXOXDO,0,0,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,XIMXOXDO,1,0,Walking,subframe_end_overrun,info,0.708,1.417,end-video_duration=0.000333333s; original untouched
+train,XMMRKDSN,0,0,Running,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+test,YCSCMFGA,0,0,Walking,subframe_end_overrun,info,0.0,5.417,end-video_duration=0.000333333s; original untouched
+train,YSWGBGCS,0,0,Keeping still,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+train,YSWGBGCS,1,0,Running,subframe_end_overrun,info,0.167,0.417,end-video_duration=0.000333333s; original untouched
+test,ZILULNPL,0,0,Exploring,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,AUHJYBQT,0,0,Walking,subframe_end_overrun,info,0.45,1.725,end-video_duration=0.016666667s; original untouched
+train,BHIXVIMN,0,0,Walking,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+valid,BSGIHFFP,0,0,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+valid,BSGIHFFP,0,1,Walking,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+test,CYSGDKEW,1,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+test,CYSGDKEW,1,1,Walking,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,DPNQDRAC,0,0,Walking,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,DVURAAMC,0,0,Walking,subframe_end_overrun,info,0.083,2.417,end-video_duration=0.000333333s; original untouched
+train,EAUTRBQT,0,0,Sensing,subframe_end_overrun,info,1.333,5.917,end-video_duration=0.000333333s; original untouched
+train,EWXYUVYU,0,1,Drinking,subframe_end_overrun,info,5.042,12.917,end-video_duration=0.000333333s; original untouched
+train,FUEGEKEW,0,2,Falling,subframe_end_overrun,info,1.958,3.417,end-video_duration=0.000333333s; original untouched
+train,FUEGEKEW,0,3,Keeping still,subframe_end_overrun,info,2.483,3.417,end-video_duration=0.000333333s; original untouched
+train,FWCFTNPL,0,0,Manipulating Object,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,FWCFTNPL,0,1,Walking,subframe_end_overrun,info,0.125,2.917,end-video_duration=0.000333333s; original untouched
+train,HKQIKAMC,0,3,Yawning,subframe_end_overrun,info,15.248,16.917,end-video_duration=0.000333333s; original untouched
+train,HUWHLVYU,0,2,Sensing,subframe_end_overrun,info,1.831,4.417,end-video_duration=0.000333333s; original untouched
+train,HUWHLVYU,0,3,Walking,subframe_end_overrun,info,2.432,4.417,end-video_duration=0.000333333s; original untouched
+train,IGICSXGD,0,0,Running,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+train,JMTPOHGA,0,0,Attending,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,JMTPOHGA,0,1,Keeping still,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,LFMVECNX,0,0,Exploring,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,LFMVECNX,0,1,Walking,subframe_end_overrun,info,0.167,2.917,end-video_duration=0.000333333s; original untouched
+valid,MIAGSEZZ,0,0,Walking,subframe_end_overrun,info,0.0,8.917,end-video_duration=0.000333333s; original untouched
+test,MMSWNBQT,0,1,Grooming,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+test,MMSWNBQT,0,2,Hanging,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,MSYVNXGD,0,3,Jumping,subframe_end_overrun,info,4.521,6.417,end-video_duration=0.000333333s; original untouched
+train,NABISUPH,0,1,Keeping still,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,NFNRDNPL,0,0,Sensing,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+valid,NGZXTFFP,0,5,Yawning,subframe_end_overrun,info,1.849,3.214,end-video_duration=0.005666667s; original untouched
+train,OZGXOXGD,0,1,Eating,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+train,OZGXOXGD,0,2,Walking,subframe_end_overrun,info,0.083,3.917,end-video_duration=0.000333333s; original untouched
+train,OZGXOXGD,0,3,Sensing,subframe_end_overrun,info,2.252,3.917,end-video_duration=0.000333333s; original untouched
+train,QAOBWXGD,0,1,Exploring,subframe_end_overrun,info,0.0,10.417,end-video_duration=0.000333333s; original untouched
+train,QAOBWXGD,0,2,Keeping still,subframe_end_overrun,info,7.731,10.417,end-video_duration=0.000333333s; original untouched
+train,QIULIGCS,0,0,Barking,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,QIULIGCS,0,1,Sensing,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,QIULIGCS,0,2,Retreating,subframe_end_overrun,info,0.791,1.917,end-video_duration=0.000333333s; original untouched
+train,QIULIGCS,0,3,Startled,subframe_end_overrun,info,0.798,1.917,end-video_duration=0.000333333s; original untouched
+train,RVPOPXDO,0,1,Walking,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+test,SPYKVAMC,0,1,Walking,subframe_end_overrun,info,4.436,6.417,end-video_duration=0.000333333s; original untouched
+train,TGWXIXDO,0,0,Walking,subframe_end_overrun,info,0.0,6.417,end-video_duration=0.000333333s; original untouched
+train,TGWXIXDO,0,2,Sensing,subframe_end_overrun,info,4.154,6.417,end-video_duration=0.000333333s; original untouched
+train,TIQMIXDO,1,0,Fleeing,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+valid,TSGICXDO,0,2,Running,subframe_end_overrun,info,3.693,4.023,end-video_duration=0.023000000s; original untouched
+valid,TSGICXDO,1,4,Running,subframe_end_overrun,info,3.679,4.003,end-video_duration=0.003000000s; original untouched
+train,TVCUTBQT,0,0,Exploring,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+test,VPSUEUDX,0,0,Walking,subframe_end_overrun,info,0.0,6.417,end-video_duration=0.000333333s; original untouched
+test,VSAKNBME,0,1,Eating,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+valid,VTYLWXGD,0,0,Walking,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+valid,VTYLWXGD,0,1,Eating,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,WVTLUUDX,0,0,Walking,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+test,YJQYTRAC,0,0,Attending,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,YRLERFFP,0,1,Sensing,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,YRLERFFP,0,2,Walking,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,AIHZXAMC,0,3,Hugging,subframe_end_overrun,info,8.641,12.226,end-video_duration=0.017666667s; original untouched
+test,ATRFLUDX,0,0,Walking,subframe_end_overrun,info,0.014,8.917,end-video_duration=0.000333333s; original untouched
+valid,BDZOOUDX,0,0,Running,subframe_end_overrun,info,0.024,26.019,end-video_duration=0.019000000s; original untouched
+train,BKSQZFFP,0,1,Keeping still,subframe_end_overrun,info,2.361,3.005,end-video_duration=0.005000000s; original untouched
+train,BLFGBBQT,0,0,Fighting,subframe_end_overrun,info,0.136,1.917,end-video_duration=0.000333333s; original untouched
+train,BLFGBBQT,1,0,Fighting,subframe_end_overrun,info,0.145,1.917,end-video_duration=0.000333333s; original untouched
+train,BLUIEDSN,0,0,Running,subframe_end_overrun,info,0.024,11.024,end-video_duration=0.024000000s; original untouched
+train,BLUIEDSN,1,1,Chasing,subframe_end_overrun,info,7.033,11.024,end-video_duration=0.024000000s; original untouched
+train,BYPZMFGA,0,0,Keeping still,subframe_end_overrun,info,0.004,4.023,end-video_duration=0.023000000s; original untouched
+train,DSYAZKTR,0,2,Attending,subframe_end_overrun,info,0.936,2.717,end-video_duration=0.008666667s; original untouched
+train,DSYAZKTR,0,3,Keeping still,subframe_end_overrun,info,0.946,2.717,end-video_duration=0.008666667s; original untouched
+train,DTQDGFFP,0,1,Playing,subframe_end_overrun,info,0.002,1.019,end-video_duration=0.019000000s; original untouched
+train,DTQDGFFP,0,2,Diving,subframe_end_overrun,info,0.59,1.019,end-video_duration=0.019000000s; original untouched
+train,EGVFHCNX,0,0,Exploring,subframe_end_overrun,info,0.003,2.221,end-video_duration=0.012666667s; original untouched
+train,EHXIFXGD,0,1,Walking,subframe_end_overrun,info,0.916,2.001,end-video_duration=0.001000000s; original untouched
+train,EHXIFXGD,0,2,Attending,subframe_end_overrun,info,0.945,2.008,end-video_duration=0.008000000s; original untouched
+train,ETSVYTHG,0,1,Exploring,subframe_end_overrun,info,6.66,12.722,end-video_duration=0.013666667s; original untouched
+train,FFEIGKEW,0,1,Doing somersault,subframe_end_overrun,info,0.976,1.417,end-video_duration=0.000333333s; original untouched
+train,FICOVGCS,0,0,Running,subframe_end_overrun,info,0.008,3.501,end-video_duration=0.001000000s; original untouched
+test,FJDFAFJG,0,1,Walking,subframe_end_overrun,info,7.211,12.226,end-video_duration=0.017666667s; original untouched
+train,FJLVIGCS,0,0,Barking,subframe_end_overrun,info,0.005,3.005,end-video_duration=0.005000000s; original untouched
+train,FJLVIGCS,0,3,Keeping still,subframe_end_overrun,info,2.081,3.005,end-video_duration=0.005000000s; original untouched
+train,FMCZVXDO,1,2,Escaping,subframe_end_overrun,info,2.589,4.417,end-video_duration=0.000333333s; original untouched
+train,FQCXWHGA,0,8,Moving,subframe_end_overrun,info,7.889,9.718,end-video_duration=0.009666667s; original untouched
+test,GAGRUAMC,0,5,Walking,subframe_end_overrun,info,4.391,9.917,end-video_duration=0.000333333s; original untouched
+train,GCRQABQT,0,0,Keeping still,subframe_end_overrun,info,0.006,2.926,end-video_duration=0.009333333s; original untouched
+valid,GFAERAMC,0,0,Sensing,subframe_end_overrun,info,0.0,2.22,end-video_duration=0.011666667s; original untouched
+valid,GFAERAMC,1,0,Walking,subframe_end_overrun,info,0.04,2.22,end-video_duration=0.011666667s; original untouched
+test,GPQEHCNX,0,0,Urinating,subframe_end_overrun,info,1.331,8.016,end-video_duration=0.016000000s; original untouched
+train,HCVFHXDO,0,0,Moving,subframe_end_overrun,info,0.0,2.713,end-video_duration=0.004666667s; original untouched
+train,HCVFHXDO,1,0,Walking,subframe_end_overrun,info,0.005,2.716,end-video_duration=0.007666667s; original untouched
+valid,ISBVMNPL,0,0,Attending,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+test,JBALITEK,0,0,Attending,subframe_end_overrun,info,0.0,1.018,end-video_duration=0.018000000s; original untouched
+test,JBALITEK,0,1,Standing in alert,subframe_end_overrun,info,0.089,1.018,end-video_duration=0.018000000s; original untouched
+test,JLYEQDSN,0,0,Running,subframe_end_overrun,info,0.0,1.018,end-video_duration=0.018000000s; original untouched
+train,JWAKZXDO,0,0,Running,subframe_end_overrun,info,0.0,2.925,end-video_duration=0.008333333s; original untouched
+train,KAYPHRAC,0,2,Jumping,subframe_end_overrun,info,6.393,7.521,end-video_duration=0.021000000s; original untouched
+train,KOMPORAC,0,0,Walking,subframe_end_overrun,info,0.0,6.001,end-video_duration=0.001000000s; original untouched
+train,KPKIEBQT,0,0,Sensing,subframe_end_overrun,info,0.0,5.507,end-video_duration=0.007000000s; original untouched
+train,KPKIEBQT,0,3,Keeping still,subframe_end_overrun,info,3.392,5.509,end-video_duration=0.009000000s; original untouched
+train,KPKIEBQT,0,5,Jumping,subframe_end_overrun,info,5.199,5.509,end-video_duration=0.009000000s; original untouched
+train,KQVPTTCN,0,0,Tail Swishing,subframe_end_overrun,info,0.0,2.218,end-video_duration=0.009666667s; original untouched
+valid,KZBLYIQR,0,1,Retreating,subframe_end_overrun,info,2.404,3.211,end-video_duration=0.002666667s; original untouched
+train,MKBKHAEY,0,0,Playing,subframe_end_overrun,info,0.0,5.004,end-video_duration=0.004000000s; original untouched
+train,MKBKHAEY,0,1,Hugging,subframe_end_overrun,info,1.568,5.011,end-video_duration=0.011000000s; original untouched
+train,MQLOJRAC,0,0,Sensing,subframe_end_overrun,info,0.0,2.922,end-video_duration=0.005333333s; original untouched
+valid,MRFFJFKM,0,0,Attending,subframe_end_overrun,info,0.0,2.22,end-video_duration=0.011666667s; original untouched
+train,NENBWBQT,0,0,Leaning,subframe_end_overrun,info,0.0,2.505,end-video_duration=0.005000000s; original untouched
+train,NNNIZFFP,0,0,Walking,subframe_end_overrun,info,0.001,0.835,end-video_duration=0.001666667s; original untouched
+train,NUYVYXGD,0,0,Attending,subframe_end_overrun,info,0.347,1.019,end-video_duration=0.019000000s; original untouched
+train,OEMFQXDO,1,0,Walking,subframe_end_overrun,info,0.002,2.221,end-video_duration=0.012666667s; original untouched
+valid,OIFPZXGD,0,1,Eating,subframe_end_overrun,info,2.004,3.71,end-video_duration=0.001666667s; original untouched
+train,OJFSSFKM,0,0,Keeping still,subframe_end_overrun,info,1.621,2.012,end-video_duration=0.012000000s; original untouched
+train,OJFSSFKM,0,1,Standing in alert,subframe_end_overrun,info,1.621,2.012,end-video_duration=0.012000000s; original untouched
+train,OOYUYNPL,0,0,Eating,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,PCQKFXGD,0,0,Fighting,subframe_end_overrun,info,0.0,1.516,end-video_duration=0.016000000s; original untouched
+train,PCQKFXGD,0,1,Retreating,subframe_end_overrun,info,0.444,1.516,end-video_duration=0.016000000s; original untouched
+train,PIDCPXGD,0,0,Keeping still,subframe_end_overrun,info,0.002,2.717,end-video_duration=0.008666667s; original untouched
+train,PMXGWGCS,0,10,Sensing,subframe_end_overrun,info,4.154,4.917,end-video_duration=0.000333333s; original untouched
+test,PNIUQBQT,0,1,Standing,subframe_end_overrun,info,0.83,1.417,end-video_duration=0.000333333s; original untouched
+test,PUQMGXGD,0,0,Jumping,subframe_end_overrun,info,0.0,9.222,end-video_duration=0.013666667s; original untouched
+train,PUWNLBQT,0,1,Biting,subframe_end_overrun,info,0.831,2.417,end-video_duration=0.000333333s; original untouched
+train,QJOFPAMC,0,1,Walking,subframe_end_overrun,info,1.142,3.214,end-video_duration=0.005666667s; original untouched
+train,QYLTWXDO,1,0,Running,subframe_end_overrun,info,0.0,0.835,end-video_duration=0.001666667s; original untouched
+train,RCVBKUDX,0,0,Exploring,subframe_end_overrun,info,0.002,5.417,end-video_duration=0.000333333s; original untouched
+train,REMELNPL,0,0,Walking,subframe_end_overrun,info,0.0,11.024,end-video_duration=0.024000000s; original untouched
+train,REMELNPL,0,1,Sensing,subframe_end_overrun,info,0.005,11.024,end-video_duration=0.024000000s; original untouched
+train,REMELNPL,0,2,Exploring,subframe_end_overrun,info,0.009,11.024,end-video_duration=0.024000000s; original untouched
+train,REMELNPL,0,3,Manipulating Object,subframe_end_overrun,info,0.014,11.024,end-video_duration=0.024000000s; original untouched
+test,RGVUEAMC,0,0,Playing,subframe_end_overrun,info,0.024,19.018,end-video_duration=0.018000000s; original untouched
+test,RGVUEAMC,0,5,Walking,subframe_end_overrun,info,13.115,19.018,end-video_duration=0.018000000s; original untouched
+train,RGZKQBQT,0,0,Climbing,subframe_end_overrun,info,0.0,1.516,end-video_duration=0.016000000s; original untouched
+train,RXCLPRAC,0,0,Running,subframe_end_overrun,info,0.001,1.725,end-video_duration=0.016666667s; original untouched
+train,RYWKYBQT,0,3,Running,subframe_end_overrun,info,4.819,5.51,end-video_duration=0.010000000s; original untouched
+train,SGEXGZON,0,0,Eating,subframe_end_overrun,info,0.005,5.917,end-video_duration=0.000333333s; original untouched
+train,SGYRTKEW,0,0,Walking,subframe_end_overrun,info,0.001,1.516,end-video_duration=0.016000000s; original untouched
+train,SMANYVMP,0,1,Sensing,subframe_end_overrun,info,1.298,3.71,end-video_duration=0.001666667s; original untouched
+train,SMLRJXGD,0,0,Keeping still,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,SUKRHKEW,0,0,Lying Down,subframe_end_overrun,info,0.001,1.417,end-video_duration=0.000333333s; original untouched
+train,SYNTQBQT,0,0,Hanging,subframe_end_overrun,info,2.279,3.919,end-video_duration=0.002333333s; original untouched
+train,SZUYVXDO,0,0,Fighting,subframe_end_overrun,info,0.001,1.417,end-video_duration=0.000333333s; original untouched
+train,SZUYVXDO,1,0,Fighting,subframe_end_overrun,info,0.001,1.417,end-video_duration=0.000333333s; original untouched
+train,SZUYVXDO,1,1,Attacking,subframe_end_overrun,info,0.253,1.417,end-video_duration=0.000333333s; original untouched
+valid,TOYKCRAC,0,0,Walking,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+test,TTOEWXGD,0,0,Walking,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,TUBJVCNX,0,0,Sensing,subframe_end_overrun,info,0.0,5.721,end-video_duration=0.012666667s; original untouched
+train,UDXMBGCS,0,0,Walking,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,UDXMBGCS,0,1,Standing,subframe_end_overrun,info,1.184,2.012,end-video_duration=0.012000000s; original untouched
+train,UKMZPAMC,0,0,Keeping still,subframe_end_overrun,info,0.002,2.012,end-video_duration=0.012000000s; original untouched
+train,UKMZPAMC,1,1,Walking,subframe_end_overrun,info,0.269,2.012,end-video_duration=0.012000000s; original untouched
+train,UNCZLXGD,0,0,Eating,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+valid,UOGSDXGD,0,0,Jumping,subframe_end_overrun,info,0.002,2.012,end-video_duration=0.012000000s; original untouched
+test,USRNZDSN,0,0,Walking,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,USVYLTEK,0,0,Walking,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+valid,UVXXANPL,0,0,Sensing,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,VAWMAXGD,0,0,Running,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,VBAPLFFP,0,0,Climbing,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,VFIJYUDX,0,0,Walking,subframe_end_overrun,info,0.0,8.417,end-video_duration=0.000333333s; original untouched
+train,VLGUHUPH,0,0,Digging,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,VORGYMYV,0,0,Sensing,subframe_end_overrun,info,0.0,5.225,end-video_duration=0.016666667s; original untouched
+train,VOYNMNBD,0,0,Yawning,subframe_end_overrun,info,0.01,5.417,end-video_duration=0.000333333s; original untouched
+train,VVNPWTEK,0,0,Attending,subframe_end_overrun,info,0.004,0.523,end-video_duration=0.023000000s; original untouched
+valid,VYGCMXGD,0,1,Keeping still,subframe_end_overrun,info,1.251,2.008,end-video_duration=0.008000000s; original untouched
+train,WHJCPTHG,0,1,Sensing,subframe_end_overrun,info,3.278,5.016,end-video_duration=0.016000000s; original untouched
+train,WNRLYBME,0,0,Running,subframe_end_overrun,info,0.073,1.917,end-video_duration=0.000333333s; original untouched
+train,WPZRFNBD,0,0,Turning Around,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+train,WRVQOBQT,0,0,Eating,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,XVPJGDSN,0,0,Fleeing,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,XVPJGDSN,1,0,Chasing,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,YKRYKNPL,0,1,Sensing,subframe_end_overrun,info,1.456,2.012,end-video_duration=0.012000000s; original untouched
+train,YTPCVNPO,0,1,Sensing,subframe_end_overrun,info,2.002,2.508,end-video_duration=0.008000000s; original untouched
+train,ZHYWYXGD,0,1,Disturbing Another Animal,subframe_end_overrun,info,1.967,3.501,end-video_duration=0.001000000s; original untouched
+train,ZMMKTXGD,0,0,Sensing,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,ZPJLBFGA,0,0,Running,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+train,ZSXHCTEK,0,0,Eating,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+valid,ACCYTMYV,0,1,Keeping still,subframe_end_overrun,info,4.394,5.334,end-video_duration=0.000666667s; original untouched
+test,APEKUFUP,0,2,Keeping still,subframe_end_overrun,info,6.414,8.834,end-video_duration=0.000666667s; original untouched
+train,BKBVMEUL,0,1,Moving,subframe_end_overrun,info,5.282,10.417,end-video_duration=0.000333333s; original untouched
+valid,CACQIDSN,0,0,Attending,subframe_end_overrun,info,1.106,1.334,end-video_duration=0.000666667s; original untouched
+valid,CJIPSIJJ,1,0,Biting,subframe_end_overrun,info,16.583,19.917,end-video_duration=0.000333333s; original untouched
+train,DEPPHFUP,0,0,Attending,subframe_end_overrun,info,0.83,3.042,end-video_duration=0.000333333s; original untouched
+train,DKXYZTUB,0,1,Attending,subframe_end_overrun,info,0.523,0.917,end-video_duration=0.000333333s; original untouched
+valid,ELKHEJNO,0,0,Keeping still,subframe_end_overrun,info,0.0,4.209,end-video_duration=0.000666667s; original untouched
+train,EOTUYEQQ,0,0,Keeping still,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+train,HHDBWBQT,0,0,Attending,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+valid,HXSNQSOB,0,0,Moving,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,IVCODKTR,0,0,Keeping still,subframe_end_overrun,info,0.396,2.917,end-video_duration=0.000333333s; original untouched
+train,KANYTFUP,0,0,Attending,subframe_end_overrun,info,0.0,2.042,end-video_duration=0.000333333s; original untouched
+train,LVHSDRTZ,0,0,Moving,subframe_end_overrun,info,0.0,7.417,end-video_duration=0.000333333s; original untouched
+test,MCEQZZQU,0,1,Walking,subframe_end_overrun,info,5.589,13.417,end-video_duration=0.000333333s; original untouched
+train,MLKWDWMK,0,0,Moving,subframe_end_overrun,info,0.0,5.417,end-video_duration=0.000333333s; original untouched
+train,NALQPEUL,0,0,Spitting Venom,subframe_end_overrun,info,0.0,0.709,end-video_duration=0.000666667s; original untouched
+train,THZDXHXM,0,0,Moving,subframe_end_overrun,info,1.121,18.917,end-video_duration=0.000333333s; original untouched
+valid,UCFKXVOG,0,0,Rattling,subframe_end_overrun,info,0.0,13.834,end-video_duration=0.000666667s; original untouched
+test,UGYGSEUL,0,0,Keeping still,subframe_end_overrun,info,0.0,2.209,end-video_duration=0.000666667s; original untouched
+train,URWREMHZ,0,0,Keeping still,subframe_end_overrun,info,0.0,5.417,end-video_duration=0.000333333s; original untouched
+train,WHMYYMHZ,0,0,Moving,subframe_end_overrun,info,0.213,7.917,end-video_duration=0.000333333s; original untouched
+test,WMNDXHGA,0,0,Keeping still,subframe_end_overrun,info,0.0,8.917,end-video_duration=0.000333333s; original untouched
+test,AQNVCEDF,0,0,Swimming,subframe_end_overrun,info,0.0,3.209,end-video_duration=0.000666667s; original untouched
+train,BQAQHFUP,0,0,Swaying,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,CCWXNZDI,0,0,Walking,subframe_end_overrun,info,0.0,22.917,end-video_duration=0.000333333s; original untouched
+train,CMQZLFUP,0,0,Sensing,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+train,CVERTUXS,0,0,Keeping still,subframe_end_overrun,info,0.0,10.417,end-video_duration=0.000333333s; original untouched
+train,EDGIBSOB,0,0,Keeping still,subframe_end_overrun,info,0.0,9.834,end-video_duration=0.000666667s; original untouched
+train,FCEYQDFS,0,0,Moving,subframe_end_overrun,info,0.0,13.834,end-video_duration=0.000666667s; original untouched
+valid,FCGYJVMW,0,1,Keeping still,subframe_end_overrun,info,0.0,7.917,end-video_duration=0.000333333s; original untouched
+train,FHJVMTEK,0,0,Eating,subframe_end_overrun,info,0.0,1.334,end-video_duration=0.000666667s; original untouched
+train,FNXBDMHZ,0,0,Competing For Dominance,subframe_end_overrun,info,0.0,11.417,end-video_duration=0.000333333s; original untouched
+train,GJLRHVMW,0,1,Moving,subframe_end_overrun,info,2.0,6.834,end-video_duration=0.000666667s; original untouched
+valid,HHUNIMYV,0,1,Keeping still,subframe_end_overrun,info,1.708,8.917,end-video_duration=0.000333333s; original untouched
+train,HZPCAFYS,0,0,Swimming,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,INRBYSOB,0,0,Keeping still,subframe_end_overrun,info,0.0,9.417,end-video_duration=0.000333333s; original untouched
+test,IRFBPMHZ,0,0,Sensing,subframe_end_overrun,info,0.0,8.417,end-video_duration=0.000333333s; original untouched
+test,IRFBPMHZ,0,1,Keeping still,subframe_end_overrun,info,0.0,8.417,end-video_duration=0.000333333s; original untouched
+train,KGSWBRTZ,0,0,Attending,subframe_end_overrun,info,0.083,1.917,end-video_duration=0.000333333s; original untouched
+valid,KUSKOKBS,0,0,Running,subframe_end_overrun,info,0.0,4.209,end-video_duration=0.000666667s; original untouched
+train,LLVDSKTR,0,0,Rattling,subframe_end_overrun,info,0.0,4.209,end-video_duration=0.000666667s; original untouched
+test,LVBAVEUL,0,0,Keeping still,subframe_end_overrun,info,0.0,7.834,end-video_duration=0.000666667s; original untouched
+train,MYQVURME,0,0,Moving,subframe_end_overrun,info,0.0,16.417,end-video_duration=0.000333333s; original untouched
+train,NQNYAHXM,0,0,Moving,subframe_end_overrun,info,0.0,12.417,end-video_duration=0.000333333s; original untouched
+test,OBFSVSOB,0,0,Keeping still,subframe_end_overrun,info,0.0,15.917,end-video_duration=0.000333333s; original untouched
+train,OUCJWOIM,0,0,Moving,subframe_end_overrun,info,1.25,10.417,end-video_duration=0.000333333s; original untouched
+test,OUJEBFFP,0,0,Swimming,subframe_end_overrun,info,0.0,11.917,end-video_duration=0.000333333s; original untouched
+train,PBYWMKEW,0,0,Keeping still,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+train,QDDNLKRF,0,0,Keeping still,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,QFYQYWMK,0,0,Keeping still,subframe_end_overrun,info,3.833,11.334,end-video_duration=0.000666667s; original untouched
+train,RBNPEEUL,0,0,Keeping still,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+valid,RHOMGBQT,0,0,Attending,subframe_end_overrun,info,0.0,2.709,end-video_duration=0.000666667s; original untouched
+train,RXSWMHVR,0,0,Moving,subframe_end_overrun,info,0.0,7.917,end-video_duration=0.000333333s; original untouched
+train,RZKXJRTZ,0,0,Keeping still,subframe_end_overrun,info,0.0,6.417,end-video_duration=0.000333333s; original untouched
+train,SYLEHSOB,0,0,Keeping still,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+valid,TJVFGSOB,0,0,Moving,subframe_end_overrun,info,0.0,6.417,end-video_duration=0.000333333s; original untouched
+train,UETLBFUP,0,0,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+valid,UIQXHLDC,0,0,Moving,subframe_end_overrun,info,1.5,5.834,end-video_duration=0.000666667s; original untouched
+train,WQCDNOXJ,0,0,Sitting,subframe_end_overrun,info,0.0,3.334,end-video_duration=0.000666667s; original untouched
+test,XCNSXLDC,0,1,Keeping still,subframe_end_overrun,info,6.5,9.917,end-video_duration=0.000333333s; original untouched
+train,XRTVVLDC,0,0,Moving,subframe_end_overrun,info,0.0,7.917,end-video_duration=0.000333333s; original untouched
+train,YQECKKWA,0,0,Moving,subframe_end_overrun,info,0.0,5.834,end-video_duration=0.000666667s; original untouched
+train,ZPZGUFYY,0,0,Eating,subframe_end_overrun,info,0.0,2.334,end-video_duration=0.000666667s; original untouched
+test,ALMFBBQT,0,0,Being Eaten,subframe_end_overrun,info,0.002,0.917,end-video_duration=0.000333333s; original untouched
+train,AYVALSOB,0,0,Moving,subframe_end_overrun,info,0.005,14.42,end-video_duration=0.003333333s; original untouched
+test,BCDZSMYV,0,0,Moving,subframe_end_overrun,info,0.002,7.419,end-video_duration=0.002333333s; original untouched
+train,BGJFWRGE,0,0,Swimming,subframe_end_overrun,info,0.021,4.023,end-video_duration=0.023000000s; original untouched
+train,BJZHDVOG,0,0,Moving,subframe_end_overrun,info,0.044,10.711,end-video_duration=0.002666667s; original untouched
+train,BXJAVDEV,0,0,Climbing,subframe_end_overrun,info,1.274,2.001,end-video_duration=0.001000000s; original untouched
+train,CDKOCEUL,0,2,Keeping still,subframe_end_overrun,info,2.011,2.717,end-video_duration=0.008666667s; original untouched
+valid,CGZYHZQU,0,0,Walking,subframe_end_overrun,info,3.219,15.021,end-video_duration=0.021000000s; original untouched
+train,CHQDOEUL,0,1,Sensing,subframe_end_overrun,info,3.052,5.721,end-video_duration=0.012666667s; original untouched
+train,COZOQXGD,0,1,Biting,subframe_end_overrun,info,0.513,1.725,end-video_duration=0.016666667s; original untouched
+valid,CRUBWMYV,0,0,Keeping still,subframe_end_overrun,info,0.015,6.714,end-video_duration=0.005666667s; original untouched
+train,DGOILOIM,0,0,Moving,subframe_end_overrun,info,0.009,9.417,end-video_duration=0.000333333s; original untouched
+train,DKVFJQFB,0,0,Keeping still,subframe_end_overrun,info,0.001,2.926,end-video_duration=0.009333333s; original untouched
+train,DKYFCVMW,0,2,Keeping still,subframe_end_overrun,info,6.507,8.02,end-video_duration=0.020000000s; original untouched
+train,EDCTAFNJ,0,0,Diving,subframe_end_overrun,info,0.001,0.339,end-video_duration=0.005666667s; original untouched
+train,EPMOZDFS,0,0,Moving,subframe_end_overrun,info,0.022,6.417,end-video_duration=0.000333333s; original untouched
+valid,EWGTULKY,0,0,Sensing,subframe_end_overrun,info,0.177,0.518,end-video_duration=0.018000000s; original untouched
+train,EXUTSSOB,0,0,Keeping still,subframe_end_overrun,info,0.388,4.417,end-video_duration=0.000333333s; original untouched
+train,FOMULLDC,0,0,Moving,subframe_end_overrun,info,0.003,8.02,end-video_duration=0.020000000s; original untouched
+valid,GVXPJHXM,0,3,Moving,subframe_end_overrun,info,1.626,5.016,end-video_duration=0.016000000s; original untouched
+train,HMUCQHVR,0,1,Biting,subframe_end_overrun,info,1.678,5.721,end-video_duration=0.012666667s; original untouched
+train,HNAFWVMW,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,IQURSCPZ,0,1,Walking,subframe_end_overrun,info,0.159,4.52,end-video_duration=0.020000000s; original untouched
+train,IXVIOVMW,0,0,Keeping still,subframe_end_overrun,info,0.0,3.71,end-video_duration=0.001666667s; original untouched
+train,JFQDVMHZ,0,1,Biting,subframe_end_overrun,info,0.0,21.421,end-video_duration=0.004333333s; original untouched
+train,JFQDVMHZ,0,3,Sensing,subframe_end_overrun,info,14.477,21.421,end-video_duration=0.004333333s; original untouched
+train,JOSMYMYV,0,0,Keeping still,subframe_end_overrun,info,0.0,7.419,end-video_duration=0.002333333s; original untouched
+train,JRDHYADM,0,0,Disturbing Another Animal,subframe_end_overrun,info,0.0,10.92,end-video_duration=0.003333333s; original untouched
+train,JRDHYADM,0,1,Moving,subframe_end_overrun,info,7.183,10.92,end-video_duration=0.003333333s; original untouched
+test,JVLPCMYV,0,0,Keeping still,subframe_end_overrun,info,0.0,6.714,end-video_duration=0.005666667s; original untouched
+test,JXZGTOIM,0,1,Sensing,subframe_end_overrun,info,0.651,1.725,end-video_duration=0.016666667s; original untouched
+train,JYQLMFFP,0,0,Walking,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+test,KAZJOMHZ,0,1,Sensing,subframe_end_overrun,info,2.294,4.023,end-video_duration=0.023000000s; original untouched
+train,KFVLPHVR,0,0,Biting,subframe_end_overrun,info,0.0,7.21,end-video_duration=0.001666667s; original untouched
+train,KFVLPHVR,1,0,Being Eaten,subframe_end_overrun,info,0.0,7.21,end-video_duration=0.001666667s; original untouched
+train,KKBQZEUL,0,2,Keeping still,subframe_end_overrun,info,1.38,2.926,end-video_duration=0.009333333s; original untouched
+train,KYFASFUP,0,1,Attending,subframe_end_overrun,info,2.892,3.71,end-video_duration=0.001666667s; original untouched
+train,KZEURUXS,0,0,Sensing,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,LKUSSHXM,0,0,Moving,subframe_end_overrun,info,0.0,15.021,end-video_duration=0.021000000s; original untouched
+train,LYJCKFUP,0,3,Attending,subframe_end_overrun,info,13.975,17.712,end-video_duration=0.003666667s; original untouched
+valid,QOWXBGQD,0,0,Moving,subframe_end_overrun,info,0.004,2.917,end-video_duration=0.000333333s; original untouched
+train,RSWCOKWA,0,0,Climbing,subframe_end_overrun,info,0.001,0.417,end-video_duration=0.000333333s; original untouched
+test,SYHFNEQQ,0,1,Keeping still,subframe_end_overrun,info,1.065,1.917,end-video_duration=0.000333333s; original untouched
+train,UGAZCEQQ,0,0,Hanging,subframe_end_overrun,info,0.553,2.22,end-video_duration=0.011666667s; original untouched
+train,UMSKAWTR,0,2,Keeping still,subframe_end_overrun,info,3.784,5.512,end-video_duration=0.012000000s; original untouched
+train,UUNUMFFP,0,0,Walking,subframe_end_overrun,info,0.0,3.21,end-video_duration=0.001666667s; original untouched
+train,UUQBUEUL,0,1,Sensing,subframe_end_overrun,info,4.192,7.917,end-video_duration=0.000333333s; original untouched
+train,WAKTPZON,0,0,Moving,subframe_end_overrun,info,0.0,4.512,end-video_duration=0.012000000s; original untouched
+test,WNTCQHGA,0,0,Moving,subframe_end_overrun,info,0.004,8.719,end-video_duration=0.010666667s; original untouched
+train,YBVLLMHZ,0,0,Dead,subframe_end_overrun,info,0.0,13.924,end-video_duration=0.007333333s; original untouched
+train,YQDZVSOB,0,1,Keeping still,subframe_end_overrun,info,3.917,9.509,end-video_duration=0.009000000s; original untouched
+train,YSTDZTHG,0,3,Walking,subframe_end_overrun,info,10.872,13.506,end-video_duration=0.006000000s; original untouched
+test,YTQDJRME,0,0,Moving,subframe_end_overrun,info,1.443,5.225,end-video_duration=0.016666667s; original untouched
+test,ZGXQVEUL,0,2,Sensing,subframe_end_overrun,info,3.579,5.51,end-video_duration=0.010000000s; original untouched
+train,ZJUWRWMK,0,7,Sensing,subframe_end_overrun,info,6.692,8.517,end-video_duration=0.017000000s; original untouched
+valid,AFEGAIQQ,0,0,Moving,subframe_end_overrun,info,0.0,5.417,end-video_duration=0.000333333s; original untouched
+train,ANARKHIS,0,0,Moving,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,ANARKHIS,1,0,Moving,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,APAHPMZL,0,0,Keeping still,subframe_end_overrun,info,0.0,3.334,end-video_duration=0.000666667s; original untouched
+train,APHIPXTD,0,0,Keeping still,subframe_end_overrun,info,0.0,3.834,end-video_duration=0.000666667s; original untouched
+train,APRODHEB,0,0,Attending,subframe_end_overrun,info,0.0,2.709,end-video_duration=0.000666667s; original untouched
+test,ATIDIFFP,0,0,Swimming,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,AVOCWHEB,0,0,Keeping still,subframe_end_overrun,info,0.0,7.834,end-video_duration=0.000666667s; original untouched
+train,AZEAVOOZ,0,0,Moving,subframe_end_overrun,info,0.338,0.709,end-video_duration=0.000666667s; original untouched
+test,BATMCQDT,0,0,Moving,subframe_end_overrun,info,0.0,3.709,end-video_duration=0.000666667s; original untouched
+test,BMUTEAFG,0,0,Keeping still,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,BODPJCDA,0,0,Moving,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,BSIQIHCQ,0,6,Shaking,subframe_end_overrun,info,3.652,4.334,end-video_duration=0.000666667s; original untouched
+train,BZESLRLL,0,0,Moving,subframe_end_overrun,info,0.076,1.334,end-video_duration=0.000666667s; original untouched
+train,BZTIFYSZ,0,2,Moving,subframe_end_overrun,info,1.218,1.417,end-video_duration=0.000333333s; original untouched
+train,BZTIFYSZ,0,3,Sensing,subframe_end_overrun,info,1.219,1.417,end-video_duration=0.000333333s; original untouched
+train,CMRDVTLI,1,0,Drifting,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,CYCQSCEI,0,0,Biting,subframe_end_overrun,info,1.115,1.417,end-video_duration=0.000333333s; original untouched
+train,DGSZKACP,0,0,Moving,subframe_end_overrun,info,0.474,2.709,end-video_duration=0.000666667s; original untouched
+test,DLWAKFAU,1,0,Biting,subframe_end_overrun,info,0.0,6.834,end-video_duration=0.000666667s; original untouched
+train,DQJJLOOZ,0,0,Building nest,subframe_end_overrun,info,0.0,7.834,end-video_duration=0.000666667s; original untouched
+train,DQJJLOOZ,1,0,Keeping still,subframe_end_overrun,info,0.0,7.834,end-video_duration=0.000666667s; original untouched
+test,DTRGWKJZ,0,0,Moving,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+test,DTRGWKJZ,0,1,Keeping still,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+train,DXGMSXXP,1,0,Being Eaten,subframe_end_overrun,info,0.286,1.709,end-video_duration=0.000666667s; original untouched
+test,EAUOGOIP,0,0,Flying,subframe_end_overrun,info,0.0,2.834,end-video_duration=0.000666667s; original untouched
+test,EDGIHGJU,0,0,Digging,subframe_end_overrun,info,0.0,4.04,end-video_duration=0.040000000s; original untouched
+train,EJQNKCIW,0,0,Jumping,subframe_end_overrun,info,0.107,0.209,end-video_duration=0.000666667s; original untouched
+test,ERJBYBQT,0,0,Biting,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+test,ERJBYBQT,0,1,Moving,subframe_end_overrun,info,0.388,1.917,end-video_duration=0.000333333s; original untouched
+train,ETLUGBQT,0,0,Keeping still,subframe_end_overrun,info,0.0,0.834,end-video_duration=0.000666667s; original untouched
+valid,EWJGIVRU,0,0,Grooming,subframe_end_overrun,info,4.126,6.709,end-video_duration=0.000666667s; original untouched
+train,EZIARHIS,0,0,Moving,subframe_end_overrun,info,0.0,4.209,end-video_duration=0.000666667s; original untouched
+train,EZIARHIS,1,0,Exploring,subframe_end_overrun,info,0.0,4.209,end-video_duration=0.000666667s; original untouched
+test,FAVBEUNV,0,0,Keeping still,subframe_end_overrun,info,0.0,5.209,end-video_duration=0.000666667s; original untouched
+train,FEVGSACP,0,0,Keeping still,subframe_end_overrun,info,0.0,3.709,end-video_duration=0.000666667s; original untouched
+train,FITQSQDT,0,0,Sensing,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,FRIETCJH,0,1,Sensing,subframe_end_overrun,info,0.0,15.834,end-video_duration=0.000666667s; original untouched
+train,FRIETCJH,0,2,Keeping still,subframe_end_overrun,info,0.0,15.834,end-video_duration=0.000666667s; original untouched
+train,FRIETCJH,0,3,Being Carried In Mouth,subframe_end_overrun,info,9.856,15.834,end-video_duration=0.000666667s; original untouched
+train,FRIETCJH,1,1,Carrying In Mouth,subframe_end_overrun,info,9.84,15.834,end-video_duration=0.000666667s; original untouched
+train,FRIETCJH,1,2,Being Carried In Mouth,subframe_end_overrun,info,9.852,15.834,end-video_duration=0.000666667s; original untouched
+train,FRIETCJH,2,1,Sensing,subframe_end_overrun,info,0.0,15.834,end-video_duration=0.000666667s; original untouched
+valid,FSOHCFGA,0,0,Flying,subframe_end_overrun,info,0.0,1.209,end-video_duration=0.000666667s; original untouched
+valid,FSOHCFGA,0,1,Disturbing Another Animal,subframe_end_overrun,info,0.677,1.209,end-video_duration=0.000666667s; original untouched
+valid,GCUXNXDB,0,1,Landing,subframe_end_overrun,info,3.631,5.209,end-video_duration=0.000666667s; original untouched
+train,HCTTCVRM,0,0,Jumping,subframe_end_overrun,info,0.778,1.834,end-video_duration=0.000666667s; original untouched
+train,HWNLYUBE,0,0,Exploring,subframe_end_overrun,info,0.0,1.709,end-video_duration=0.000666667s; original untouched
+valid,IRNTQBCH,0,0,Exploring,subframe_end_overrun,info,0.125,4.417,end-video_duration=0.000333333s; original untouched
+train,IUFOLVRU,0,0,Eating,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,IUQHUDHC,0,0,Moving,subframe_end_overrun,info,0.0,3.334,end-video_duration=0.000666667s; original untouched
+train,IUQHUDHC,1,0,Keeping still,subframe_end_overrun,info,0.0,3.334,end-video_duration=0.000666667s; original untouched
+valid,IVXJNJYD,0,0,Keeping still,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+valid,JADUPMZL,0,0,Keeping still,subframe_end_overrun,info,0.0,3.709,end-video_duration=0.000666667s; original untouched
+train,JEGWVVRU,0,0,Grooming,subframe_end_overrun,info,0.0,9.834,end-video_duration=0.000666667s; original untouched
+train,JIPICYMI,0,0,Keeping still,subframe_end_overrun,info,0.0,3.709,end-video_duration=0.000666667s; original untouched
+train,JNDKFSVW,0,0,Sensing,subframe_end_overrun,info,0.302,18.209,end-video_duration=0.000666667s; original untouched
+train,JNDKFSVW,0,2,Moving,subframe_end_overrun,info,12.179,18.209,end-video_duration=0.000666667s; original untouched
+train,JRPBLUNV,0,0,Keeping still,subframe_end_overrun,info,0.0,5.834,end-video_duration=0.000666667s; original untouched
+train,LSPZAOYV,1,0,Eating,subframe_end_overrun,info,0.0,2.917,end-video_duration=0.000333333s; original untouched
+train,LSPZAOYV,1,1,Moving,subframe_end_overrun,info,1.093,2.917,end-video_duration=0.000333333s; original untouched
+train,MMALQBGU,0,0,Flying,subframe_end_overrun,info,0.0,0.709,end-video_duration=0.000666667s; original untouched
+train,MOZJUVJP,0,0,Moving,subframe_end_overrun,info,0.0,10.417,end-video_duration=0.000333333s; original untouched
+train,MWOEFAHW,0,0,Grooming,subframe_end_overrun,info,0.0,0.209,end-video_duration=0.000666667s; original untouched
+train,NANATBGU,0,0,Flying,subframe_end_overrun,info,0.808,4.417,end-video_duration=0.000333333s; original untouched
+train,NUYWUPZC,0,0,Being Eaten,subframe_end_overrun,info,0.0,6.009,end-video_duration=0.009000000s; original untouched
+train,NUYWUPZC,0,3,Eating,subframe_end_overrun,info,2.845,6.009,end-video_duration=0.009000000s; original untouched
+train,OELEFDUC,0,0,Moving,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,OOVFMVRU,1,0,Moving,subframe_end_overrun,info,0.119,1.019,end-video_duration=0.019000000s; original untouched
+train,OWLVIMCV,0,0,Moving,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,PCEATCEI,0,3,Keeping still,subframe_end_overrun,info,2.4,2.508,end-video_duration=0.008000000s; original untouched
+train,PEKDFYUQ,0,4,Moving,subframe_end_overrun,info,3.062,3.501,end-video_duration=0.001000000s; original untouched
+valid,PHKOQNMW,0,2,Keeping still,subframe_end_overrun,info,1.194,3.423,end-video_duration=0.006333333s; original untouched
+test,PJLMLBGU,0,3,Eating,subframe_end_overrun,info,5.318,6.505,end-video_duration=0.005000000s; original untouched
+train,PNTSWQDT,0,0,Moving,subframe_end_overrun,info,0.113,2.717,end-video_duration=0.008666667s; original untouched
+train,POZVEHIS,0,0,Moving,subframe_end_overrun,info,0.16,1.725,end-video_duration=0.016666667s; original untouched
+train,POZVEHIS,0,1,Carrying In Mouth,subframe_end_overrun,info,0.275,1.725,end-video_duration=0.016666667s; original untouched
+train,QJHWOPNE,0,0,Attending,subframe_end_overrun,info,0.816,2.926,end-video_duration=0.009333333s; original untouched
+train,QUUFKOOZ,0,1,Moving,subframe_end_overrun,info,2.404,3.214,end-video_duration=0.005666667s; original untouched
+train,RHEFOVYK,0,0,Keeping still,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+test,RJRYCANS,0,1,Keeping still,subframe_end_overrun,info,2.435,3.214,end-video_duration=0.005666667s; original untouched
+train,RNVVOCJH,0,2,Moving,subframe_end_overrun,info,3.357,4.023,end-video_duration=0.023000000s; original untouched
+train,SKXZJFAG,0,0,Keeping still,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,SNZGESVW,0,0,Flying,subframe_end_overrun,info,1.546,4.023,end-video_duration=0.023000000s; original untouched
+train,TSTAKQDT,0,0,Sensing,subframe_end_overrun,info,0.0,17.215,end-video_duration=0.006666667s; original untouched
+valid,UVOTMOOZ,0,0,Moving,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+valid,VCGSXXER,0,0,Moving,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,VJQRAMGJ,0,0,Keeping still,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,VJQRAMGJ,0,1,Attending,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,VJQRAMGJ,0,2,Grooming,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,VJQRAMGJ,0,3,Sensing,subframe_end_overrun,info,0.0,2.727,end-video_duration=0.018666667s; original untouched
+valid,VVQLEXTD,0,0,Grooming,subframe_end_overrun,info,1.095,3.214,end-video_duration=0.005666667s; original untouched
+valid,VZBGCOOZ,0,1,Struggling,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+valid,VZBGCOOZ,1,0,Moving,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,WBDJNYMI,0,0,Eating,subframe_end_overrun,info,4.381,12.722,end-video_duration=0.013666667s; original untouched
+train,WDYJZFAU,0,0,Exiting Nest,subframe_end_overrun,info,1.813,2.854,end-video_duration=0.020666667s; original untouched
+valid,WKMOXMZL,0,2,Flapping,subframe_end_overrun,info,4.02,5.016,end-video_duration=0.016000000s; original untouched
+train,WOOGJZGK,0,1,Moving,subframe_end_overrun,info,1.829,3.863,end-video_duration=0.029666667s; original untouched
+train,WVFKECEI,0,0,Fighting,subframe_end_overrun,info,0.0,0.21,end-video_duration=0.001666667s; original untouched
+valid,XALJCRAM,0,1,Keeping still,subframe_end_overrun,info,1.781,8.02,end-video_duration=0.020000000s; original untouched
+train,XCSMLBLQ,0,0,Moving,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,XTXNUYUQ,0,0,Moving,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,XTXNUYUQ,1,0,Moving,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+valid,XWUKRBQT,0,0,Jumping,subframe_end_overrun,info,0.705,0.917,end-video_duration=0.000333333s; original untouched
+train,XYZPQOIP,0,0,Flying,subframe_end_overrun,info,0.0,6.714,end-video_duration=0.005666667s; original untouched
+train,XZQZKYSZ,0,0,Fighting,subframe_end_overrun,info,0.0,9.417,end-video_duration=0.000333333s; original untouched
+test,YEUTSCJH,0,0,Moving,subframe_end_overrun,info,0.655,1.019,end-video_duration=0.019000000s; original untouched
+test,YEUTSCJH,1,0,Keeping still,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+test,YUHDXYUQ,0,0,Exploring,subframe_end_overrun,info,0.896,2.508,end-video_duration=0.008000000s; original untouched
+train,YUNTGOOZ,0,0,Building nest,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+train,YUPVLCIN,0,0,Flying,subframe_end_overrun,info,0.644,3.501,end-video_duration=0.001000000s; original untouched
+train,YZDDRKJZ,0,0,Digging,subframe_end_overrun,info,0.0,11.024,end-video_duration=0.024000000s; original untouched
+train,ZFHWOBGU,0,0,Eating,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+train,ZFHWOBGU,0,1,Flying,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+valid,ZJFCVXDB,0,0,Flying,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,ZKMYPZGK,0,0,Moving,subframe_end_overrun,info,0.0,6.923,end-video_duration=0.006333333s; original untouched
+train,ACJGHCDA,0,0,Attending,subframe_end_overrun,info,0.483,2.221,end-video_duration=0.012666667s; original untouched
+train,AJTCMDFC,0,0,Lying On Top,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,AJTCMDFC,0,2,Sensing,subframe_end_overrun,info,2.729,3.501,end-video_duration=0.001000000s; original untouched
+valid,AUWWTVTT,0,0,Eating,subframe_end_overrun,info,0.0,17.042,end-video_duration=0.000333333s; original untouched
+valid,AUWWTVTT,0,1,Moving,subframe_end_overrun,info,0.0,17.042,end-video_duration=0.000333333s; original untouched
+valid,AUWWTVTT,0,2,Keeping still,subframe_end_overrun,info,0.0,17.042,end-video_duration=0.000333333s; original untouched
+train,AYFKZOYV,0,2,Moving,subframe_end_overrun,info,3.029,3.919,end-video_duration=0.002333333s; original untouched
+valid,BALJQFFP,0,1,Keeping still,subframe_end_overrun,info,2.775,3.501,end-video_duration=0.001000000s; original untouched
+train,BPSVPWPM,0,0,Exploring,subframe_end_overrun,info,0.0,13.417,end-video_duration=0.000333333s; original untouched
+train,BRLAUOIP,0,0,Being Eaten,subframe_end_overrun,info,0.0,10.92,end-video_duration=0.003333333s; original untouched
+train,BRLAUOIP,1,0,Eating,subframe_end_overrun,info,4.139,10.92,end-video_duration=0.003333333s; original untouched
+train,BZMCOQDT,0,0,Sensing,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,CDPXJZGK,0,0,Moving,subframe_end_overrun,info,0.455,4.52,end-video_duration=0.020000000s; original untouched
+train,CLZLJTLI,0,2,Moving,no_frame_timestamp_inside_interval,review,1.17,1.208,No original frame k/fps satisfies start<=t<end; no artificial frames added
+train,CQQMLGQD,0,0,Moving,subframe_end_overrun,info,0.0,2.218,end-video_duration=0.009666667s; original untouched
+train,DJCWVBQT,0,1,Moving,subframe_end_overrun,info,1.407,6.417,end-video_duration=0.000333333s; original untouched
+train,DQKVTAFG,0,0,Keeping still,subframe_end_overrun,info,0.001,1.516,end-video_duration=0.016000000s; original untouched
+train,EOUTDFJY,0,0,Eating,subframe_end_overrun,info,0.0,4.023,end-video_duration=0.023000000s; original untouched
+train,ETDTDYUQ,1,1,Sensing,subframe_end_overrun,info,1.981,3.423,end-video_duration=0.006333333s; original untouched
+valid,EXEMKUBE,0,0,Fighting,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,EYLMWATH,0,1,Turning Around,subframe_end_overrun,info,0.921,1.725,end-video_duration=0.016666667s; original untouched
+train,FKFNRKBS,0,0,Moving,subframe_end_overrun,info,0.315,2.012,end-video_duration=0.012000000s; original untouched
+train,FPKEVJYD,1,0,Attacking,subframe_end_overrun,info,0.479,1.019,end-video_duration=0.019000000s; original untouched
+valid,FTTWKATH,0,0,Keeping still,subframe_end_overrun,info,1.399,3.005,end-video_duration=0.005000000s; original untouched
+test,FWEUNBGU,0,0,Moving,subframe_end_overrun,info,0.0,7.21,end-video_duration=0.001666667s; original untouched
+train,GFEMBOIP,0,0,Flying,subframe_end_overrun,info,0.0,0.419,end-video_duration=0.002333333s; original untouched
+train,GGWVBRJS,0,0,Laying Eggs,subframe_end_overrun,info,1.764,5.417,end-video_duration=0.000333333s; original untouched
+train,GOGUEBRS,0,0,Moving,subframe_end_overrun,info,0.0,2.01,end-video_duration=0.010000000s; original untouched
+train,GVZMQXER,0,0,Moving,subframe_end_overrun,info,0.0,2.212,end-video_duration=0.003666667s; original untouched
+test,GZDOJUBE,0,0,Keeping still,subframe_end_overrun,info,0.002,2.221,end-video_duration=0.012666667s; original untouched
+train,HCTIHOOZ,0,0,Moving,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,HGSRODUC,0,0,Moving,subframe_end_overrun,info,0.0,3.423,end-video_duration=0.006333333s; original untouched
+train,HMQPOFJY,0,0,Eating,subframe_end_overrun,info,0.747,4.023,end-video_duration=0.023000000s; original untouched
+train,HRMTOHCQ,0,1,Lying On Top,subframe_end_overrun,info,0.0,2.011,end-video_duration=0.011000000s; original untouched
+test,HSHHOHPH,1,0,Flying,subframe_end_overrun,info,0.079,1.917,end-video_duration=0.000333333s; original untouched
+test,IHIOYHEB,0,0,Eating,subframe_end_overrun,info,0.0,6.218,end-video_duration=0.009666667s; original untouched
+train,IJFACLKI,0,0,Sensing,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,ILBEABQT,0,0,Keeping still,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,IMLDTCDA,0,1,Attending,subframe_end_overrun,info,2.088,5.225,end-video_duration=0.016666667s; original untouched
+train,IMLDTCDA,1,0,Keeping still,subframe_end_overrun,info,0.009,5.225,end-video_duration=0.016666667s; original untouched
+train,JKWTYRAM,0,1,Fighting,subframe_end_overrun,info,2.345,3.501,end-video_duration=0.001000000s; original untouched
+train,JTUETOIP,0,0,Moving,subframe_end_overrun,info,0.0,6.009,end-video_duration=0.009000000s; original untouched
+train,KEJLNHCQ,0,1,Moving,subframe_end_overrun,info,0.706,3.919,end-video_duration=0.002333333s; original untouched
+train,KWNSDJYD,0,0,Keeping still,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+valid,KXHZURFO,0,0,Moving,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,LGTEJAHW,0,0,Grooming,subframe_end_overrun,info,0.0,10.214,end-video_duration=0.005666667s; original untouched
+train,LNXPMHPH,0,0,Flying,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+train,LUJNWBGU,0,0,Flying,subframe_end_overrun,info,0.259,1.917,end-video_duration=0.000333333s; original untouched
+train,MBPRMCEI,0,0,Retaliating,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,MBPRMCEI,0,1,Being Dragged,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,MCKEZFPE,0,0,Keeping still,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,MEUGBNJC,0,0,Moving,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,MEUGBNJC,0,1,Keeping still,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,MIPBJHEB,1,1,Keeping still,subframe_end_overrun,info,4.875,5.917,end-video_duration=0.000333333s; original untouched
+train,MWVCNYMI,0,0,Attending,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+valid,NDGKWMZL,0,0,Eating,subframe_end_overrun,info,1.001,4.018,end-video_duration=0.018000000s; original untouched
+train,NEPCDRLL,0,0,Moving,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,NZJDSMZL,0,0,Flying,subframe_end_overrun,info,0.812,1.516,end-video_duration=0.016000000s; original untouched
+train,OSTRRAFG,0,0,Keeping still,subframe_end_overrun,info,0.0,6.417,end-video_duration=0.000333333s; original untouched
+train,OVQDURYK,0,0,Eating,subframe_end_overrun,info,0.0,5.512,end-video_duration=0.012000000s; original untouched
+train,OVTBGCEI,0,0,Sensing,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,OVTBGCEI,0,1,Disturbing Another Animal,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+valid,PBMKYAHK,0,0,Moving,subframe_end_overrun,info,0.0,3.209,end-video_duration=0.000666667s; original untouched
+train,QRYIWJYD,0,0,Sensing,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,QRYIWJYD,0,1,Moving,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,QZIZVXEC,0,0,Keeping still,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,RAIAAFFP,0,0,Eating,subframe_end_overrun,info,0.232,1.725,end-video_duration=0.016666667s; original untouched
+train,RPBPHSVW,0,0,Keeping still,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,SGAYAXTD,0,1,Moving,subframe_end_overrun,info,1.09,2.012,end-video_duration=0.012000000s; original untouched
+train,SSMIQBGU,0,1,Flying,subframe_end_overrun,info,1.485,5.225,end-video_duration=0.016666667s; original untouched
+train,TEKABQJN,0,0,Moving,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+train,TEKABQJN,0,1,Hopping,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+train,TEKABQJN,0,2,Jumping,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+valid,TFABZHIS,0,0,Moving,subframe_end_overrun,info,0.0,1.709,end-video_duration=0.000666667s; original untouched
+valid,TFABZHIS,0,1,Sensing,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,TIUBRVJP,0,0,Moving,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,TIVVLYUQ,0,0,Moving,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,TIVVLYUQ,1,0,Moving,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,TMQPZZGK,0,0,Moving,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,UJLTWYMI,0,0,Keeping still,subframe_end_overrun,info,0.0,4.023,end-video_duration=0.023000000s; original untouched
+train,UJLTWYMI,1,0,Moving,subframe_end_overrun,info,0.0,4.023,end-video_duration=0.023000000s; original untouched
+valid,UNUTDBQT,0,0,Eating,subframe_end_overrun,info,1.992,2.926,end-video_duration=0.009333333s; original untouched
+valid,UNUTDBQT,1,0,Being Eaten,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,UVEMGFFP,0,0,Moving,subframe_end_overrun,info,0.002,3.005,end-video_duration=0.005000000s; original untouched
+test,VGIYYFPE,0,0,Keeping still,subframe_end_overrun,info,0.014,3.501,end-video_duration=0.001000000s; original untouched
+test,VIFKJXEC,0,2,Sensing,subframe_end_overrun,info,12.193,16.014,end-video_duration=0.014000000s; original untouched
+valid,VPVIXAHW,0,1,Sensing,subframe_end_overrun,info,0.801,3.214,end-video_duration=0.005666667s; original untouched
+train,VVNGTYSZ,0,1,Grooming,subframe_end_overrun,info,0.793,3.919,end-video_duration=0.002333333s; original untouched
+train,VVXCGBBY,0,0,Sensing,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,VVXCGBBY,0,1,Attacking,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,VVXCGBBY,0,2,Moving,subframe_end_overrun,info,0.0,2.012,end-video_duration=0.012000000s; original untouched
+train,VYMAOCEI,0,0,Eating,subframe_end_overrun,info,0.0,3.71,end-video_duration=0.001666667s; original untouched
+train,VYMAOCEI,1,0,Struggling,subframe_end_overrun,info,0.0,3.71,end-video_duration=0.001666667s; original untouched
+train,WBEPFBQT,0,0,Moving,subframe_end_overrun,info,0.766,1.725,end-video_duration=0.016666667s; original untouched
+train,WIXTCOXJ,0,0,Sensing,subframe_end_overrun,info,0.002,1.917,end-video_duration=0.000333333s; original untouched
+train,WLVQTVYK,0,0,Moving,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,WSPRUJYD,0,0,Biting,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,WSPRUJYD,1,0,Struggling,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,WULZTFJY,0,0,Eating,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+valid,WUYVYAHK,0,0,Dead,subframe_end_overrun,info,0.0,6.009,end-video_duration=0.009000000s; original untouched
+train,WXAVARHW,0,0,Eating,subframe_end_overrun,info,0.0,6.923,end-video_duration=0.006333333s; original untouched
+train,WXAVARHW,1,0,Eating,subframe_end_overrun,info,0.0,6.923,end-video_duration=0.006333333s; original untouched
+valid,XZXXPUBE,0,0,Fighting,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,YEWPISQK,0,0,Eating,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,YEWPISQK,1,0,Being Eaten,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,YUYDXGDO,0,0,Eating,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,YUYDXGDO,0,1,Moving,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,YUYDXGDO,0,2,Keeping still,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,ZHHKDYSZ,0,0,Fighting,subframe_end_overrun,info,0.02,4.417,end-video_duration=0.000333333s; original untouched
+train,ZHVGOBRS,0,0,Flying,subframe_end_overrun,info,0.0,1.516,end-video_duration=0.016000000s; original untouched
+test,ZMDXQGBP,0,0,Moving,subframe_end_overrun,info,0.0,10.711,end-video_duration=0.002666667s; original untouched
+train,ZUFMAVRM,0,0,Keeping still,subframe_end_overrun,info,0.001,1.725,end-video_duration=0.016666667s; original untouched
+train,ZUFMAVRM,1,0,Sensing,subframe_end_overrun,info,0.345,1.722,end-video_duration=0.013666667s; original untouched
+train,ZYOGLJYD,0,0,Moving,subframe_end_overrun,info,1.372,3.501,end-video_duration=0.001000000s; original untouched
+train,ZYOGLJYD,1,0,Moving,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,AURUBCIW,1,0,Being Eaten,subframe_end_overrun,info,0.44,2.216,end-video_duration=0.007666667s; original untouched
+train,AWZIMLKI,0,0,Moving,subframe_end_overrun,info,0.356,0.523,end-video_duration=0.023000000s; original untouched
+train,BBUZSCEI,0,0,Keeping still,subframe_end_overrun,info,0.0,2.714,end-video_duration=0.005666667s; original untouched
+train,BBUZSCEI,0,1,Moving,subframe_end_overrun,info,0.0,2.716,end-video_duration=0.007666667s; original untouched
+test,BUNAMLHH,0,0,Eating,subframe_end_overrun,info,0.0,3.709,end-video_duration=0.000666667s; original untouched
+test,CMPRXFAG,0,0,Swimming,subframe_end_overrun,info,0.0,2.219,end-video_duration=0.010666667s; original untouched
+train,CPBROHPH,0,0,Eating,subframe_end_overrun,info,0.0,1.514,end-video_duration=0.014000000s; original untouched
+train,CTOXNCIW,0,0,Moving,subframe_end_overrun,info,0.0,4.019,end-video_duration=0.019000000s; original untouched
+train,CTOXNCIW,0,1,Jumping,subframe_end_overrun,info,3.497,4.007,end-video_duration=0.007000000s; original untouched
+train,DBIQGXXP,1,0,Moving,subframe_end_overrun,info,0.0,0.917,end-video_duration=0.000333333s; original untouched
+train,DHXZIMZL,0,0,Keeping still,subframe_end_overrun,info,0.0,5.51,end-video_duration=0.010000000s; original untouched
+valid,DVMTFYUQ,0,0,Sharing Food,subframe_end_overrun,info,0.0,1.018,end-video_duration=0.018000000s; original untouched
+valid,DVMTFYUQ,0,1,Moving,subframe_end_overrun,info,0.459,1.017,end-video_duration=0.017000000s; original untouched
+valid,DVMTFYUQ,1,0,Fighting,subframe_end_overrun,info,0.0,1.018,end-video_duration=0.018000000s; original untouched
+train,EJUCEYUQ,0,0,Sharing Food,subframe_end_overrun,info,0.0,8.012,end-video_duration=0.012000000s; original untouched
+train,EJUCEYUQ,0,3,Moving,subframe_end_overrun,info,7.259,8.012,end-video_duration=0.012000000s; original untouched
+train,EJUCEYUQ,1,0,Eating,subframe_end_overrun,info,0.0,8.012,end-video_duration=0.012000000s; original untouched
+train,EQHCUJYD,0,0,Keeping still,subframe_end_overrun,info,0.0,2.008,end-video_duration=0.008000000s; original untouched
+train,FAJQYVYK,0,0,Falling,subframe_end_overrun,info,0.0,0.419,end-video_duration=0.002333333s; original untouched
+train,FMRJGOIP,0,0,Being Eaten,subframe_end_overrun,info,0.0,12.509,end-video_duration=0.009000000s; original untouched
+train,FMRJGOIP,1,0,Eating,subframe_end_overrun,info,0.0,12.501,end-video_duration=0.001000000s; original untouched
+train,GJGRKQDT,0,0,Sensing,subframe_end_overrun,info,0.0,3.209,end-video_duration=0.000666667s; original untouched
+valid,GUBSIPNE,0,0,Eating,subframe_end_overrun,info,0.0,5.503,end-video_duration=0.003000000s; original untouched
+train,HFJFDSVW,0,0,Keeping still,subframe_end_overrun,info,0.0,1.511,end-video_duration=0.011000000s; original untouched
+train,HJWKSBBY,0,0,Eating,subframe_end_overrun,info,0.0,2.921,end-video_duration=0.004333333s; original untouched
+train,IHFOICDA,0,1,Attending,subframe_end_overrun,info,2.284,4.019,end-video_duration=0.019000000s; original untouched
+train,IHFOICDA,1,0,Keeping still,subframe_end_overrun,info,0.0,4.017,end-video_duration=0.017000000s; original untouched
+train,ITBNHXTD,0,0,Grooming,subframe_end_overrun,info,0.0,4.51,end-video_duration=0.010000000s; original untouched
+train,JENCWFPE,0,0,Eating,subframe_end_overrun,info,0.0,5.716,end-video_duration=0.007666667s; original untouched
+train,JJHCCVRM,0,0,Moving,subframe_end_overrun,info,0.0,2.003,end-video_duration=0.003000000s; original untouched
+test,KMLRFSVW,0,0,Laying Eggs,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+train,KUMMOFJY,0,0,Eating,subframe_end_overrun,info,1.0,5.016,end-video_duration=0.016000000s; original untouched
+train,KWQZZYUQ,0,0,Moving,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,KWQZZYUQ,0,1,Exploring,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,KWQZZYUQ,0,2,Sensing,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+train,LDORYIVA,0,0,Sensing,subframe_end_overrun,info,0.0,8.726,end-video_duration=0.017666667s; original untouched
+valid,LEUHRBRS,0,0,Moving,subframe_end_overrun,info,0.125,1.725,end-video_duration=0.016666667s; original untouched
+train,LOKDGJYD,0,0,Keeping still,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+valid,MAVRLUXR,0,0,Sensing,subframe_end_overrun,info,0.003,1.725,end-video_duration=0.016666667s; original untouched
+valid,METBQGDO,0,0,Flapping,subframe_end_overrun,info,0.542,3.214,end-video_duration=0.005666667s; original untouched
+train,MNACDKJZ,0,0,Moving,subframe_end_overrun,info,0.0,1.516,end-video_duration=0.016000000s; original untouched
+train,MVDTKUNV,0,0,Moving,subframe_end_overrun,info,0.0,2.508,end-video_duration=0.008000000s; original untouched
+valid,MZIDMOYV,0,0,Biting,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+valid,MZIDMOYV,0,1,Moving,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+valid,MZIDMOYV,1,0,Retaliating,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,NEYXELKI,0,0,Eating,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,NGDFZMZL,0,0,Sensing,subframe_end_overrun,info,1.0,6.505,end-video_duration=0.005000000s; original untouched
+valid,NHNRKYSZ,0,0,Performing copulatory mounting,subframe_end_overrun,info,0.0,13.417,end-video_duration=0.000333333s; original untouched
+valid,NKPUERJS,0,0,Keeping still,subframe_end_overrun,info,0.0,6.505,end-video_duration=0.005000000s; original untouched
+valid,NKPUERJS,0,2,Sensing,subframe_end_overrun,info,4.375,6.505,end-video_duration=0.005000000s; original untouched
+train,NRWCUYMI,0,0,Moving,subframe_end_overrun,info,1.333,9.417,end-video_duration=0.000333333s; original untouched
+train,NRWCUYMI,1,0,Keeping still,subframe_end_overrun,info,0.0,9.417,end-video_duration=0.000333333s; original untouched
+train,NYQKGGJU,0,0,Fighting,subframe_end_overrun,info,0.0,7.001,end-video_duration=0.001000000s; original untouched
+train,NYQKGGJU,1,0,Fighting,subframe_end_overrun,info,0.0,7.001,end-video_duration=0.001000000s; original untouched
+train,OJPMTCJH,0,0,Sensing,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,OJPMTCJH,1,0,Keeping still,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+test,OKMMXLKI,0,0,Moving,subframe_end_overrun,info,0.125,0.917,end-video_duration=0.000333333s; original untouched
+train,PEBVFDCD,0,0,Moving,subframe_end_overrun,info,0.042,2.926,end-video_duration=0.009333333s; original untouched
+train,PNKIBDFC,0,0,Lying On Top,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,PNKIBDFC,0,1,Grooming,subframe_end_overrun,info,0.042,3.501,end-video_duration=0.001000000s; original untouched
+test,PXDMLXER,0,0,Moving,subframe_end_overrun,info,0.042,7.524,end-video_duration=0.024000000s; original untouched
+train,QKAAZFPE,0,0,Keeping still,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,QMLRWRJS,0,0,Eating,subframe_end_overrun,info,0.042,4.52,end-video_duration=0.020000000s; original untouched
+train,QMLRWRJS,1,0,Being Eaten,subframe_end_overrun,info,0.042,4.52,end-video_duration=0.020000000s; original untouched
+train,QPNHGOOZ,0,0,Building nest,subframe_end_overrun,info,0.083,2.221,end-video_duration=0.012666667s; original untouched
+train,QQPZFCJH,1,0,Keeping still,subframe_end_overrun,info,0.0,6.923,end-video_duration=0.006333333s; original untouched
+valid,QSBCORAM,0,3,Sensing,subframe_end_overrun,info,13.917,15.042,end-video_duration=0.000333333s; original untouched
+test,QXTJPHEB,0,0,Eating,subframe_end_overrun,info,0.042,4.023,end-video_duration=0.023000000s; original untouched
+train,RCDREBGU,0,0,Exiting Cocoon,subframe_end_overrun,info,0.083,5.225,end-video_duration=0.016666667s; original untouched
+train,RHUFLVRM,0,0,Abseiling,subframe_end_overrun,info,0.667,0.917,end-video_duration=0.000333333s; original untouched
+train,RTMPHVTT,0,0,Eating,subframe_end_overrun,info,0.0,3.71,end-video_duration=0.001666667s; original untouched
+train,RUTOJKJZ,0,0,Flying,subframe_end_overrun,info,0.0,0.419,end-video_duration=0.002333333s; original untouched
+train,SDZWTDHC,0,0,Moving,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,SQQRIFGA,0,0,Flying,subframe_end_overrun,info,0.417,2.012,end-video_duration=0.012000000s; original untouched
+train,SXYTJMCV,0,0,Sensing,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,TCZAGBBY,0,1,Fighting,subframe_end_overrun,info,0.686,1.019,end-video_duration=0.019000000s; original untouched
+train,TNUUEPZC,0,0,Keeping still,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,UEJRNOOZ,0,0,Moving,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+test,UKYXEGBP,0,0,Keeping still,subframe_end_overrun,info,0.0,3.423,end-video_duration=0.006333333s; original untouched
+train,URPLAWPM,0,0,Keeping still,subframe_end_overrun,info,0.0,23.72,end-video_duration=0.011666667s; original untouched
+train,UTYPTBQT,0,0,Biting,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+test,VLUPOACP,0,0,Struggling,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+test,VLUPOACP,0,1,Attacking,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,WEKCMHPH,0,1,Flying,subframe_end_overrun,info,1.201,1.917,end-video_duration=0.000333333s; original untouched
+train,WHFXZOYV,0,0,Biting,subframe_end_overrun,info,0.0,1.712,end-video_duration=0.003666667s; original untouched
+train,WHFXZOYV,1,0,Struggling,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,WLBGIBLQ,0,0,Moving,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+train,WPLGDSVW,0,0,Moving,subframe_end_overrun,info,0.0,3.501,end-video_duration=0.001000000s; original untouched
+train,XJQPBHCQ,0,1,Moving,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,XRHKJQRD,0,0,Moving,subframe_end_overrun,info,0.125,1.019,end-video_duration=0.019000000s; original untouched
+test,XZSKZIVA,0,0,Moving,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,YNDMODUC,0,0,Coiling,subframe_end_overrun,info,0.0,6.505,end-video_duration=0.005000000s; original untouched
+train,YNDMODUC,1,0,Fighting,subframe_end_overrun,info,0.0,6.505,end-video_duration=0.005000000s; original untouched
+train,YNHUOACP,0,1,Attacking,subframe_end_overrun,info,0.292,0.917,end-video_duration=0.000333333s; original untouched
+train,YNHUOACP,1,0,Attacking,subframe_end_overrun,info,0.292,0.917,end-video_duration=0.000333333s; original untouched
+train,YNHUOACP,1,1,Trapped,subframe_end_overrun,info,0.708,0.917,end-video_duration=0.000333333s; original untouched
+train,YVNZQQRD,0,0,Lying On Top,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,YVNZQQRD,0,1,Keeping still,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+valid,YVTDIRHW,0,0,Undergoing Chrysalis,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+train,ZCBGJBQT,0,0,Moving,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+test,ZFMROSVW,0,0,Keeping still,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+test,ZFMROSVW,0,1,Moving,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,ZJKQFVYK,0,0,Sensing,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+valid,AJZVJQFB,0,4,Keeping still,subframe_end_overrun,info,3.344,5.666,end-video_duration=0.041000000s; original untouched
+train,AMVBLLHH,0,0,Jumping,subframe_end_overrun,info,0.0,0.334,end-video_duration=0.000666667s; original untouched
+train,AUKNEIFB,0,0,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,BGUCRMRQ,0,0,Keeping still,subframe_end_overrun,info,0.0,4.417,end-video_duration=0.000333333s; original untouched
+train,CHPFWLHH,0,0,Moving,subframe_end_overrun,info,0.0,0.417,end-video_duration=0.000333333s; original untouched
+train,CQUCGLHH,0,1,Climbing,subframe_end_overrun,info,0.0,9.233,end-video_duration=0.024666667s; original untouched
+train,DCPEXLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,DEFGOLHH,0,0,Moving,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+valid,DXUDLMGJ,0,0,Doing A Back Kick,subframe_end_overrun,info,0.0,0.932,end-video_duration=0.015333333s; original untouched
+train,GGSNQLHH,0,1,Jumping,subframe_end_overrun,info,0.0,0.834,end-video_duration=0.000666667s; original untouched
+train,GMNUCLHH,0,1,Hugging,subframe_end_overrun,info,0.0,0.334,end-video_duration=0.000666667s; original untouched
+train,GMNUCLHH,0,2,Moving,subframe_end_overrun,info,0.0,0.334,end-video_duration=0.000666667s; original untouched
+test,GORQXIFB,0,0,Keeping still,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,GRTJRFJO,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,IAUDMIFB,0,0,Lying On Top,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,IAUDMIFB,0,1,Keeping still,subframe_end_overrun,info,0.0,3.417,end-video_duration=0.000333333s; original untouched
+train,IFUGLFJO,0,0,Walking,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+valid,IQJFJFGA,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,IYWKELHH,0,0,Keeping still,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+test,JJYJCLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,JKGPDLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+train,JUQTWQFB,0,1,Keeping still,subframe_end_overrun,info,0.0,1.839,end-video_duration=0.005666667s; original untouched
+train,KSDEALHH,0,0,Hanging,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,KSDEALHH,0,1,Hugging,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,LRKASPTD,0,0,Keeping still,subframe_end_overrun,info,0.627,6.917,end-video_duration=0.000333333s; original untouched
+test,MCECGGQD,0,0,Climbing,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,MEKYSLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+train,MEKYSLHH,0,1,Jumping,subframe_end_overrun,info,0.292,0.523,end-video_duration=0.023000000s; original untouched
+train,MLVGILHH,0,0,Jumping,subframe_end_overrun,info,0.0,0.21,end-video_duration=0.001666667s; original untouched
+train,MNDKSIFB,0,0,Keeping still,subframe_end_overrun,info,0.0,5.016,end-video_duration=0.016000000s; original untouched
+valid,MQFCTIFB,0,0,Keeping still,subframe_end_overrun,info,0.0,3.71,end-video_duration=0.001666667s; original untouched
+train,MSURXLHH,0,0,Attending,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,NZGIPIFB,0,0,Keeping still,subframe_end_overrun,info,0.0,4.917,end-video_duration=0.000333333s; original untouched
+train,NZGIPIFB,0,1,Walking,subframe_end_overrun,info,1.567,4.917,end-video_duration=0.000333333s; original untouched
+train,NZWLRQFB,0,1,Sinking,subframe_end_overrun,info,2.416,5.509,end-video_duration=0.009000000s; original untouched
+train,OAJGVLHH,0,0,Walking,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,OISVWRFV,0,1,Jumping,subframe_end_overrun,info,1.195,1.917,end-video_duration=0.000333333s; original untouched
+train,PBVXFLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,1.516,end-video_duration=0.016000000s; original untouched
+train,PVJLYNJC,0,0,Keeping still,subframe_end_overrun,info,0.0,1.917,end-video_duration=0.000333333s; original untouched
+train,QBDFPLHH,0,1,Fighting,subframe_end_overrun,info,0.286,2.221,end-video_duration=0.012666667s; original untouched
+train,QOQNYLHH,0,0,Walking,subframe_end_overrun,info,1.333,3.214,end-video_duration=0.005666667s; original untouched
+train,QUZLTXGD,0,0,Keeping still,subframe_end_overrun,info,0.0,3.917,end-video_duration=0.000333333s; original untouched
+test,SFAGGLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,SMPGPLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,5.721,end-video_duration=0.012666667s; original untouched
+train,SNQJKLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,TAJHDMRQ,0,0,Keeping still,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+test,TFGCALHH,0,0,Walking,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+train,TLRRLIFB,0,0,Keeping still,subframe_end_overrun,info,0.0,3.423,end-video_duration=0.006333333s; original untouched
+train,TZJAOYES,0,0,Walking,subframe_end_overrun,info,1.469,2.012,end-video_duration=0.012000000s; original untouched
+train,UPCVULHH,0,0,Keeping still,subframe_end_overrun,info,0.0,6.009,end-video_duration=0.009000000s; original untouched
+valid,UZASWLHH,0,1,Keeping still,subframe_end_overrun,info,0.0,1.417,end-video_duration=0.000333333s; original untouched
+valid,VACYHLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,2.926,end-video_duration=0.009333333s; original untouched
+valid,VGXZGRFV,0,0,Swimming,subframe_end_overrun,info,0.0,1.516,end-video_duration=0.016000000s; original untouched
+train,VPWCANJC,0,3,Jumping,subframe_end_overrun,info,2.62,3.005,end-video_duration=0.005000000s; original untouched
+valid,WBIKPLHH,0,0,Jumping,subframe_end_overrun,info,0.292,0.419,end-video_duration=0.002333333s; original untouched
+test,WGVAVIFB,0,1,Keeping still,subframe_end_overrun,info,1.417,4.52,end-video_duration=0.020000000s; original untouched
+test,WNGUXGQD,0,0,Dead,subframe_end_overrun,info,0.0,2.417,end-video_duration=0.000333333s; original untouched
+train,WZHYLLHH,0,1,Hugging,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,XGFLSQFB,0,0,Hugging,subframe_end_overrun,info,0.0,1.019,end-video_duration=0.019000000s; original untouched
+train,XPWNBJII,0,0,Walking,subframe_end_overrun,info,0.0,9.013,end-video_duration=0.013000000s; original untouched
+train,XYGZJIFB,0,0,Jumping,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,YHVIJLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,3.919,end-video_duration=0.002333333s; original untouched
+train,ZAHUKLHH,0,0,Walking,subframe_end_overrun,info,0.0,3.005,end-video_duration=0.005000000s; original untouched
+train,ZATGNGQD,0,0,Keeping still,subframe_end_overrun,info,0.0,0.523,end-video_duration=0.023000000s; original untouched
+train,ZDIWNFJO,0,0,Keeping still,subframe_end_overrun,info,0.0,2.221,end-video_duration=0.012666667s; original untouched
+train,ZIEXMLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,3.214,end-video_duration=0.005666667s; original untouched
+train,ZPNWIVCV,0,0,Keeping still,subframe_end_overrun,info,0.0,2.717,end-video_duration=0.008666667s; original untouched
+train,ZYHFQLHH,0,0,Keeping still,subframe_end_overrun,info,0.0,1.725,end-video_duration=0.016666667s; original untouched
+train,DLMZYWUH,0,1,Sensing,provided_frame_span_empty_or_inconsistent,review,0.317,0.523,"source frames[8,13); seconds positive; do not silently drop or rewrite; proposed fallback[7,12)"
+valid,BTHXWUOO,0,0,Chirping,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,HJXBFHDU,0,0,Flying,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,UKMOZLSQ,0,11,Keeping still,provided_frame_span_empty_or_inconsistent,review,11.39,14.525,"source frames[273,349); seconds positive; do not silently drop or rewrite; proposed fallback[273,348)"
+train,UZNEBTFT,0,8,Drinking,provided_frame_span_empty_or_inconsistent,review,7.716,15.021,"source frames[185,361); seconds positive; do not silently drop or rewrite; proposed fallback[185,360)"
+valid,ZMFOEFXO,0,0,Chirping,provided_frame_span_empty_or_inconsistent,review,0.0,0.524,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,LTXOMVMP,0,0,Flapping,provided_frame_span_empty_or_inconsistent,review,0.0,1.358,"source frames[0,33); seconds positive; do not silently drop or rewrite; proposed fallback[0,32)"
+train,UWICVZJZ,1,0,Sensing,provided_frame_span_empty_or_inconsistent,review,0.0,4.241,"source frames[0,102); seconds positive; do not silently drop or rewrite; proposed fallback[0,101)"
+train,HPPMIDCC,0,0,Flying,provided_frame_span_empty_or_inconsistent,review,0.286,0.523,"source frames[7,13); seconds positive; do not silently drop or rewrite; proposed fallback[6,12)"
+train,IWJUMPLS,0,4,Sensing,provided_frame_span_empty_or_inconsistent,review,6.436,11.024,"source frames[154,265); seconds positive; do not silently drop or rewrite; proposed fallback[154,264)"
+train,IWJUMPLS,0,6,Attending,provided_frame_span_empty_or_inconsistent,review,6.444,11.024,"source frames[155,265); seconds positive; do not silently drop or rewrite; proposed fallback[154,264)"
+valid,TSGICXDO,0,2,Running,provided_frame_span_empty_or_inconsistent,review,3.693,4.023,"source frames[89,97); seconds positive; do not silently drop or rewrite; proposed fallback[88,96)"
+train,BLUIEDSN,0,0,Running,provided_frame_span_empty_or_inconsistent,review,0.024,11.024,"source frames[1,265); seconds positive; do not silently drop or rewrite; proposed fallback[0,264)"
+train,BLUIEDSN,1,1,Chasing,provided_frame_span_empty_or_inconsistent,review,7.033,11.024,"source frames[169,265); seconds positive; do not silently drop or rewrite; proposed fallback[168,264)"
+train,BYPZMFGA,0,0,Keeping still,provided_frame_span_empty_or_inconsistent,review,0.004,4.023,"source frames[0,97); seconds positive; do not silently drop or rewrite; proposed fallback[0,96)"
+train,KAYPHRAC,0,2,Jumping,provided_frame_span_empty_or_inconsistent,review,6.393,7.521,"source frames[153,181); seconds positive; do not silently drop or rewrite; proposed fallback[153,180)"
+train,REMELNPL,0,0,Walking,provided_frame_span_empty_or_inconsistent,review,0.0,11.024,"source frames[0,265); seconds positive; do not silently drop or rewrite; proposed fallback[0,264)"
+train,REMELNPL,0,1,Sensing,provided_frame_span_empty_or_inconsistent,review,0.005,11.024,"source frames[0,265); seconds positive; do not silently drop or rewrite; proposed fallback[0,264)"
+train,REMELNPL,0,2,Exploring,provided_frame_span_empty_or_inconsistent,review,0.009,11.024,"source frames[0,265); seconds positive; do not silently drop or rewrite; proposed fallback[0,264)"
+train,REMELNPL,0,3,Manipulating Object,provided_frame_span_empty_or_inconsistent,review,0.014,11.024,"source frames[0,265); seconds positive; do not silently drop or rewrite; proposed fallback[0,264)"
+train,VVNPWTEK,0,0,Attending,provided_frame_span_empty_or_inconsistent,review,0.004,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,BGJFWRGE,0,0,Swimming,provided_frame_span_empty_or_inconsistent,review,0.021,4.023,"source frames[1,97); seconds positive; do not silently drop or rewrite; proposed fallback[0,96)"
+valid,CGZYHZQU,0,0,Walking,provided_frame_span_empty_or_inconsistent,review,3.219,15.021,"source frames[77,361); seconds positive; do not silently drop or rewrite; proposed fallback[77,360)"
+test,KAZJOMHZ,0,1,Sensing,provided_frame_span_empty_or_inconsistent,review,2.294,4.023,"source frames[55,97); seconds positive; do not silently drop or rewrite; proposed fallback[55,96)"
+train,LKUSSHXM,0,0,Moving,provided_frame_span_empty_or_inconsistent,review,0.0,15.021,"source frames[0,361); seconds positive; do not silently drop or rewrite; proposed fallback[0,360)"
+test,EDGIHGJU,0,0,Digging,provided_frame_span_empty_or_inconsistent,review,0.0,4.04,"source frames[0,97); seconds positive; do not silently drop or rewrite; proposed fallback[0,96)"
+train,RNVVOCJH,0,2,Moving,provided_frame_span_empty_or_inconsistent,review,3.357,4.023,"source frames[81,97); seconds positive; do not silently drop or rewrite; proposed fallback[80,96)"
+train,SNZGESVW,0,0,Flying,provided_frame_span_empty_or_inconsistent,review,1.546,4.023,"source frames[37,97); seconds positive; do not silently drop or rewrite; proposed fallback[37,96)"
+train,WOOGJZGK,0,1,Moving,provided_frame_span_empty_or_inconsistent,review,1.829,3.863,"source frames[44,93); seconds positive; do not silently drop or rewrite; proposed fallback[43,92)"
+train,YZDDRKJZ,0,0,Digging,provided_frame_span_empty_or_inconsistent,review,0.0,11.024,"source frames[0,265); seconds positive; do not silently drop or rewrite; proposed fallback[0,264)"
+train,ZFHWOBGU,0,0,Eating,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,ZFHWOBGU,0,1,Flying,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,CLZLJTLI,0,1,Moving,provided_frame_span_empty_or_inconsistent,review,0.578,0.586,"source frames[14,14); seconds positive; do not silently drop or rewrite; proposed fallback[13,15)"
+train,EOUTDFJY,0,0,Eating,provided_frame_span_empty_or_inconsistent,review,0.0,4.023,"source frames[0,97); seconds positive; do not silently drop or rewrite; proposed fallback[0,96)"
+train,HMQPOFJY,0,0,Eating,provided_frame_span_empty_or_inconsistent,review,0.747,4.023,"source frames[18,97); seconds positive; do not silently drop or rewrite; proposed fallback[17,96)"
+train,LNXPMHPH,0,0,Flying,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,UJLTWYMI,0,0,Keeping still,provided_frame_span_empty_or_inconsistent,review,0.0,4.023,"source frames[0,97); seconds positive; do not silently drop or rewrite; proposed fallback[0,96)"
+train,UJLTWYMI,1,0,Moving,provided_frame_span_empty_or_inconsistent,review,0.0,4.023,"source frames[0,97); seconds positive; do not silently drop or rewrite; proposed fallback[0,96)"
+train,AWZIMLKI,0,0,Moving,provided_frame_span_empty_or_inconsistent,review,0.356,0.523,"source frames[9,13); seconds positive; do not silently drop or rewrite; proposed fallback[8,12)"
+test,PXDMLXER,0,0,Moving,provided_frame_span_empty_or_inconsistent,review,0.042,7.524,"source frames[1,181); seconds positive; do not silently drop or rewrite; proposed fallback[1,180)"
+test,QXTJPHEB,0,0,Eating,provided_frame_span_empty_or_inconsistent,review,0.042,4.023,"source frames[1,97); seconds positive; do not silently drop or rewrite; proposed fallback[1,96)"
+train,WLBGIBLQ,0,0,Moving,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+valid,AJZVJQFB,0,4,Keeping still,provided_frame_span_empty_or_inconsistent,review,3.344,5.666,"source frames[80,136); seconds positive; do not silently drop or rewrite; proposed fallback[80,135)"
+train,CQUCGLHH,0,1,Climbing,provided_frame_span_empty_or_inconsistent,review,0.0,9.233,"source frames[0,222); seconds positive; do not silently drop or rewrite; proposed fallback[0,221)"
+train,MEKYSLHH,0,0,Keeping still,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
+train,MEKYSLHH,0,1,Jumping,provided_frame_span_empty_or_inconsistent,review,0.292,0.523,"source frames[7,13); seconds positive; do not silently drop or rewrite; proposed fallback[7,12)"
+train,ZATGNGQD,0,0,Keeping still,provided_frame_span_empty_or_inconsistent,review,0.0,0.523,"source frames[0,13); seconds positive; do not silently drop or rewrite; proposed fallback[0,12)"
