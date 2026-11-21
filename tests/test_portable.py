@@ -44,6 +44,17 @@ class PortableTests(unittest.TestCase):
             # Single-frame window remains one actual frame plus a zero alignment slot.
             result=predictor.predict(path,"attention",0,.01)
             self.assertEqual(result["feature_shape"],[1,1,768])
+            full=Path(tmp)/"sixteen_real_frames.avi"
+            writer=cv2.VideoWriter(str(full),cv2.VideoWriter_fourcc(*"MJPG"),24,(64,36))
+            for i in range(16):writer.write(np.full((36,64,3),20+i*10,dtype=np.uint8))
+            writer.release()
+            result=predictor.predict(full,"attention")
+            self.assertEqual(result["feature_shape"],[1,8,768])
+            self.assertEqual(result["video"]["sampled_frame_indices"],list(range(16)))
+            try:
+                import resource
+                print("Linux CPU smoke peak RSS/KiB:",resource.getrusage(resource.RUSAGE_SELF).ru_maxrss)
+            except ImportError:pass
     def test_three_pages(self):
         from streamlit.testing.v1 import AppTest
         for page in ("video","results","evaluation"):

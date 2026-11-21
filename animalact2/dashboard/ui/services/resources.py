@@ -5,6 +5,7 @@ from urllib.request import Request,urlopen
 from urllib.parse import urlencode,quote,urlparse
 from urllib.error import HTTPError,URLError
 import streamlit as st
+from threading import RLock
 DIRECT=os.environ.get("ANIMALACT2_BACKEND","direct")=="direct"
 BASE=os.environ.get("ANIMALACT2_API_URL","http://127.0.0.1:8765")
 if urlparse(BASE).hostname not in ("127.0.0.1","localhost"): raise ValueError("Local backend required")
@@ -19,14 +20,18 @@ def request(path,data=None,headers=None):
     except URLError as exc: raise RuntimeError("Start the local API on port 8765: "+str(exc.reason)) from exc
 
 class Runtime:
+    def __init__(self):
+        self._direct=None
+        self._initialization_lock=RLock()
     @property
     def loaded_devices(self):
-        return set(self._direct.predictors) if DIRECT and hasattr(self,"_direct") else set() if DIRECT else set(request("/health")["loaded_devices"])
+        return set(self._direct.predictors) if DIRECT and self._direct is not None else set() if DIRECT else set(request("/health")["loaded_devices"])
     def predict(self,path,device="cuda",top_k=119,model="attention",start=0.,end=None):
         if DIRECT:
-            if not hasattr(self,"_direct"):
-                from animalact2.dashboard.predictor import Runtime as BackendRuntime
-                self._direct=BackendRuntime()
+            with self._initialization_lock:
+                if self._direct is None:
+                    from animalact2.dashboard.predictor import Runtime as BackendRuntime
+                    self._direct=BackendRuntime()
             return self._direct.predict(path,key=model,device=device,start=start,end=end)
         q=dict(model=model,device=device,start=start)
         if end is not None: q["end"]=end
