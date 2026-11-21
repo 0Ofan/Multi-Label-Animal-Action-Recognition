@@ -1,0 +1,16 @@
+{
+  "first_round": [
+    "model1_seed42_bce.json",
+    "model2_seed42_bce.json",
+    "model3_seed42_bce.json"
+  ],
+  "shared_cohort_SHA256": "45be9e0b07767b500de0ba61b7435a1c78d2040f3f8907d7b62ae52dfdf7eda7",
+  "seed": 42,
+  "future_replication_seeds_not_scheduled": [
+    123,
+    2026
+  ],
+  "ASL_reference": "asl_reference_not_first_round.json",
+  "automatic_execution": false,
+  "Test_use": false
+}

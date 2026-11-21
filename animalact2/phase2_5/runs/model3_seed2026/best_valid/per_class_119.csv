@@ -1,0 +1,120 @@
+﻿class_id,name,main_evaluation,positive_clips,AP,TP,FP,TN,FN,Precision,Recall,F1,positive_parent_videos,Train_positive_clips,learning_status,eligible_for_prediction
+0,Abseiling,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+1,Attacking,True,11,0.35201448370719884,8,13,955,3,0.38095238095238093,0.7272727272727273,0.5,5,67,Train_supported,True
+2,Attending,True,141,0.4920871587913445,79,95,743,62,0.4540229885057471,0.5602836879432624,0.5015873015873016,52,706,Train_supported,True
+3,Barking,False,9,0.879792072774529,7,0,970,2,1.0,0.7777777777777778,0.875,2,51,Train_supported,True
+4,Being Carried,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+5,Being Carried In Mouth,False,3,0.025673558971819787,0,0,976,3,0.0,0.0,0.0,1,7,Train_supported,True
+6,Being Dragged,False,1,1.0,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+7,Being Eaten,True,5,0.6138431329769827,3,0,974,2,1.0,0.6,0.75,3,26,Train_supported,True
+8,Biting,True,12,0.042145501502129125,1,6,961,11,0.14285714285714285,0.08333333333333333,0.10526315789473684,8,97,Train_supported,True
+9,Building nest,False,1,0.03125,0,0,978,1,0.0,0.0,0.0,1,11,Train_supported,True
+10,Calling,False,1,0.04,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+11,Camouflaging,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+12,Carrying,False,2,0.0021012052233666,0,0,977,2,0.0,0.0,0.0,1,5,Train_supported,True
+13,Carrying In Mouth,True,15,0.2892641347744564,4,4,960,11,0.5,0.26666666666666666,0.34782608695652173,4,44,Train_supported,True
+14,Chasing,False,1,0.014285714285714285,0,0,978,1,0.0,0.0,0.0,1,7,Train_supported,True
+15,Chirping,True,108,0.7206506716428358,90,64,807,18,0.5844155844155844,0.8333333333333334,0.6870229007633588,42,554,Train_supported,True
+16,Climbing,True,9,0.05215449085440837,0,1,969,9,0.0,0.0,0.0,5,34,Train_supported,True
+17,Coiling,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+18,Competing For Dominance,False,1,0.09090909090909091,0,0,978,1,0.0,0.0,0.0,1,2,Train_supported,True
+19,Dancing,False,1,0.0031847133757961785,0,1,977,1,0.0,0.0,0.0,1,7,Train_supported,True
+20,Dancing On Water,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+21,Dead,False,1,0.005649717514124294,0,0,978,1,0.0,0.0,0.0,1,7,Train_supported,True
+22,Defecating,False,3,1.0,3,0,976,0,1.0,1.0,1.0,1,6,Train_supported,True
+23,Defensive Rearing,False,0,,0,979,0,0,0.0,0.0,0.0,0,0,unsupported_from_Train_not_normally_learnable,False
+24,Detaching As A Parasite,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+25,Digging,False,2,0.2523364485981308,0,1,976,2,0.0,0.0,0.0,2,14,Train_supported,True
+26,Displaying Defensive Pose,True,7,0.4751984126984127,7,11,961,0,0.3888888888888889,1.0,0.56,3,98,Train_supported,True
+27,Disturbing Another Animal,True,15,0.3609691972286811,6,18,946,9,0.25,0.4,0.3076923076923077,6,131,Train_supported,True
+28,Diving,False,5,1.0,5,1,973,0,0.8333333333333334,1.0,0.9090909090909091,2,14,Train_supported,True
+29,Doing A Back Kick,False,1,0.020833333333333332,0,0,978,1,0.0,0.0,0.0,1,4,Train_supported,True
+30,Doing A Backward Tilt,False,1,0.005376344086021506,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+31,Doing A Chin Dip,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+32,Doing A Face Dip,True,17,0.7368663713215068,12,5,957,5,0.7058823529411765,0.7058823529411765,0.7058823529411765,5,81,Train_supported,True
+33,Doing A Neck Raise,False,2,0.00240844744536295,0,3,974,2,0.0,0.0,0.0,1,22,Train_supported,True
+34,Doing A Side Tilt,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+35,Doing somersault,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+36,Drifting,False,2,0.00805059477103669,0,0,977,2,0.0,0.0,0.0,1,8,Train_supported,True
+37,Drinking,True,24,0.6174417463611466,18,9,946,6,0.6666666666666666,0.75,0.7058823529411765,9,189,Train_supported,True
+38,Dying,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+39,Eating,True,121,0.4678398161159571,67,79,779,54,0.4589041095890411,0.5537190082644629,0.50187265917603,48,470,Train_supported,True
+40,Entering its nest,False,2,0.5067567567567568,1,1,976,1,0.5,0.5,0.5,2,7,Train_supported,True
+41,Escaping,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+42,Exiting Cocoon,False,0,,0,1,978,0,0.0,0.0,0.0,0,2,Train_supported,True
+43,Exiting Nest,False,1,0.013513513513513514,0,0,978,1,0.0,0.0,0.0,1,2,Train_supported,True
+44,Exploring,True,12,0.15264299189560235,3,12,955,9,0.2,0.25,0.2222222222222222,9,67,Train_supported,True
+45,Falling,False,5,0.003767517233491644,0,1,973,5,0.0,0.0,0.0,3,23,Train_supported,True
+46,Fighting,True,13,0.36192192743045315,3,13,953,10,0.1875,0.23076923076923078,0.20689655172413793,8,108,Train_supported,True
+47,Flapping,True,32,0.5012702023640337,14,16,931,18,0.4666666666666667,0.4375,0.45161290322580644,9,171,Train_supported,True
+48,Flapping Tail,False,3,0.17198581560283688,2,11,965,1,0.15384615384615385,0.6666666666666666,0.25,2,33,Train_supported,True
+49,Fleeing,False,3,0.032713666465201824,0,3,973,3,0.0,0.0,0.0,2,19,Train_supported,True
+50,Flying,True,48,0.6930343926085158,35,26,905,13,0.5737704918032787,0.7291666666666666,0.6422018348623854,23,197,Train_supported,True
+51,Giving Birth,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+52,Gliding,False,1,0.004484304932735426,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+53,Grooming,True,7,0.29053251115267476,2,3,969,5,0.4,0.2857142857142857,0.3333333333333333,5,33,Train_supported,True
+54,Hanging,False,1,0.009345794392523364,0,0,978,1,0.0,0.0,0.0,1,6,Train_supported,True
+55,Having A Flehmen Response,False,0,,0,0,979,0,0.0,0.0,0.0,0,3,Train_supported,True
+56,Hissing,False,4,0.7916666666666667,2,0,975,2,1.0,0.5,0.6666666666666666,2,13,Train_supported,True
+57,Holding Hands,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+58,Hopping,False,1,0.003424657534246575,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+59,Hugging,True,12,0.48869653738074786,5,2,965,7,0.7142857142857143,0.4166666666666667,0.5263157894736842,3,36,Train_supported,True
+60,Immobilized,False,0,,0,0,979,0,0.0,0.0,0.0,0,3,Train_supported,True
+61,Jumping,True,20,0.21133754176271688,7,33,926,13,0.175,0.35,0.23333333333333334,14,120,Train_supported,True
+62,Keeping still,True,283,0.6642901918404177,217,197,499,66,0.5241545893719807,0.7667844522968198,0.6226685796269728,119,1247,Train_supported,True
+63,Landing,True,39,0.7538475847568212,30,21,919,9,0.5882352941176471,0.7692307692307693,0.6666666666666666,10,124,Train_supported,True
+64,Laying Eggs,False,2,0.006972369194591417,0,0,977,2,0.0,0.0,0.0,1,1,Train_supported,True
+65,Leaning,False,1,0.3333333333333333,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+66,Licking,False,1,0.0136986301369863,0,0,978,1,0.0,0.0,0.0,1,2,Train_supported,True
+67,Lying Down,False,2,0.006062610229276896,0,0,977,2,0.0,0.0,0.0,1,11,Train_supported,True
+68,Lying On Top,False,7,0.04164707890280549,0,0,972,7,0.0,0.0,0.0,2,15,Train_supported,True
+69,Manipulating Object,False,3,0.9166666666666666,1,0,976,2,1.0,0.3333333333333333,0.5,2,19,Train_supported,True
+70,Moving,True,94,0.5935676564241165,56,54,831,38,0.509090909090909,0.5957446808510638,0.5490196078431373,57,367,Train_supported,True
+71,Pecking,False,11,0.7851509651872628,7,0,968,4,1.0,0.6363636363636364,0.7777777777777778,2,19,Train_supported,True
+72,Performing Sexual Display,False,2,0.0512987012987013,0,0,977,2,0.0,0.0,0.0,1,2,Train_supported,True
+73,Performing copulatory mounting,False,3,0.01302071973827699,0,1,975,3,0.0,0.0,0.0,1,9,Train_supported,True
+74,Playing,False,5,0.9,4,5,969,1,0.4444444444444444,0.8,0.5714285714285714,2,19,Train_supported,True
+75,Playing Dead,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+76,Preening,True,62,0.6666869426696044,45,41,876,17,0.5232558139534884,0.7258064516129032,0.6081081081081081,17,264,Train_supported,True
+77,Preying,False,0,,0,0,979,0,0.0,0.0,0.0,0,3,Train_supported,True
+78,Puffing its throat,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+79,Rattling,False,1,1.0,0,0,978,1,0.0,0.0,0.0,1,3,Train_supported,True
+80,Resting,False,0,,0,0,979,0,0.0,0.0,0.0,0,5,Train_supported,True
+81,Retaliating,False,7,0.07412650801903388,0,1,971,7,0.0,0.0,0.0,2,17,Train_supported,True
+82,Retreating,False,7,0.9240362811791384,7,2,970,0,0.7777777777777778,1.0,0.875,2,34,Train_supported,True
+83,Rolling,False,2,0.0025885872066267832,0,1,976,2,0.0,0.0,0.0,1,2,Train_supported,True
+84,Rubbing its head,False,3,0.5888888888888889,2,2,974,1,0.5,0.6666666666666666,0.5714285714285714,2,11,Train_supported,True
+85,Running,True,26,0.23616745582792797,8,17,936,18,0.32,0.3076923076923077,0.3137254901960784,14,105,Train_supported,True
+86,Running On Water,False,1,0.058823529411764705,0,0,978,1,0.0,0.0,0.0,1,2,Train_supported,True
+87,Sensing,True,258,0.493679205037719,191,303,418,67,0.3866396761133603,0.7403100775193798,0.5079787234042553,107,1388,Train_supported,True
+88,Shaking,True,20,0.5762090801022851,12,12,947,8,0.5,0.6,0.5454545454545454,5,60,Train_supported,True
+89,Shaking Head,True,65,0.5130659961907261,47,46,868,18,0.5053763440860215,0.7230769230769231,0.5949367088607594,17,235,Train_supported,True
+90,Sharing Food,False,11,0.10617481354062558,1,2,966,10,0.3333333333333333,0.09090909090909091,0.14285714285714285,3,38,Train_supported,True
+91,Showing Affection,False,4,0.2582001332001332,0,0,975,4,0.0,0.0,0.0,1,4,Train_supported,True
+92,Sinking,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+93,Sitting,False,5,0.6051370164772226,3,1,973,2,0.75,0.6,0.6666666666666666,3,32,Train_supported,True
+94,Sleeping,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+95,Sleeping in its nest,False,2,0.010009398496240602,0,0,977,2,0.0,0.0,0.0,1,4,Train_supported,True
+96,Spitting Venom,True,7,0.8407738095238094,3,0,972,4,1.0,0.42857142857142855,0.6,6,32,Train_supported,True
+97,Spreading Wings,False,8,0.6830884438142503,5,21,950,3,0.19230769230769232,0.625,0.29411764705882354,3,46,Train_supported,True
+98,Squatting,False,0,,0,0,979,0,0.0,0.0,0.0,0,3,Train_supported,True
+99,Standing,False,6,0.010611934435158088,0,10,963,6,0.0,0.0,0.0,2,34,Train_supported,True
+100,Standing in alert,False,1,0.001148105625717566,0,0,978,1,0.0,0.0,0.0,1,5,Train_supported,True
+101,Startled,False,7,0.8603896103896105,6,9,963,1,0.4,0.8571428571428571,0.5454545454545454,2,43,Train_supported,True
+102,Stinging,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+103,Struggling,False,6,0.47222222222222215,2,0,973,4,1.0,0.3333333333333333,0.5,3,17,Train_supported,True
+104,Surfacing,False,0,,0,5,974,0,0.0,0.0,0.0,0,5,Train_supported,True
+105,Swaying,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+106,Swimming,True,23,0.4623888675980698,8,9,947,15,0.47058823529411764,0.34782608695652173,0.4,10,83,Train_supported,True
+107,Swimming In Circles,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+108,Tail Swishing,False,0,,0,0,979,0,0.0,0.0,0.0,0,3,Train_supported,True
+109,Trapped,False,2,1.0,2,0,977,0,1.0,1.0,1.0,1,3,Train_supported,True
+110,Turning Around,True,14,0.41765871668648297,5,9,956,9,0.35714285714285715,0.35714285714285715,0.35714285714285715,6,56,Train_supported,True
+111,Undergoing Chrysalis,False,1,0.004629629629629629,0,0,978,1,0.0,0.0,0.0,1,1,Train_supported,True
+112,Unmounting,False,0,,0,0,979,0,0.0,0.0,0.0,0,1,Train_supported,True
+113,Urinating,False,4,0.02093962495138307,0,0,975,4,0.0,0.0,0.0,1,5,Train_supported,True
+114,Walking,True,156,0.6179950852717002,107,89,734,49,0.5459183673469388,0.6858974358974359,0.6079545454545454,68,768,Train_supported,True
+115,Washing,False,4,0.47275641025641024,1,3,972,3,0.25,0.25,0.25,2,81,Train_supported,True
+116,Wrapping Itself Around Prey,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+117,Wrapping Prey,False,0,,0,0,979,0,0.0,0.0,0.0,0,2,Train_supported,True
+118,Yawning,False,5,0.009704806539711898,0,0,974,5,0.0,0.0,0.0,2,8,Train_supported,True

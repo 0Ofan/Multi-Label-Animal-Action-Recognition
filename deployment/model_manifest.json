@@ -1,0 +1,776 @@
+{
+  "schema": "animalact2-portable-v1",
+  "source": {
+    "repo": "MCG-NJU/videomae-base-finetuned-kinetics",
+    "revision": "488eb9a0565f257b32866000305c8178965eb9f6",
+    "files": {
+      "config.json": "6d3c7afb3d1430fa478757425cc9be2fcc50a17bfbf58921e8a9e65bb3b5c568",
+      "model.safetensors": "065cfde56f97671da4d196e1a3a6d3cf9304dcad92eb671e3632a6c6cdd04f73",
+      "preprocessor_config.json": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2"
+    }
+  },
+  "models": {
+    "attention": {
+      "model_id": "attention",
+      "model_name": "VideoMAE + BiGRU + Class-specific Temporal Attention",
+      "head": "bigru_attention",
+      "seed": 42,
+      "best_epoch": 21,
+      "threshold": 0.12,
+      "config": {
+        "schema_version": 1,
+        "release_id": "animalact2-2.0.0-release-v1",
+        "model": "model3",
+        "seed": 42,
+        "device": "cuda",
+        "backbone": {
+          "weights": "MCG-NJU/videomae-base-finetuned-kinetics",
+          "revision": "488eb9a0565f257b32866000305c8178965eb9f6",
+          "frozen": true,
+          "encoder_loaded_in_training": false
+        },
+        "data": {
+          "batch_size": 8,
+          "valid_batch_size": 8,
+          "accumulation_steps": 4,
+          "num_workers": 2,
+          "prefetch_factor": 1,
+          "pin_memory": true
+        },
+        "loss": {
+          "name": "bce",
+          "gamma_neg": 4.0,
+          "gamma_pos": 0.0,
+          "clip": 0.05
+        },
+        "optimizer": {
+          "name": "AdamW",
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "grad_clip_norm": 5.0
+        },
+        "scheduler": {
+          "name": "warmup_cosine",
+          "warmup_epochs": 2,
+          "min_lr_ratio": 0.1
+        },
+        "training": {
+          "max_epochs": 50,
+          "patience": 10,
+          "min_delta": 0.0,
+          "precision": "fp32",
+          "train_metrics": "online_preupdate",
+          "best_metric": "valid_main_mAP"
+        },
+        "unsupported_class_policy": "mask_loss_restore_class_rows_do_not_emit",
+        "sampling": "each_Train_clip_once_per_epoch_fixed_release_frames",
+        "input_cache": {
+          "root": "animalact2/phase2_3_full_cache",
+          "feature_dim": 768,
+          "dtype": "float32",
+          "time_length": "ceil(real_length/2)"
+        }
+      },
+      "config_SHA256": "a09c79180cbb2a71225e05b20004075567f00f44816d7d058823b2e64eda0ca7",
+      "run": "animalact2\\phase2_4\\runs\\model3_bce_seed42",
+      "valid_mAP": 0.4695391421065502,
+      "valid_Macro_F1": 0.4534118322548875,
+      "preprocessing": "RGB / full frame / PIL bilinear short edge 224 / ImageNet normalization",
+      "sampling": "all real frames if <=16, otherwise 16 unique uniform frames within the supplied [start,end) window",
+      "unsupported_class_ids": [
+        23
+      ],
+      "evaluation_split": "Valid",
+      "test_available": false,
+      "source_checkpoint_SHA256": "99e297ee0470a63abd82850a9940528be09d490111dc678ce0e0e38b3a9da160",
+      "checkpoint_path": "runtime_models/heads/attention.pt",
+      "checkpoint_SHA256": "eebb4217f308815bb5340a4087113f0c0b461fae3d32b21ffdf2da138a0b8b05"
+    },
+    "bigru_mean": {
+      "model_id": "bigru_mean",
+      "model_name": "VideoMAE + BiGRU Mean",
+      "head": "bigru_mean",
+      "seed": 42,
+      "best_epoch": 41,
+      "threshold": 0.07,
+      "config": {
+        "schema_version": 1,
+        "release_id": "animalact2-2.0.0-release-v1",
+        "model": "model2",
+        "seed": 42,
+        "device": "cuda",
+        "backbone": {
+          "weights": "MCG-NJU/videomae-base-finetuned-kinetics",
+          "revision": "488eb9a0565f257b32866000305c8178965eb9f6",
+          "frozen": true,
+          "encoder_loaded_in_training": false
+        },
+        "data": {
+          "batch_size": 8,
+          "valid_batch_size": 8,
+          "accumulation_steps": 4,
+          "num_workers": 2,
+          "prefetch_factor": 1,
+          "pin_memory": true
+        },
+        "loss": {
+          "name": "bce",
+          "gamma_neg": 4.0,
+          "gamma_pos": 0.0,
+          "clip": 0.05
+        },
+        "optimizer": {
+          "name": "AdamW",
+          "lr": 0.001,
+          "weight_decay": 0.0001,
+          "grad_clip_norm": 5.0
+        },
+        "scheduler": {
+          "name": "warmup_cosine",
+          "warmup_epochs": 2,
+          "min_lr_ratio": 0.1
+        },
+        "training": {
+          "max_epochs": 50,
+          "patience": 10,
+          "min_delta": 0.0,
+          "precision": "fp32",
+          "train_metrics": "online_preupdate",
+          "best_metric": "valid_main_mAP"
+        },
+        "unsupported_class_policy": "mask_loss_restore_class_rows_do_not_emit",
+        "sampling": "each_Train_clip_once_per_epoch_fixed_release_frames",
+        "input_cache": {
+          "root": "animalact2/phase2_3_full_cache",
+          "feature_dim": 768,
+          "dtype": "float32",
+          "time_length": "ceil(real_length/2)"
+        }
+      },
+      "config_SHA256": "d778e9d0008693a93aed4e454a393f6949cea8e875f208d6ac9c0bb1573b3161",
+      "run": "animalact2\\phase2_4\\runs\\model2_bce_seed42",
+      "valid_mAP": 0.458530883701369,
+      "valid_Macro_F1": 0.45938321407611593,
+      "preprocessing": "RGB / full frame / PIL bilinear short edge 224 / ImageNet normalization",
+      "sampling": "all real frames if <=16, otherwise 16 unique uniform frames within the supplied [start,end) window",
+      "unsupported_class_ids": [
+        23
+      ],
+      "evaluation_split": "Valid",
+      "test_available": false,
+      "source_checkpoint_SHA256": "871cf8947436b99e78d20c6af43daf9029f6de300f7d2687622eb5c872524ce8",
+      "checkpoint_path": "runtime_models/heads/bigru_mean.pt",
+      "checkpoint_SHA256": "f3818bcd2a1c308d2f4eb35f57a4a1299c221b46fa988f555ba9d88e39fd7e2f"
+    }
+  },
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "Abseiling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 1,
+      "name": "Attacking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 2,
+      "name": "Attending",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 3,
+      "name": "Barking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 4,
+      "name": "Being Carried",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 5,
+      "name": "Being Carried In Mouth",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 6,
+      "name": "Being Dragged",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 7,
+      "name": "Being Eaten",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 8,
+      "name": "Biting",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 9,
+      "name": "Building nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 10,
+      "name": "Calling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 11,
+      "name": "Camouflaging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 12,
+      "name": "Carrying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 13,
+      "name": "Carrying In Mouth",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 14,
+      "name": "Chasing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 15,
+      "name": "Chirping",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 16,
+      "name": "Climbing",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 17,
+      "name": "Coiling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 18,
+      "name": "Competing For Dominance",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 19,
+      "name": "Dancing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 20,
+      "name": "Dancing On Water",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 21,
+      "name": "Dead",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 22,
+      "name": "Defecating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 23,
+      "name": "Defensive Rearing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 24,
+      "name": "Detaching As A Parasite",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 25,
+      "name": "Digging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 26,
+      "name": "Displaying Defensive Pose",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 27,
+      "name": "Disturbing Another Animal",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 28,
+      "name": "Diving",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 29,
+      "name": "Doing A Back Kick",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 30,
+      "name": "Doing A Backward Tilt",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 31,
+      "name": "Doing A Chin Dip",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 32,
+      "name": "Doing A Face Dip",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 33,
+      "name": "Doing A Neck Raise",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 34,
+      "name": "Doing A Side Tilt",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 35,
+      "name": "Doing somersault",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 36,
+      "name": "Drifting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 37,
+      "name": "Drinking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 38,
+      "name": "Dying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 39,
+      "name": "Eating",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 40,
+      "name": "Entering its nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 41,
+      "name": "Escaping",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 42,
+      "name": "Exiting Cocoon",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 43,
+      "name": "Exiting Nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 44,
+      "name": "Exploring",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 45,
+      "name": "Falling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 46,
+      "name": "Fighting",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 47,
+      "name": "Flapping",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 48,
+      "name": "Flapping Tail",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 49,
+      "name": "Fleeing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 50,
+      "name": "Flying",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 51,
+      "name": "Giving Birth",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 52,
+      "name": "Gliding",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 53,
+      "name": "Grooming",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 54,
+      "name": "Hanging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 55,
+      "name": "Having A Flehmen Response",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 56,
+      "name": "Hissing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 57,
+      "name": "Holding Hands",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 58,
+      "name": "Hopping",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 59,
+      "name": "Hugging",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 60,
+      "name": "Immobilized",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 61,
+      "name": "Jumping",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 62,
+      "name": "Keeping still",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 63,
+      "name": "Landing",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 64,
+      "name": "Laying Eggs",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 65,
+      "name": "Leaning",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 66,
+      "name": "Licking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 67,
+      "name": "Lying Down",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 68,
+      "name": "Lying On Top",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 69,
+      "name": "Manipulating Object",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 70,
+      "name": "Moving",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 71,
+      "name": "Pecking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 72,
+      "name": "Performing Sexual Display",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 73,
+      "name": "Performing copulatory mounting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 74,
+      "name": "Playing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 75,
+      "name": "Playing Dead",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 76,
+      "name": "Preening",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 77,
+      "name": "Preying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 78,
+      "name": "Puffing its throat",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 79,
+      "name": "Rattling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 80,
+      "name": "Resting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 81,
+      "name": "Retaliating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 82,
+      "name": "Retreating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 83,
+      "name": "Rolling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 84,
+      "name": "Rubbing its head",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 85,
+      "name": "Running",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 86,
+      "name": "Running On Water",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 87,
+      "name": "Sensing",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 88,
+      "name": "Shaking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 89,
+      "name": "Shaking Head",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 90,
+      "name": "Sharing Food",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 91,
+      "name": "Showing Affection",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 92,
+      "name": "Sinking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 93,
+      "name": "Sitting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 94,
+      "name": "Sleeping",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 95,
+      "name": "Sleeping in its nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 96,
+      "name": "Spitting Venom",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 97,
+      "name": "Spreading Wings",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 98,
+      "name": "Squatting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 99,
+      "name": "Standing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 100,
+      "name": "Standing in alert",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 101,
+      "name": "Startled",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 102,
+      "name": "Stinging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 103,
+      "name": "Struggling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 104,
+      "name": "Surfacing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 105,
+      "name": "Swaying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 106,
+      "name": "Swimming",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 107,
+      "name": "Swimming In Circles",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 108,
+      "name": "Tail Swishing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 109,
+      "name": "Trapped",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 110,
+      "name": "Turning Around",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 111,
+      "name": "Undergoing Chrysalis",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 112,
+      "name": "Unmounting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 113,
+      "name": "Urinating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 114,
+      "name": "Walking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 115,
+      "name": "Washing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 116,
+      "name": "Wrapping Itself Around Prey",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 117,
+      "name": "Wrapping Prey",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 118,
+      "name": "Yawning",
+      "main_evaluation": false
+    }
+  ],
+  "scope": "AnimalAct 2.0 only; no AnimalAct 1.0, raw dataset or per-clip labels",
+  "runtime_files": {
+    "runtime_models/heads/attention.pt": "eebb4217f308815bb5340a4087113f0c0b461fae3d32b21ffdf2da138a0b8b05",
+    "runtime_models/heads/bigru_mean.pt": "f3818bcd2a1c308d2f4eb35f57a4a1299c221b46fa988f555ba9d88e39fd7e2f",
+    "runtime_models/videomae/config.json": "6d3c7afb3d1430fa478757425cc9be2fcc50a17bfbf58921e8a9e65bb3b5c568",
+    "runtime_models/videomae/model.safetensors": "065cfde56f97671da4d196e1a3a6d3cf9304dcad92eb671e3632a6c6cdd04f73",
+    "runtime_models/videomae/preprocessor_config.json": "c3aa722f22a7ff0d234d407862025fe47672f74f46f92c91f757f7a7354107c2"
+  },
+  "runtime_archive": {
+    "url": "https://github.com/0Ofan/Multi-Label-Animal-Action-Recognition/releases/download/v2.0-dashboard/animalact2-runtime-v2.zip",
+    "bytes": 222514758,
+    "SHA256": "53325cc92783756ce9581819a391136cfd7695da25858592e807d005f38e60f1"
+  }
+}

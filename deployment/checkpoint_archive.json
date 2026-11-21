@@ -1,0 +1,127 @@
+{
+  "url": "https://github.com/0Ofan/Multi-Label-Animal-Action-Recognition/releases/download/v2.0-dashboard/animalact2-experiment-checkpoints-v2.zip",
+  "bytes": 131574437,
+  "SHA256": "41fb7b78e99366943677354a946eb68969b994c91b6bcfe6a87488a5330f8b52",
+  "files": [
+    {
+      "path": "animalact2/first_round/runs/model1_bce_seed42/best.pt",
+      "bytes": 775545,
+      "SHA256": "630e6d0bd1f30ac8538415421c149d240f40b20faea5ab2f80379e2d326b6f9f"
+    },
+    {
+      "path": "animalact2/first_round/runs/model1_bce_seed42/last.pt",
+      "bytes": 779385,
+      "SHA256": "9def5f1e5757e8b8a583794b9635d621f1641eb77360517a04e93a8fa2ddf186"
+    },
+    {
+      "path": "animalact2/first_round/runs/model2_bce_seed42/best.pt",
+      "bytes": 6337945,
+      "SHA256": "8a0375d7b6d6b58f63d58fdf322b6b1421610e63c9278ff0d6ae5f80b8945cc0"
+    },
+    {
+      "path": "animalact2/first_round/runs/model2_bce_seed42/last.pt",
+      "bytes": 6341209,
+      "SHA256": "b6654b49ea59149491c3978ca16b468f7db1b34dd01d8a01b4604fe6477831f8"
+    },
+    {
+      "path": "animalact2/first_round/runs/model3_bce_seed42/best.pt",
+      "bytes": 6699018,
+      "SHA256": "effa2ca010385a4a9540711fc35058f833ad6f3689c73e21a32e79f579b80bf1"
+    },
+    {
+      "path": "animalact2/first_round/runs/model3_bce_seed42/last.pt",
+      "bytes": 6703114,
+      "SHA256": "2596ef96fd8e2ab004ed4f3e3b92c727c1935efb517e3c3c9336206a49a12da3"
+    },
+    {
+      "path": "animalact2/phase2_4/runs/model1_bce_seed42/best.pt",
+      "bytes": 1140729,
+      "SHA256": "2407d4fa3bd64c92483f029c38aa9c2061bb5dc8d0d95e609f6b6b296703cbc5"
+    },
+    {
+      "path": "animalact2/phase2_4/runs/model1_bce_seed42/last.pt",
+      "bytes": 1144697,
+      "SHA256": "2e015fb883fff6e408a0174de2b080bdd1492f9c8c4dd25ccfd01d709a622cb7"
+    },
+    {
+      "path": "animalact2/phase2_4/runs/model2_bce_seed42/best.pt",
+      "bytes": 8697177,
+      "SHA256": "871cf8947436b99e78d20c6af43daf9029f6de300f7d2687622eb5c872524ce8"
+    },
+    {
+      "path": "animalact2/phase2_4/runs/model2_bce_seed42/last.pt",
+      "bytes": 8700889,
+      "SHA256": "83104b308de0d4476e6da840fbbc2a88b2e19d523b6003f303c80cb51a82d7ef"
+    },
+    {
+      "path": "animalact2/phase2_4/runs/model3_bce_seed42/best.pt",
+      "bytes": 9057034,
+      "SHA256": "99e297ee0470a63abd82850a9940528be09d490111dc678ce0e0e38b3a9da160"
+    },
+    {
+      "path": "animalact2/phase2_4/runs/model3_bce_seed42/last.pt",
+      "bytes": 9061130,
+      "SHA256": "68b53f4255a0aebc391d03afde0acfdb7df2b2732047b560811e3167e21b4559"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model1_seed123/best.pt",
+      "bytes": 1143929,
+      "SHA256": "48cf5c32de4236bbb7a4a88d69930414f24421fa57b8eb00028ac19c3273f341"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model1_seed123/last.pt",
+      "bytes": 1147897,
+      "SHA256": "e03d07d12a52d80a6b86296c3ef15d98da65c95476eb07684862f294956ab480"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model1_seed2026/best.pt",
+      "bytes": 1145017,
+      "SHA256": "bca2a97a62ad9ddb54ae746e56de7ec9f42c9a95b20121a9d014e95c6865e431"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model1_seed2026/last.pt",
+      "bytes": 1148985,
+      "SHA256": "1adca9618c46df0e98f9ea97f31e7d95357004a37556451b849ec13381803dac"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model2_seed123/best.pt",
+      "bytes": 8692697,
+      "SHA256": "4942a669f5dee24d5cfec9cd32fff349be847329d73648b8d502f763f3c0399c"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model2_seed123/last.pt",
+      "bytes": 8696793,
+      "SHA256": "5214322ca95eb14a23beeaf8e5d1bef98306b485b4ae25dd87f46fc0a5f4c40e"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model2_seed2026/best.pt",
+      "bytes": 8700377,
+      "SHA256": "923674bb441e3969b0d4c13e6cb41b6063e591df4fb621eae2547ad087315357"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model2_seed2026/last.pt",
+      "bytes": 8700761,
+      "SHA256": "fb7631da5922fd34927f95890ddda77a60aa35865b5de6bac57f3a2f48ff7990"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model3_seed123/best.pt",
+      "bytes": 9056202,
+      "SHA256": "d6e9fc100729f41e7d43db796273f97513af8b05523a4074cf23da47cff26f24"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model3_seed123/last.pt",
+      "bytes": 9060298,
+      "SHA256": "92a7b1b2a88d2875c282d21bba905fe005ce0c175c606676a5a9737348fc3377"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model3_seed2026/best.pt",
+      "bytes": 9063498,
+      "SHA256": "ef7429dde7d8ffc51599a322d9acf2da7b911342452800548f4d6a449b42995e"
+    },
+    {
+      "path": "animalact2/phase2_5/runs/model3_seed2026/last.pt",
+      "bytes": 9067594,
+      "SHA256": "c161a48de368cf90e7b793430950ade05bacb7dd08b9334c2b4a991ab4c46090"
+    }
+  ]
+}

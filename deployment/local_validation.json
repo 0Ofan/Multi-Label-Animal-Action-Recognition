@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "input_source": "one existing Valid parent video; not used for training; not published",
+  "original_data_required_by_app": false,
+  "Test_read": false,
+  "checks": [
+    {
+      "model": "attention",
+      "max_logit_error_vs_original_CUDA": 1.811981201171875e-05,
+      "threshold": 0.12,
+      "predicted_labels": [
+        "Keeping still",
+        "Sensing"
+      ],
+      "shape": [
+        1,
+        8,
+        768
+      ],
+      "CPU_inference_seconds": 3.06159190001199
+    },
+    {
+      "model": "bigru_mean",
+      "max_logit_error_vs_original_CUDA": 1.52587890625e-05,
+      "threshold": 0.07,
+      "predicted_labels": [
+        "Keeping still"
+      ],
+      "shape": [
+        1,
+        8,
+        768
+      ],
+      "CPU_inference_seconds": 2.747591999999713
+    }
+  ],
+  "seconds": 9.098800000007031
+}

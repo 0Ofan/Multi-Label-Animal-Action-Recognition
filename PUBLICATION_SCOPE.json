@@ -1,0 +1,11 @@
+{
+  "version": "AnimalAct 2.0",
+  "source_dataset_uploaded": false,
+  "old_AnimalAct_1_uploaded": false,
+  "raw_per_clip_labels_uploaded": false,
+  "local_files_deleted": false,
+  "training_started": false,
+  "test_inference_run": false,
+  "runtime_model_asset": "animalact2-runtime-v2.zip",
+  "experiment_checkpoint_asset": "animalact2-experiment-checkpoints-v2.zip"
+}

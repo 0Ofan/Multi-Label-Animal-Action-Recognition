@@ -1,0 +1,15 @@
+{
+  "dataset_name": "AnimalAct 2.0",
+  "release_id": "animalact2-2.0.0-release-v1",
+  "release_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "status": "released_local",
+  "created_utc": "2026-11-20T02:49:08.271628+00:00",
+  "source_dataset_revision": "animalact-20261114-r2",
+  "official_split_version": "animalact-70-15-15-v1",
+  "rules": "approved Phase1.4 endpoint clamp, effective-window dedup and Phase1.4.2 exact159 exclusion list",
+  "immutable_after_release": true,
+  "independent_validation": "data_validation.json",
+  "checksum_manifest": "SHA256SUMS.txt",
+  "file_inventory": "FILE_MANIFEST.csv"
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "release_id": "animalact2-2.0.0-release-v1",
+  "model": "model1",
+  "seed": 2026,
+  "device": "cuda",
+  "backbone": {
+    "weights": "MCG-NJU/videomae-base-finetuned-kinetics",
+    "revision": "488eb9a0565f257b32866000305c8178965eb9f6",
+    "frozen": true,
+    "encoder_loaded_in_training": false
+  },
+  "data": {
+    "batch_size": 8,
+    "valid_batch_size": 8,
+    "accumulation_steps": 4,
+    "num_workers": 2,
+    "prefetch_factor": 1,
+    "pin_memory": true
+  },
+  "loss": {
+    "name": "bce",
+    "gamma_neg": 4.0,
+    "gamma_pos": 0.0,
+    "clip": 0.05
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "grad_clip_norm": 5.0
+  },
+  "scheduler": {
+    "name": "warmup_cosine",
+    "warmup_epochs": 2,
+    "min_lr_ratio": 0.1
+  },
+  "training": {
+    "max_epochs": 50,
+    "patience": 10,
+    "min_delta": 0.0,
+    "precision": "fp32",
+    "train_metrics": "online_preupdate",
+    "best_metric": "valid_main_mAP"
+  },
+  "unsupported_class_policy": "mask_loss_restore_class_rows_do_not_emit",
+  "sampling": "each_Train_clip_once_per_epoch_fixed_release_frames",
+  "input_cache": {
+    "root": "animalact2/phase2_3_full_cache",
+    "feature_dim": 768,
+    "dtype": "float32",
+    "time_length": "ceil(real_length/2)"
+  }
+}

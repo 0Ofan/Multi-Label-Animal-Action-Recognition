@@ -1,0 +1,725 @@
+{
+  "release_id": "animalact2-2.0.0-release-v1",
+  "vocabulary_version": "1.0.0",
+  "num_classes": 119,
+  "classes": [
+    {
+      "class_id": 0,
+      "name": "Abseiling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 1,
+      "name": "Attacking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 2,
+      "name": "Attending",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 3,
+      "name": "Barking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 4,
+      "name": "Being Carried",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 5,
+      "name": "Being Carried In Mouth",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 6,
+      "name": "Being Dragged",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 7,
+      "name": "Being Eaten",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 8,
+      "name": "Biting",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 9,
+      "name": "Building nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 10,
+      "name": "Calling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 11,
+      "name": "Camouflaging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 12,
+      "name": "Carrying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 13,
+      "name": "Carrying In Mouth",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 14,
+      "name": "Chasing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 15,
+      "name": "Chirping",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 16,
+      "name": "Climbing",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 17,
+      "name": "Coiling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 18,
+      "name": "Competing For Dominance",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 19,
+      "name": "Dancing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 20,
+      "name": "Dancing On Water",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 21,
+      "name": "Dead",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 22,
+      "name": "Defecating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 23,
+      "name": "Defensive Rearing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 24,
+      "name": "Detaching As A Parasite",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 25,
+      "name": "Digging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 26,
+      "name": "Displaying Defensive Pose",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 27,
+      "name": "Disturbing Another Animal",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 28,
+      "name": "Diving",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 29,
+      "name": "Doing A Back Kick",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 30,
+      "name": "Doing A Backward Tilt",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 31,
+      "name": "Doing A Chin Dip",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 32,
+      "name": "Doing A Face Dip",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 33,
+      "name": "Doing A Neck Raise",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 34,
+      "name": "Doing A Side Tilt",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 35,
+      "name": "Doing somersault",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 36,
+      "name": "Drifting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 37,
+      "name": "Drinking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 38,
+      "name": "Dying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 39,
+      "name": "Eating",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 40,
+      "name": "Entering its nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 41,
+      "name": "Escaping",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 42,
+      "name": "Exiting Cocoon",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 43,
+      "name": "Exiting Nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 44,
+      "name": "Exploring",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 45,
+      "name": "Falling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 46,
+      "name": "Fighting",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 47,
+      "name": "Flapping",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 48,
+      "name": "Flapping Tail",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 49,
+      "name": "Fleeing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 50,
+      "name": "Flying",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 51,
+      "name": "Giving Birth",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 52,
+      "name": "Gliding",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 53,
+      "name": "Grooming",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 54,
+      "name": "Hanging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 55,
+      "name": "Having A Flehmen Response",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 56,
+      "name": "Hissing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 57,
+      "name": "Holding Hands",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 58,
+      "name": "Hopping",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 59,
+      "name": "Hugging",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 60,
+      "name": "Immobilized",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 61,
+      "name": "Jumping",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 62,
+      "name": "Keeping still",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 63,
+      "name": "Landing",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 64,
+      "name": "Laying Eggs",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 65,
+      "name": "Leaning",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 66,
+      "name": "Licking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 67,
+      "name": "Lying Down",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 68,
+      "name": "Lying On Top",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 69,
+      "name": "Manipulating Object",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 70,
+      "name": "Moving",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 71,
+      "name": "Pecking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 72,
+      "name": "Performing Sexual Display",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 73,
+      "name": "Performing copulatory mounting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 74,
+      "name": "Playing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 75,
+      "name": "Playing Dead",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 76,
+      "name": "Preening",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 77,
+      "name": "Preying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 78,
+      "name": "Puffing its throat",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 79,
+      "name": "Rattling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 80,
+      "name": "Resting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 81,
+      "name": "Retaliating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 82,
+      "name": "Retreating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 83,
+      "name": "Rolling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 84,
+      "name": "Rubbing its head",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 85,
+      "name": "Running",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 86,
+      "name": "Running On Water",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 87,
+      "name": "Sensing",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 88,
+      "name": "Shaking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 89,
+      "name": "Shaking Head",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 90,
+      "name": "Sharing Food",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 91,
+      "name": "Showing Affection",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 92,
+      "name": "Sinking",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 93,
+      "name": "Sitting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 94,
+      "name": "Sleeping",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 95,
+      "name": "Sleeping in its nest",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 96,
+      "name": "Spitting Venom",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 97,
+      "name": "Spreading Wings",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 98,
+      "name": "Squatting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 99,
+      "name": "Standing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 100,
+      "name": "Standing in alert",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 101,
+      "name": "Startled",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 102,
+      "name": "Stinging",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 103,
+      "name": "Struggling",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 104,
+      "name": "Surfacing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 105,
+      "name": "Swaying",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 106,
+      "name": "Swimming",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 107,
+      "name": "Swimming In Circles",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 108,
+      "name": "Tail Swishing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 109,
+      "name": "Trapped",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 110,
+      "name": "Turning Around",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 111,
+      "name": "Undergoing Chrysalis",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 112,
+      "name": "Unmounting",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 113,
+      "name": "Urinating",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 114,
+      "name": "Walking",
+      "main_evaluation": true
+    },
+    {
+      "class_id": 115,
+      "name": "Washing",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 116,
+      "name": "Wrapping Itself Around Prey",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 117,
+      "name": "Wrapping Prey",
+      "main_evaluation": false
+    },
+    {
+      "class_id": 118,
+      "name": "Yawning",
+      "main_evaluation": false
+    }
+  ],
+  "name_to_id": {
+    "Abseiling": 0,
+    "Attacking": 1,
+    "Attending": 2,
+    "Barking": 3,
+    "Being Carried": 4,
+    "Being Carried In Mouth": 5,
+    "Being Dragged": 6,
+    "Being Eaten": 7,
+    "Biting": 8,
+    "Building nest": 9,
+    "Calling": 10,
+    "Camouflaging": 11,
+    "Carrying": 12,
+    "Carrying In Mouth": 13,
+    "Chasing": 14,
+    "Chirping": 15,
+    "Climbing": 16,
+    "Coiling": 17,
+    "Competing For Dominance": 18,
+    "Dancing": 19,
+    "Dancing On Water": 20,
+    "Dead": 21,
+    "Defecating": 22,
+    "Defensive Rearing": 23,
+    "Detaching As A Parasite": 24,
+    "Digging": 25,
+    "Displaying Defensive Pose": 26,
+    "Disturbing Another Animal": 27,
+    "Diving": 28,
+    "Doing A Back Kick": 29,
+    "Doing A Backward Tilt": 30,
+    "Doing A Chin Dip": 31,
+    "Doing A Face Dip": 32,
+    "Doing A Neck Raise": 33,
+    "Doing A Side Tilt": 34,
+    "Doing somersault": 35,
+    "Drifting": 36,
+    "Drinking": 37,
+    "Dying": 38,
+    "Eating": 39,
+    "Entering its nest": 40,
+    "Escaping": 41,
+    "Exiting Cocoon": 42,
+    "Exiting Nest": 43,
+    "Exploring": 44,
+    "Falling": 45,
+    "Fighting": 46,
+    "Flapping": 47,
+    "Flapping Tail": 48,
+    "Fleeing": 49,
+    "Flying": 50,
+    "Giving Birth": 51,
+    "Gliding": 52,
+    "Grooming": 53,
+    "Hanging": 54,
+    "Having A Flehmen Response": 55,
+    "Hissing": 56,
+    "Holding Hands": 57,
+    "Hopping": 58,
+    "Hugging": 59,
+    "Immobilized": 60,
+    "Jumping": 61,
+    "Keeping still": 62,
+    "Landing": 63,
+    "Laying Eggs": 64,
+    "Leaning": 65,
+    "Licking": 66,
+    "Lying Down": 67,
+    "Lying On Top": 68,
+    "Manipulating Object": 69,
+    "Moving": 70,
+    "Pecking": 71,
+    "Performing Sexual Display": 72,
+    "Performing copulatory mounting": 73,
+    "Playing": 74,
+    "Playing Dead": 75,
+    "Preening": 76,
+    "Preying": 77,
+    "Puffing its throat": 78,
+    "Rattling": 79,
+    "Resting": 80,
+    "Retaliating": 81,
+    "Retreating": 82,
+    "Rolling": 83,
+    "Rubbing its head": 84,
+    "Running": 85,
+    "Running On Water": 86,
+    "Sensing": 87,
+    "Shaking": 88,
+    "Shaking Head": 89,
+    "Sharing Food": 90,
+    "Showing Affection": 91,
+    "Sinking": 92,
+    "Sitting": 93,
+    "Sleeping": 94,
+    "Sleeping in its nest": 95,
+    "Spitting Venom": 96,
+    "Spreading Wings": 97,
+    "Squatting": 98,
+    "Standing": 99,
+    "Standing in alert": 100,
+    "Startled": 101,
+    "Stinging": 102,
+    "Struggling": 103,
+    "Surfacing": 104,
+    "Swaying": 105,
+    "Swimming": 106,
+    "Swimming In Circles": 107,
+    "Tail Swishing": 108,
+    "Trapped": 109,
+    "Turning Around": 110,
+    "Undergoing Chrysalis": 111,
+    "Unmounting": 112,
+    "Urinating": 113,
+    "Walking": 114,
+    "Washing": 115,
+    "Wrapping Itself Around Prey": 116,
+    "Wrapping Prey": 117,
+    "Yawning": 118
+  },
+  "original_mapping_SHA256": "3e6362a68fb88a7f05c4a059063864a8c272a96e27d45a3f462c6fa9a8f843ce",
+  "class_definitions_changed": false
+}
