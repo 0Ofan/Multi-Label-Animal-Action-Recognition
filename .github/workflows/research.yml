@@ -1,0 +1,27 @@
+name: AnimalAct 2.0 research restoration and CPU smoke
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - name: Restore and SHA-verify sealed research workspace
+        run: python research_tools/restore.py
+      - name: Six real cached-head diagnostic updates, no formal training
+        run: |
+          for family in resnet18 videomae; do
+            for model in model1 model2 model3; do
+              python research_tools/run.py --workspace research_workspace --family "$family" --model "$model" --smoke --device cpu
+            done
+          done
+      - name: Recompute full Valid for the saved attention candidate
+        run: python research_tools/run.py --workspace research_workspace --family videomae --model model3 --device cpu --workers 0 --evaluate research_workspace/animalact2/phase2_4/runs/model3_bce_seed42/best.pt --output research_workspace/cpu_valid.json
