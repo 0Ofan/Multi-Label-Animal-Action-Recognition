@@ -44,3 +44,22 @@ def export_intervals_csv(envelope):
     for row in envelope["result"].get("temporal_detection", {}).get("segments", []):
         writer.writerow(dict(zip(fields, [envelope["filename"], row["class_id"], row["action"], row["start"], row["end"], row["score"]])))
     return ("\ufeff" + stream.getvalue()).encode("utf-8")
+
+
+def export_grounding_json(envelope):
+    return json.dumps(dict(filename=envelope["filename"], upload_sha256=envelope["fingerprint"],
+                           **envelope["result"]), ensure_ascii=False, indent=2, allow_nan=False).encode("utf-8")
+
+
+def export_grounding_csv(envelope):
+    result = envelope["result"]
+    stream = io.StringIO(newline="")
+    fields = ["filename", "query", "rank", "start_seconds", "end_seconds", "match_score",
+              "unknown_animal", "checkpoint_SHA256", "candidate_meaning"]
+    writer = csv.DictWriter(stream, fieldnames=fields)
+    writer.writeheader()
+    for row in result["intervals"]:
+        writer.writerow(dict(zip(fields, [envelope["filename"], result["query"], row["rank"],
+            row["start"], row["end"], row["match_score"], result["unknown_animal"],
+            result["checkpoint_SHA256"], "top_prediction" if row["rank"] == 1 else "alternative_candidate"])))
+    return ("\ufeff" + stream.getvalue()).encode("utf-8")

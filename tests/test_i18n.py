@@ -40,11 +40,11 @@ class LanguageTests(unittest.TestCase):
             app.selectbox(key="model_key").set_value(model).run()
             self.assertFalse(app.exception)
             self.assertFalse(app.error)
-            self.assertFalse(app.text_input)
+            self.assertEqual([item.key for item in app.text_input], ["grounding_query_input"])
 
     def test_display_strings_have_chinese_entries(self):
         root = Path("animalact2/dashboard/ui")
-        for path in [root / "app.py", *(root / "pages").glob("*.py"), root / "components/ui.py"]:
+        for path in [root / "app.py", *(root / "pages").glob("*.py"), *(root / "components").glob("*.py")]:
             for node in ast.walk(ast.parse(path.read_text(encoding="utf-8"))):
                 if not isinstance(node, ast.Call) or not isinstance(node.func, ast.Name):
                     continue

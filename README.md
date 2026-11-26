@@ -3,7 +3,7 @@
 
 ## 当前发布版本与网站入口
 
-当前版本基于组员最终交付的 `AnimalAct_最新版.zip / AnimalAct_Integrated_Team`，发布号 **v2.1-final-integrated**。默认模型是 **ResNet-18 + 20% BiGRU Mean + 80% Class-specific Temporal Attention分数融合**，整视频固定16帧、Seed6116、Valid阈值0.20。保留三个独立ResNet分类器，以及原VideoMAE BiGRU Mean和Attention两个可选模型，共六种识别方式。
+当前版本基于组员最终交付的 `AnimalAct_最新版.zip / AnimalAct_Integrated_Team`，基础发布号 **v2.1-final-integrated**，网页查询接入版本 **v2.1.1-bonus-interface**。默认模型是 **ResNet-18 + 20% BiGRU Mean + 80% Class-specific Temporal Attention分数融合**，整视频固定16帧、Seed6116、Valid阈值0.20。保留三个独立ResNet分类器，以及原VideoMAE BiGRU Mean和Attention两个可选模型，共六种识别方式。
 
 网页仍使用 **Video / Results / Evaluation** 三页，支持中英文、上传预览、119类多标签分数、CSV/JSON导出和实验记录查看。实验性时间检测使用独立的4fps ResNet模型，错误仍较多；时间检测失败时保留分类结果并显示错误。
 
@@ -30,6 +30,21 @@ Linux/macOS将Python路径换为`.venv/bin/python`。`scripts/restore.py final`�
 **评价口径**：新增整视频ResNet/融合结果和历史片段级ResNet/VideoMAE结果是不同实验。Evaluation分别显示已有记录，不重新计算Test预测，不把Valid结果写成Test结果。保留原阈值与权重，不进行新训练。
 
 
+## 网页Bonus：按查询定位动作
+
+在Video页上传视频后，向下找到 **Query-based temporal grounding (Bonus)** / **自然语言时序定位（Bonus）**：
+
+1. 输入英文模板，例如 `A goat is walking.`。也可展开查询生成器，选择训练动物名称和动作，再点击“使用此查询”。
+2. 点击“运行查询定位”。该操作独立于普通分类，使用已有ResNet-18 + BiGRU查询窗口评分器的第3轮最佳权重，CPU运行。
+3. 查看最高分时间区间、备选窗口和时间轴，下载独立CSV或JSON；Results页也会保留本次查询结果。
+4. 更换视频或修改查询后，旧查询结果失效，需要重新运行。切换Video/Results页面不会自动重复推理。
+
+查询定位、无需查询的自动时间检测、动作名称筛选是三个不同功能。Results中的“筛选动作名称”只筛选119类分数，不会触发定位。Bonus模型不随上方分类模型选项切换，也不使用LLM。
+
+模型存在长窗口偏置，不能可靠判断目标动作不存在；备选窗口不是多个独立行为事件，匹配分数不是校准概率。不在训练动物词表中的名称沿用原模型的未知动物嵌入，并显示提示。上传视频没有真实标注，因此不为它显示虚构IoU。历史IoU、mIoU和R@1仍在Evaluation的模板查询定位页签中展示，不重新评价Test。
+
+可选本地HTTP接口：`GET /api/grounding`返回词表和模型来源；`POST /api/grounding?query=A%20goat%20is%20walking.&device=cpu`接收视频二进制正文及`X-Filename`文件名，返回独立查询定位结果。HTTP服务仍仅监听本机127.0.0.1；Streamlit Cloud使用同进程直接推理。
+
 ## 中文与英文界面
 
 侧栏的 Language / 语言 可切换 English 和简体中文。中文入口使用 `http://127.0.0.1:8502/?lang=zh`，英文入口使用 `?lang=en`，统一实验评估页可追加 `&page=evaluation`。
@@ -38,7 +53,7 @@ Linux/macOS将Python路径换为`.venv/bin/python`。`scripts/restore.py final`�
 
 ## Method progression and whole-video experiments
 
-The Video, Results and Evaluation pages share the proposed method progression: ResNet-18 mean pooling, BiGRU mean pooling, temporal attention, then VideoMAE encoder extensions. Whole-video ResNet-18 is the default. Automatic action detection reuses dense ResNet features and predicts all action classes and boundaries without a text query; the older query-grounding experiments are retained as research records. Training, validation and test retain the official 2,075 / 446 / 447 video split. All 119 actions enter the new classification loss. See [proposal/COMPLETION.md](proposal/COMPLETION.md) for measured results and [proposal/results/results.json](proposal/results/results.json) for per-class counts. The historical interval-clip experiments below have their own evaluation unit.
+The Video, Results and Evaluation pages share the proposed method progression: ResNet-18 mean pooling, BiGRU mean pooling, temporal attention, then VideoMAE encoder extensions. Whole-video ResNet-18 is the default. Automatic action detection reuses dense ResNet features and predicts all action classes and boundaries without a text query; the existing template-query ranker is also available in the independent Bonus section on Video, alongside its retained evaluation records. Training, validation and test retain the official 2,075 / 446 / 447 video split. All 119 actions enter the new classification loss. See [proposal/COMPLETION.md](proposal/COMPLETION.md) for measured results and [proposal/results/results.json](proposal/results/results.json) for per-class counts. The historical interval-clip experiments below have their own evaluation unit.
 
 From the project root, reproduce the whole-video experiments in an empty output directory:
 

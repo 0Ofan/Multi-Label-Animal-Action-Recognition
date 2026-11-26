@@ -196,3 +196,36 @@ ZH.update({
 ZH.update({'ResNet-18 · Weighted ensemble': 'ResNet-18 · 加权融合优化', 'BiGRU Mean 20% + Attention 80%': 'BiGRU 平均池化 20% + 注意力 80%', 'Weighted scores: 20% BiGRU Mean + 80% Attention. Weights and threshold selected on Valid; time detection remains a separate original model.': '融合分数：20% BiGRU 平均池化 + 80% 注意力。权重和阈值由验证集选择；时间区间检测仍使用原有独立模型。', 'Weighted ensemble optimization': '加权融合优化', 'Original models are retained. This module adds score fusion, Valid-only selection and comparison.': '保留原有模型，本模块新增分数融合、仅基于验证集的方案选择及对照分析。', 'Equal averaging has higher Test mAP, but the weighted policy was selected on Valid. No policy was reselected using Test.': '等权平均的测试 mAP 更高，但加权方案由验证集选定，未根据测试集重新选择方案。', 'F1 gains reflect fusion and threshold selection together. Exploratory results on a previously evaluated Test split; statistical significance is not established.': 'F1 提升来自融合与阈值选择的共同作用。这是既有测试集上的探索性结果，尚未证明统计显著性。', 'Download fusion experiment': '下载融合实验结果'})
 
 ZH.update({})
+
+# Existing template-query model, integrated independently from classification.
+ZH.update({
+    "Query-based temporal grounding (Bonus)": "自然语言时序定位（Bonus）",
+    "Ask when a specified animal behavior occurs in the uploaded video.": "输入目标动物行为，查询它在上传视频中发生的时间。",
+    "Independent query model: ResNet-18 + BiGRU window ranker, epoch 3, 16 frames. The classification model selector does not change this model.": "独立查询模型：ResNet-18 + BiGRU 窗口评分器，第 3 轮权重、16 帧输入。上方分类模型选项不影响此模型。",
+    "Build an English template query": "生成英文模板查询",
+    "Animal name from the training vocabulary": "动物名称（训练词表）",
+    "Target action": "目标动作",
+    "Use this query": "使用此查询",
+    "Behavior query (English template)": "行为查询（英文模板）",
+    "Format: A {animal} is {action}. Use an exact action name; the builder supplies supported names.": "格式：A {animal} is {action}.。动作须使用词表中的完整名称，可通过上方生成器填入。",
+    "This animal name is outside the training vocabulary. The original model uses its unknown-animal embedding; localization may be less reliable.": "该动物名称不在训练词表中，原模型将使用未知动物嵌入，定位可能更不可靠。",
+    "Upload a readable video above to run query localization. Classification is optional.": "请先在上方上传可读取的视频。可独立运行查询定位，无需先运行分类。",
+    "Query localization complete": "查询定位完成",
+    "Run query localization": "运行查询定位",
+    "Localizing the query on CPU…": "正在使用 CPU 定位查询行为……",
+    "Query localization failed: ": "查询定位失败：",
+    "Query localization result": "查询定位结果",
+    "Top interval (seconds)": "最高分区间（秒）",
+    "Experimental query localization: long-window bias remains. The model always ranks candidates and cannot confirm that the queried behavior is absent.": "实验性查询定位仍偏向长区间。模型总会给出候选排名，无法确认查询行为是否实际不存在。",
+    "The first interval is the top prediction. Other intervals are alternatives, not separate detected events. Scores are uncalibrated matching scores.": "第一个区间为最高分预测，其余是备选窗口，不代表多个独立事件。分数为未经校准的匹配分数。",
+    "Top prediction": "最高分预测",
+    "Alternative": "备选窗口",
+    "Input video duration and candidate resolution (seconds): ": "视频时长 / 候选时间分辨率（秒）：",
+    "Download query intervals CSV": "下载查询区间 CSV",
+    "Download query result JSON": "下载查询结果 JSON",
+    "This filter searches action names only. Use the Bonus section on Video for query-based time localization.": "此处仅筛选动作名称。如需根据查询定位时间，请使用视频识别页的 Bonus 区域。",
+    "Filter action names": "筛选动作名称",
+    "Rank": "排名"
+})
+
+ZH.update({"Use the template 'A {animal} is {action}.'": "请使用英文模板 A {animal} is {action}.", "Use an action name from the dataset vocabulary.": "请使用动作词表中的完整英文动作名称。"})

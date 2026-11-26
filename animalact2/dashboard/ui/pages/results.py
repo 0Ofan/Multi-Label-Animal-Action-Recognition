@@ -4,6 +4,7 @@ import streamlit as st
 from animalact2.dashboard.ui.components.ui import header, metrics, tags, probability_chart, table, empty_results, action_timeline
 from animalact2.dashboard.ui.services.presentation import score_rows, export_csv, export_json
 from animalact2.dashboard.ui.services.search import llm_settings, search_actions
+from animalact2.dashboard.ui.components.grounding import render_result as render_grounding_result
 
 
 @st.cache_data(show_spinner="Searching action classes…", ttl=3600)
@@ -23,12 +24,17 @@ def render():
     header("PREDICTION EXPLORER", "Recognition Results", "Explore every action score from your latest video. No additional inference is run on this page.")
     envelope = st.session_state.get("recognition")
     if not envelope:
-        empty_results(); return
+        if st.session_state.get("grounding_result") and st.session_state.get("upload"):
+            st.video(st.session_state["upload"]["content"])
+        if not render_grounding_result():
+            empty_results()
+        return
     r = envelope["result"]
     st.markdown(t(f"**{envelope['filename']}** · {r['model_name']} · {r['device'].upper()}"))
     metrics([("Predicted actions", str(len(r["predicted_labels"]))), ("Highest score", f"{max(x['score'] for x in r['class_scores']):.2%}"),
              ("Inference time", f"{r['inference_time']:.2f} s"), ("Fixed threshold", f"{r['threshold']:.2f}")])
     if st.session_state.get("upload"): st.video(st.session_state["upload"]["content"])
+    render_grounding_result()
     if r.get("evaluation_unit") == "whole_video":
         st.caption(t("Whole-video ResNet-18 uses 16 uniform samples and trains all 119 classes. Short videos may reuse frames."))
     else:
@@ -47,7 +53,8 @@ def render():
         st.caption(t("Scores are independent sigmoid outputs, not calibrated certainty. No ground truth is provided for this upload, so accuracy, precision and recall are not shown."))
     with st.container(border=True):
         st.subheader(t("Probability distribution"))
-        query = st.text_input(t("Search actions"), placeholder="e.g. 攀爬或跳跃的动作 / aggressive behaviour / Walking", max_chars=200, key="result_search",
+        st.caption(t("This filter searches action names only. Use the Bonus section on Video for query-based time localization."))
+        query = st.text_input(t("Filter action names"), placeholder="e.g. 攀爬或跳跃的动作 / aggressive behaviour / Walking", max_chars=200, key="result_search",
                               help="Semantic search re-ranks the view only; prediction scores, threshold and emitted labels are unchanged.")
         a,b,c,d = st.columns([1.15,1.3,1.25,1])
         mode = a.selectbox(t("Search mode"), ["Semantic (LLM)","Keyword"], key="result_search_mode", format_func=option_formatter())

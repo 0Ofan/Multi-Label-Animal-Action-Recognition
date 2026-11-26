@@ -1,0 +1,27 @@
+{
+  "version": "v2.1.1-bonus-interface",
+  "base_commit": "a8c632ec7850ffd79ff672792859b39783addb86",
+  "local_tests_passed": 53,
+  "checkpoint_files_SHA256_verified": 20,
+  "original_ranking_intervals_and_scores_exactly_equal": true,
+  "real_http_query_inference_passed": true,
+  "input_for_real_inference": "generated synthetic video only",
+  "protected_paths_unchanged": [
+    "animalact2/release_v1",
+    "animalact2/first_round",
+    "animalact2/phase2_4",
+    "animalact2/phase2_5",
+    "proposal/grounding.py",
+    "proposal/dense_grounding.py",
+    "proposal/grounding_rank_results/results.json",
+    "proposal/grounding_results/results.json",
+    "proposal/dense_grounding_results/results.json",
+    "ensemble_integration/experiment",
+    "proposal/results"
+  ],
+  "training_performed": false,
+  "test_inference_performed": false,
+  "training_cache_reextracted": false,
+  "new_model_weights": false,
+  "new_dependencies": false
+}
