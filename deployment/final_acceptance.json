@@ -1,0 +1,53 @@
+{
+  "release": "v2.1-final-integrated",
+  "verified_on": "2026-11-27",
+  "tested_code_commit": "03a8269a7b7651ea127e615ec40141d74f5f6189",
+  "local_tests": {
+    "passed": 45,
+    "platform": "Windows / project .venv"
+  },
+  "linux_cpu_tests": {
+    "passed": 45,
+    "conclusion": "success",
+    "url": "https://github.com/0Ofan/Multi-Label-Animal-Action-Recognition/actions/runs/45866697209",
+    "fresh_release_model_restoration": true
+  },
+  "public_streamlit": {
+    "url": "https://multi-label-animal-action-recognition-xh8tppjnmarxt9wuhk6wbx.streamlit.app/",
+    "initial_http_status": 200,
+    "final_ensemble_visible": true,
+    "upload_inference_completed": true,
+    "exported_classes": 119,
+    "cloud_model_id": "resnet_ensemble",
+    "cloud_threshold": 0.20000000298023224,
+    "cloud_detection_status": "ready",
+    "csv_rows": 119
+  },
+  "cloud_test_input": {
+    "source": "generated synthetic video",
+    "dataset_sample": false,
+    "duration_seconds": 10,
+    "fps": 24,
+    "resolution": [
+      96,
+      64
+    ],
+    "purpose": "interface and model execution acceptance; not classification accuracy"
+  },
+  "checks": {
+    "video_upload": true,
+    "real_cpu_inference": true,
+    "results_page": true,
+    "json_export": true,
+    "csv_export": true,
+    "evaluation_page": true
+  },
+  "protection": {
+    "original_checkpoint_files_verified": 20,
+    "training_performed": false,
+    "feature_extraction_performed": false,
+    "test_dataset_inference_performed": false,
+    "thresholds_changed": false,
+    "raw_dataset_published": false
+  }
+}
