@@ -23,5 +23,25 @@
   "test_inference_performed": false,
   "training_cache_reextracted": false,
   "new_model_weights": false,
-  "new_dependencies": false
+  "new_dependencies": false,
+  "linux_cpu_tests": {
+    "passed": 53,
+    "url": "https://github.com/0Ofan/Multi-Label-Animal-Action-Recognition/actions/runs/45872553220",
+    "tested_code_commit": "46ea903793cf53335493992874b9099f38a9ed5c"
+  },
+  "local_browser_acceptance": {
+    "passed": true,
+    "queries": [
+      "A goat is walking.",
+      "A goat is eating."
+    ],
+    "query_JSON_and_CSV": true,
+    "query_only_results": true,
+    "navigation_preserves_query": true,
+    "classification_preserved_when_query_invalid": true,
+    "chinese_controls": true,
+    "input": "self-generated synthetic video"
+  },
+  "current_streamlit_url": "https://cnnproject-comp6116.streamlit.app/",
+  "cloud_acceptance": "pending hosted process refresh"
 }

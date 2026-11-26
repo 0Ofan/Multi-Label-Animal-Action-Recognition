@@ -7,7 +7,7 @@
 
 网页仍使用 **Video / Results / Evaluation** 三页，支持中英文、上传预览、119类多标签分数、CSV/JSON导出和实验记录查看。实验性时间检测使用独立的4fps ResNet模型，错误仍较多；时间检测失败时保留分类结果并显示错误。
 
-- 网站：<https://multi-label-animal-action-recognition-xh8tppjnmarxt9wuhk6wbx.streamlit.app/>
+- 网站：<https://cnnproject-comp6116.streamlit.app/>
 - 代码：本仓库 `main` 分支；入口 **`streamlit_app.py`**。
 - Streamlit Community Cloud：已有应用继续使用同一仓库、`main`和上述入口，无需另建应用；代码推送后平台自动更新，依赖变化可能触发重建。需要手动恢复时，在Manage app中选择Reboot。
 - 新建应用：在 <https://share.streamlit.io/> 选择本仓库、`main`、`streamlit_app.py`，Python **3.13**。基础识别不需要Secrets。
