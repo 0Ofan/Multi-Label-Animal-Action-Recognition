@@ -1,0 +1,98 @@
+{
+  "selection_split": "valid",
+  "evaluation_unit": "whole_video",
+  "classes": 31,
+  "methods": {
+    "mean": {
+      "weights": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "threshold": 0.15,
+      "valid": {
+        "videos": 446,
+        "map": 0.3964190827026777,
+        "macro_f1": 0.38211464290873365
+      },
+      "test": {
+        "videos": 447,
+        "map": 0.36264550620484154,
+        "macro_f1": 0.3655035637701873
+      }
+    },
+    "bigru_mean": {
+      "weights": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "threshold": 0.1,
+      "valid": {
+        "videos": 446,
+        "map": 0.3802791298182571,
+        "macro_f1": 0.362290160102969
+      },
+      "test": {
+        "videos": 447,
+        "map": 0.3712894337923615,
+        "macro_f1": 0.36972979533887024
+      }
+    },
+    "bigru_attention": {
+      "weights": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "threshold": 0.3,
+      "valid": {
+        "videos": 446,
+        "map": 0.4519981279305259,
+        "macro_f1": 0.432144519496151
+      },
+      "test": {
+        "videos": 447,
+        "map": 0.3894116959198026,
+        "macro_f1": 0.3777886329805314
+      }
+    },
+    "equal_average": {
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "threshold": 0.15,
+      "valid": {
+        "videos": 446,
+        "map": 0.4425178325556384,
+        "macro_f1": 0.4221861727023966
+      },
+      "test": {
+        "videos": 447,
+        "map": 0.4014136317002345,
+        "macro_f1": 0.4115886694285779
+      }
+    },
+    "weighted_fusion": {
+      "weights": [
+        0.0,
+        0.2,
+        0.8
+      ],
+      "threshold": 0.2,
+      "valid": {
+        "videos": 446,
+        "map": 0.4581194971177915,
+        "macro_f1": 0.4329751110057472
+      },
+      "test": {
+        "videos": 447,
+        "map": 0.3963988461159969,
+        "macro_f1": 0.4148539645087479
+      }
+    }
+  },
+  "source_predictions_sha256": "8a2fdc42dabbb900b1d263e178306e9a65e9873666e66e95fd0ac09500a9a7a8"
+}

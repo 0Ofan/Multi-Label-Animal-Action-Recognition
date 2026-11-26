@@ -1,0 +1,64 @@
+{
+  "epochs_completed": 40,
+  "selected_epoch": 3,
+  "raw_validation": {
+    "positive_queries": 809,
+    "negative_queries": 809,
+    "miou": 0.517433264806225,
+    "boundary_hit_at_0_5s": 0.377008652657602,
+    "r1_iou_05": 0.4919653893695921,
+    "r1_iou_07": 0.4103831891223733,
+    "miss_rate": 0.16934487021013597,
+    "negative_false_positive_rate": 0.1446229913473424
+  },
+  "inference_policy_validation": {
+    "positive_queries": 809,
+    "negative_queries": 809,
+    "miou": 0.46597918009960987,
+    "boundary_hit_at_0_5s": 0.3362175525339926,
+    "r1_iou_05": 0.44252163164400493,
+    "r1_iou_07": 0.36711990111248455,
+    "miss_rate": 0.2373300370828183,
+    "negative_false_positive_rate": 0.13720642768850433
+  },
+  "unknown_animal_queries_rejected": 116,
+  "recomputation_matches_checkpoint": true,
+  "recomputed_intervals_match_saved": true,
+  "real_video_inference_matches_cache": [
+    {
+      "video_id": "AAPREPTK",
+      "query": "A singing nightingale is chirping.",
+      "intervals": [
+        {
+          "interval": [
+            0.0,
+            14.208333333333334
+          ],
+          "score": 0.6809031367301941
+        }
+      ],
+      "max_time_bin_seconds": 0.3333333333333339
+    },
+    {
+      "video_id": "AAPREPTK",
+      "query": "A singing nightingale is keeping still.",
+      "intervals": [
+        {
+          "interval": [
+            0.0,
+            14.208333333333334
+          ],
+          "score": 0.7297506928443909
+        }
+      ],
+      "max_time_bin_seconds": 0.3333333333333339
+    }
+  ],
+  "positive_boundary_hits": 305,
+  "positive_misses": 137,
+  "whole_video_predictions_among_returned": 648,
+  "returned_positive_queries": 672,
+  "boundary_target_80_percent_met": false,
+  "selected_checkpoint_sha256": "b909eb3a6622e8b0a3198ccf8ffd0447d8b60f145f474e2d1c61007c5c9aecf0",
+  "test_read": false
+}

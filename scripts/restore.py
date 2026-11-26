@@ -6,12 +6,18 @@ ROOT=Path(__file__).resolve().parents[1]
 def sha(p):
     with p.open("rb") as f:return hashlib.file_digest(f,"sha256").hexdigest()
 def main():
-    ap=argparse.ArgumentParser();ap.add_argument("kind",choices=["runtime","checkpoints","research"]);args=ap.parse_args()
+    ap=argparse.ArgumentParser();ap.add_argument("kind",choices=["runtime","final","all","checkpoints","research"]);args=ap.parse_args()
+    if args.kind in ("final", "all"):
+        import sys;sys.path.insert(0,str(ROOT))
+        from deployment.final_artifacts import ensure_final_runtime
+        ensure_final_runtime()
+        if args.kind == "final":
+            print("Final integrated model files verified");return
     if args.kind=="research":
         import sys,subprocess
         subprocess.run([sys.executable,str(ROOT/"research_tools/restore.py")],check=True)
         return
-    if args.kind=="runtime":
+    if args.kind in ("runtime", "all"):
         import sys;sys.path.insert(0,str(ROOT))
         from deployment.artifacts import ensure_runtime
         ensure_runtime();print("Runtime model files verified");return

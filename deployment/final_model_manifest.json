@@ -1,0 +1,88 @@
+{
+  "schema": "animalact-final-models-v1",
+  "source": "AnimalAct_最新版.zip / AnimalAct_Integrated_Team",
+  "release": "v2.1-final-integrated",
+  "files": {
+    "ensemble_integration/weights/bigru_attention.pt": {
+      "bytes": 2222957,
+      "SHA256": "09652719fac9d9daed990c9ca75bee7a059deea27fcdfa8119ae72d35ec9cec4",
+      "blob": "sha256/09652719fac9d9daed990c9ca75bee7a059deea27fcdfa8119ae72d35ec9cec4"
+    },
+    "ensemble_integration/weights/bigru_mean.pt": {
+      "bytes": 2100770,
+      "SHA256": "71ac0498d471aed2ad8e2b5c8447e065c287af711ad7467df2945a3979772116",
+      "blob": "sha256/71ac0498d471aed2ad8e2b5c8447e065c287af711ad7467df2945a3979772116"
+    },
+    "ensemble_integration/weights/resnet18-f37072fd.pth": {
+      "bytes": 46830571,
+      "SHA256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "blob": "sha256/f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    },
+    "proposal/action_detection_balanced_results/detector.pt": {
+      "bytes": 2469073,
+      "SHA256": "58c9f0325a8c38ec0cf43067ec21d78e25c4a2b4ef8415be9b8de1d5da473ea1",
+      "blob": "sha256/58c9f0325a8c38ec0cf43067ec21d78e25c4a2b4ef8415be9b8de1d5da473ea1"
+    },
+    "proposal/action_detection_overfit16/balanced_loss.pt": {
+      "bytes": 2468779,
+      "SHA256": "b7bcccf8f451c8a421312d93de43fc5aafe806301119dd637ed3feb5b3d022fa",
+      "blob": "sha256/b7bcccf8f451c8a421312d93de43fc5aafe806301119dd637ed3feb5b3d022fa"
+    },
+    "proposal/action_detection_overfit16/reference_loss.pt": {
+      "bytes": 2468797,
+      "SHA256": "c4adc20be4f085e5fc7d55581c2f3cb91df508960acefe36ae1e4812498a1699",
+      "blob": "sha256/c4adc20be4f085e5fc7d55581c2f3cb91df508960acefe36ae1e4812498a1699"
+    },
+    "proposal/action_detection_results/detector.pt": {
+      "bytes": 2469073,
+      "SHA256": "4a83cb954e5eb084ae240fe82eb5b033a931aed8682776788bccd95b2db8d8b0",
+      "blob": "sha256/4a83cb954e5eb084ae240fe82eb5b033a931aed8682776788bccd95b2db8d8b0"
+    },
+    "proposal/boundary_results/boundary.pt": {
+      "bytes": 2132237,
+      "SHA256": "b909eb3a6622e8b0a3198ccf8ffd0447d8b60f145f474e2d1c61007c5c9aecf0",
+      "blob": "sha256/b909eb3a6622e8b0a3198ccf8ffd0447d8b60f145f474e2d1c61007c5c9aecf0"
+    },
+    "proposal/dense_grounding_results/grounding.pt": {
+      "bytes": 203100,
+      "SHA256": "68a6fa5ee78c9aea58de0ba4cc9f9a9d6b37ca10515d8c655c5002f23f8f2eef",
+      "blob": "sha256/68a6fa5ee78c9aea58de0ba4cc9f9a9d6b37ca10515d8c655c5002f23f8f2eef"
+    },
+    "proposal/grounding_rank_results/grounding.pt": {
+      "bytes": 129308,
+      "SHA256": "b525e5f7b0e5b18e7fe7343dd9654cb8cb3f5a2818c58f59897b3ee94b2a167a",
+      "blob": "sha256/b525e5f7b0e5b18e7fe7343dd9654cb8cb3f5a2818c58f59897b3ee94b2a167a"
+    },
+    "proposal/grounding_results/grounding.pt": {
+      "bytes": 129244,
+      "SHA256": "4aceacc8c4903a072e2300cea42f78b21cf95a331e90c1f267172d242450b5ba",
+      "blob": "sha256/4aceacc8c4903a072e2300cea42f78b21cf95a331e90c1f267172d242450b5ba"
+    },
+    "proposal/resnet18-f37072fd.pth": {
+      "bytes": 46830571,
+      "SHA256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec",
+      "blob": "sha256/f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    },
+    "proposal/results/bigru_attention.pt": {
+      "bytes": 2222957,
+      "SHA256": "09652719fac9d9daed990c9ca75bee7a059deea27fcdfa8119ae72d35ec9cec4",
+      "blob": "sha256/09652719fac9d9daed990c9ca75bee7a059deea27fcdfa8119ae72d35ec9cec4"
+    },
+    "proposal/results/bigru_mean.pt": {
+      "bytes": 2100770,
+      "SHA256": "71ac0498d471aed2ad8e2b5c8447e065c287af711ad7467df2945a3979772116",
+      "blob": "sha256/71ac0498d471aed2ad8e2b5c8447e065c287af711ad7467df2945a3979772116"
+    },
+    "proposal/results/mean.pt": {
+      "bytes": 248070,
+      "SHA256": "0aa3db8b1fb966ccd896e8a4696bebf18500750c528623fd8e3d4b728144b8ec",
+      "blob": "sha256/0aa3db8b1fb966ccd896e8a4696bebf18500750c528623fd8e3d4b728144b8ec"
+    }
+  },
+  "archive": {
+    "url": "https://github.com/0Ofan/Multi-Label-Animal-Action-Recognition/releases/download/v2.1-final-integrated/animalact-final-models-v2.1.zip",
+    "bytes": 59168633,
+    "SHA256": "88f287516ffe364736afeb4a0a6a545eadcbec150a31ce79f1eb268e259f046f"
+  },
+  "policy": "Original checkpoint bytes preserved. No retraining, threshold selection, or Test inference."
+}

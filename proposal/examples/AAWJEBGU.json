@@ -1,0 +1,631 @@
+{
+  "evaluation_unit": "whole_video",
+  "model": "bigru_attention",
+  "threshold": 0.3,
+  "scores": [
+    {
+      "action": "Abseiling",
+      "score": 0.00036890286719426513,
+      "predicted": false
+    },
+    {
+      "action": "Attacking",
+      "score": 0.004069714341312647,
+      "predicted": false
+    },
+    {
+      "action": "Attending",
+      "score": 0.013953184708952904,
+      "predicted": false
+    },
+    {
+      "action": "Barking",
+      "score": 0.00018912267114501446,
+      "predicted": false
+    },
+    {
+      "action": "Being Carried",
+      "score": 0.00020516040967777371,
+      "predicted": false
+    },
+    {
+      "action": "Being Carried In Mouth",
+      "score": 0.0011655199341475964,
+      "predicted": false
+    },
+    {
+      "action": "Being Dragged",
+      "score": 0.00023666776542086154,
+      "predicted": false
+    },
+    {
+      "action": "Being Eaten",
+      "score": 3.5173874493921176e-05,
+      "predicted": false
+    },
+    {
+      "action": "Biting",
+      "score": 0.022129463031888008,
+      "predicted": false
+    },
+    {
+      "action": "Building nest",
+      "score": 0.005463835783302784,
+      "predicted": false
+    },
+    {
+      "action": "Calling",
+      "score": 0.00014462553372140974,
+      "predicted": false
+    },
+    {
+      "action": "Camouflaging",
+      "score": 0.0007229397306218743,
+      "predicted": false
+    },
+    {
+      "action": "Carrying",
+      "score": 0.00025373921380378306,
+      "predicted": false
+    },
+    {
+      "action": "Carrying In Mouth",
+      "score": 0.0015719382790848613,
+      "predicted": false
+    },
+    {
+      "action": "Chasing",
+      "score": 8.340842032339424e-05,
+      "predicted": false
+    },
+    {
+      "action": "Chirping",
+      "score": 4.004131824331125e-06,
+      "predicted": false
+    },
+    {
+      "action": "Climbing",
+      "score": 0.0003593617875594646,
+      "predicted": false
+    },
+    {
+      "action": "Coiling",
+      "score": 0.0002644346677698195,
+      "predicted": false
+    },
+    {
+      "action": "Competing For Dominance",
+      "score": 0.00011043885751860216,
+      "predicted": false
+    },
+    {
+      "action": "Dancing",
+      "score": 0.0015676096081733704,
+      "predicted": false
+    },
+    {
+      "action": "Dancing On Water",
+      "score": 2.9612136131618172e-05,
+      "predicted": false
+    },
+    {
+      "action": "Dead",
+      "score": 0.0007006276282481849,
+      "predicted": false
+    },
+    {
+      "action": "Defecating",
+      "score": 4.225200609653257e-05,
+      "predicted": false
+    },
+    {
+      "action": "Defensive Rearing",
+      "score": 0.0010238175746053457,
+      "predicted": false
+    },
+    {
+      "action": "Detaching As A Parasite",
+      "score": 4.2873009078903124e-05,
+      "predicted": false
+    },
+    {
+      "action": "Digging",
+      "score": 0.001969501143321395,
+      "predicted": false
+    },
+    {
+      "action": "Displaying Defensive Pose",
+      "score": 0.0009642577497288585,
+      "predicted": false
+    },
+    {
+      "action": "Disturbing Another Animal",
+      "score": 0.0019201117102056742,
+      "predicted": false
+    },
+    {
+      "action": "Diving",
+      "score": 5.237584264250472e-05,
+      "predicted": false
+    },
+    {
+      "action": "Doing A Back Kick",
+      "score": 0.000648511981125921,
+      "predicted": false
+    },
+    {
+      "action": "Doing A Backward Tilt",
+      "score": 0.0001590237661730498,
+      "predicted": false
+    },
+    {
+      "action": "Doing A Chin Dip",
+      "score": 0.0005529685877263546,
+      "predicted": false
+    },
+    {
+      "action": "Doing A Face Dip",
+      "score": 0.0001596456131665036,
+      "predicted": false
+    },
+    {
+      "action": "Doing A Neck Raise",
+      "score": 0.00015858569531701505,
+      "predicted": false
+    },
+    {
+      "action": "Doing A Side Tilt",
+      "score": 0.0001274157257284969,
+      "predicted": false
+    },
+    {
+      "action": "Doing somersault",
+      "score": 0.0001302402961300686,
+      "predicted": false
+    },
+    {
+      "action": "Drifting",
+      "score": 0.0005350369610823691,
+      "predicted": false
+    },
+    {
+      "action": "Drinking",
+      "score": 0.0007389484089799225,
+      "predicted": false
+    },
+    {
+      "action": "Dying",
+      "score": 4.638429527403787e-05,
+      "predicted": false
+    },
+    {
+      "action": "Eating",
+      "score": 0.00018429820192977786,
+      "predicted": false
+    },
+    {
+      "action": "Entering its nest",
+      "score": 0.002313567092642188,
+      "predicted": false
+    },
+    {
+      "action": "Escaping",
+      "score": 0.00010700963321141899,
+      "predicted": false
+    },
+    {
+      "action": "Exiting Cocoon",
+      "score": 0.00042760453652590513,
+      "predicted": false
+    },
+    {
+      "action": "Exiting Nest",
+      "score": 0.00024906813632696867,
+      "predicted": false
+    },
+    {
+      "action": "Exploring",
+      "score": 0.004905766807496548,
+      "predicted": false
+    },
+    {
+      "action": "Falling",
+      "score": 0.0008739649201743305,
+      "predicted": false
+    },
+    {
+      "action": "Fighting",
+      "score": 0.012453763745725155,
+      "predicted": false
+    },
+    {
+      "action": "Flapping",
+      "score": 0.02328665368258953,
+      "predicted": false
+    },
+    {
+      "action": "Flapping Tail",
+      "score": 0.00044333800906315446,
+      "predicted": false
+    },
+    {
+      "action": "Fleeing",
+      "score": 0.0004527379642240703,
+      "predicted": false
+    },
+    {
+      "action": "Flying",
+      "score": 0.13290853798389435,
+      "predicted": false
+    },
+    {
+      "action": "Giving Birth",
+      "score": 0.00010450231638969854,
+      "predicted": false
+    },
+    {
+      "action": "Gliding",
+      "score": 0.00023646318004466593,
+      "predicted": false
+    },
+    {
+      "action": "Grooming",
+      "score": 0.020441092550754547,
+      "predicted": false
+    },
+    {
+      "action": "Hanging",
+      "score": 0.0030329159926623106,
+      "predicted": false
+    },
+    {
+      "action": "Having A Flehmen Response",
+      "score": 9.778056119102985e-05,
+      "predicted": false
+    },
+    {
+      "action": "Hissing",
+      "score": 0.00021767201542388648,
+      "predicted": false
+    },
+    {
+      "action": "Holding Hands",
+      "score": 0.00021062060841359198,
+      "predicted": false
+    },
+    {
+      "action": "Hopping",
+      "score": 0.0001503010280430317,
+      "predicted": false
+    },
+    {
+      "action": "Hugging",
+      "score": 7.921739597804844e-05,
+      "predicted": false
+    },
+    {
+      "action": "Immobilized",
+      "score": 0.00025704907602630556,
+      "predicted": false
+    },
+    {
+      "action": "Jumping",
+      "score": 0.0040514240972697735,
+      "predicted": false
+    },
+    {
+      "action": "Keeping still",
+      "score": 0.07614785432815552,
+      "predicted": false
+    },
+    {
+      "action": "Landing",
+      "score": 0.015260232612490654,
+      "predicted": false
+    },
+    {
+      "action": "Laying Eggs",
+      "score": 0.00027011503698304296,
+      "predicted": false
+    },
+    {
+      "action": "Leaning",
+      "score": 0.00010387580550741404,
+      "predicted": false
+    },
+    {
+      "action": "Licking",
+      "score": 2.7638163373921998e-05,
+      "predicted": false
+    },
+    {
+      "action": "Lying Down",
+      "score": 0.0004049442650284618,
+      "predicted": false
+    },
+    {
+      "action": "Lying On Top",
+      "score": 0.0009444620227441192,
+      "predicted": false
+    },
+    {
+      "action": "Manipulating Object",
+      "score": 0.00015063921455293894,
+      "predicted": false
+    },
+    {
+      "action": "Moving",
+      "score": 0.8456279635429382,
+      "predicted": true
+    },
+    {
+      "action": "Pecking",
+      "score": 0.0006427504122257233,
+      "predicted": false
+    },
+    {
+      "action": "Performing Sexual Display",
+      "score": 0.0002963179431390017,
+      "predicted": false
+    },
+    {
+      "action": "Performing copulatory mounting",
+      "score": 0.001432993682101369,
+      "predicted": false
+    },
+    {
+      "action": "Playing",
+      "score": 6.206428224686533e-05,
+      "predicted": false
+    },
+    {
+      "action": "Playing Dead",
+      "score": 0.0002930150367319584,
+      "predicted": false
+    },
+    {
+      "action": "Preening",
+      "score": 0.0003547353553585708,
+      "predicted": false
+    },
+    {
+      "action": "Preying",
+      "score": 0.00018195722077507526,
+      "predicted": false
+    },
+    {
+      "action": "Puffing its throat",
+      "score": 0.00030555014382116497,
+      "predicted": false
+    },
+    {
+      "action": "Rattling",
+      "score": 0.0012870192294940352,
+      "predicted": false
+    },
+    {
+      "action": "Resting",
+      "score": 4.2758601921377704e-05,
+      "predicted": false
+    },
+    {
+      "action": "Retaliating",
+      "score": 0.0019359731813892722,
+      "predicted": false
+    },
+    {
+      "action": "Retreating",
+      "score": 4.982887548976578e-05,
+      "predicted": false
+    },
+    {
+      "action": "Rolling",
+      "score": 0.00024442406720481813,
+      "predicted": false
+    },
+    {
+      "action": "Rubbing its head",
+      "score": 0.00010636859951773658,
+      "predicted": false
+    },
+    {
+      "action": "Running",
+      "score": 0.0025478361640125513,
+      "predicted": false
+    },
+    {
+      "action": "Running On Water",
+      "score": 2.1028190531069413e-05,
+      "predicted": false
+    },
+    {
+      "action": "Sensing",
+      "score": 0.013129554688930511,
+      "predicted": false
+    },
+    {
+      "action": "Shaking",
+      "score": 0.0008336611208505929,
+      "predicted": false
+    },
+    {
+      "action": "Shaking Head",
+      "score": 0.0001446320238756016,
+      "predicted": false
+    },
+    {
+      "action": "Sharing Food",
+      "score": 3.889136860379949e-05,
+      "predicted": false
+    },
+    {
+      "action": "Showing Affection",
+      "score": 0.000537511776201427,
+      "predicted": false
+    },
+    {
+      "action": "Sinking",
+      "score": 0.00018626854580361396,
+      "predicted": false
+    },
+    {
+      "action": "Sitting",
+      "score": 5.889229942113161e-05,
+      "predicted": false
+    },
+    {
+      "action": "Sleeping",
+      "score": 9.065073390956968e-05,
+      "predicted": false
+    },
+    {
+      "action": "Sleeping in its nest",
+      "score": 2.9248294595163316e-05,
+      "predicted": false
+    },
+    {
+      "action": "Spitting Venom",
+      "score": 0.00011535786325111985,
+      "predicted": false
+    },
+    {
+      "action": "Spreading Wings",
+      "score": 0.0007779777515679598,
+      "predicted": false
+    },
+    {
+      "action": "Squatting",
+      "score": 0.0003503350308164954,
+      "predicted": false
+    },
+    {
+      "action": "Standing",
+      "score": 0.0006857595290057361,
+      "predicted": false
+    },
+    {
+      "action": "Standing in alert",
+      "score": 0.00038107516593299806,
+      "predicted": false
+    },
+    {
+      "action": "Startled",
+      "score": 0.000244628987275064,
+      "predicted": false
+    },
+    {
+      "action": "Stinging",
+      "score": 0.0001759816805133596,
+      "predicted": false
+    },
+    {
+      "action": "Struggling",
+      "score": 0.016069455072283745,
+      "predicted": false
+    },
+    {
+      "action": "Surfacing",
+      "score": 0.0004174261703155935,
+      "predicted": false
+    },
+    {
+      "action": "Swaying",
+      "score": 7.155876664910465e-05,
+      "predicted": false
+    },
+    {
+      "action": "Swimming",
+      "score": 0.0006102938787080348,
+      "predicted": false
+    },
+    {
+      "action": "Swimming In Circles",
+      "score": 0.00015977460134308785,
+      "predicted": false
+    },
+    {
+      "action": "Tail Swishing",
+      "score": 3.514768468448892e-05,
+      "predicted": false
+    },
+    {
+      "action": "Trapped",
+      "score": 0.0006872136145830154,
+      "predicted": false
+    },
+    {
+      "action": "Turning Around",
+      "score": 8.028934098547325e-05,
+      "predicted": false
+    },
+    {
+      "action": "Undergoing Chrysalis",
+      "score": 0.0003884590114466846,
+      "predicted": false
+    },
+    {
+      "action": "Unmounting",
+      "score": 0.0001632156636333093,
+      "predicted": false
+    },
+    {
+      "action": "Urinating",
+      "score": 5.418876389740035e-05,
+      "predicted": false
+    },
+    {
+      "action": "Walking",
+      "score": 0.0005941777490079403,
+      "predicted": false
+    },
+    {
+      "action": "Washing",
+      "score": 0.0005265689105726779,
+      "predicted": false
+    },
+    {
+      "action": "Wrapping Itself Around Prey",
+      "score": 0.00019949920533690602,
+      "predicted": false
+    },
+    {
+      "action": "Wrapping Prey",
+      "score": 0.0005854623741470277,
+      "predicted": false
+    },
+    {
+      "action": "Yawning",
+      "score": 0.00020328271784819663,
+      "predicted": false
+    }
+  ],
+  "grounding": {
+    "query": "A blue orchard bee is flying.",
+    "unknown_animal": false,
+    "intervals": [
+      {
+        "interval": [
+          0.0,
+          4.125
+        ],
+        "score": 0.21145246922969818
+      },
+      {
+        "interval": [
+          2.0625,
+          4.125
+        ],
+        "score": 0.0831855982542038
+      },
+      {
+        "interval": [
+          3.8671875,
+          4.125
+        ],
+        "score": 0.06650833040475845
+      }
+    ],
+    "score_meaning": "query-window match score",
+    "time_resolution_seconds": 0.2578125
+  }
+}

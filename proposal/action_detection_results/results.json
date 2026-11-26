@@ -1,0 +1,759 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "loss": 1.3649192269031818,
+      "validation": {
+        "predictions": 4471,
+        "references": 1040,
+        "iou_hits": 348,
+        "boundary_hits": 260,
+        "positive_action_queries": 793,
+        "miou": 0.4338520268993889,
+        "r1_iou_05": 0.416141235813367,
+        "r1_iou_07": 0.34047919293820933,
+        "iou_precision": 0.07783493625587116,
+        "iou_recall": 0.3346153846153846,
+        "iou_f1": 0.12629286880783885,
+        "boundary_precision": 0.05815253858197271,
+        "boundary_recall": 0.25,
+        "boundary_f1": 0.09435674106332789
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 1.0201742869157058,
+      "validation": {
+        "predictions": 4150,
+        "references": 1040,
+        "iou_hits": 354,
+        "boundary_hits": 280,
+        "positive_action_queries": 793,
+        "miou": 0.4549696338939394,
+        "r1_iou_05": 0.43757881462799497,
+        "r1_iou_07": 0.36317780580075665,
+        "iou_precision": 0.08530120481927711,
+        "iou_recall": 0.3403846153846154,
+        "iou_f1": 0.13641618497109825,
+        "boundary_precision": 0.06746987951807229,
+        "boundary_recall": 0.2692307692307692,
+        "boundary_f1": 0.10789980732177264
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.8626346687857921,
+      "validation": {
+        "predictions": 5100,
+        "references": 1040,
+        "iou_hits": 380,
+        "boundary_hits": 301,
+        "positive_action_queries": 793,
+        "miou": 0.4762336803761806,
+        "r1_iou_05": 0.4552332912988651,
+        "r1_iou_07": 0.37326607818411095,
+        "iou_precision": 0.07450980392156863,
+        "iou_recall": 0.36538461538461536,
+        "iou_f1": 0.1237785016286645,
+        "boundary_precision": 0.059019607843137256,
+        "boundary_recall": 0.28942307692307695,
+        "boundary_f1": 0.09804560260586319
+      }
+    },
+    {
+      "epoch": 4,
+      "loss": 0.7365006727667955,
+      "validation": {
+        "predictions": 4417,
+        "references": 1040,
+        "iou_hits": 375,
+        "boundary_hits": 303,
+        "positive_action_queries": 793,
+        "miou": 0.474814638470485,
+        "r1_iou_05": 0.4552332912988651,
+        "r1_iou_07": 0.37578814627994955,
+        "iou_precision": 0.0848992528865746,
+        "iou_recall": 0.3605769230769231,
+        "iou_f1": 0.13743815283122596,
+        "boundary_precision": 0.06859859633235227,
+        "boundary_recall": 0.29134615384615387,
+        "boundary_f1": 0.11105002748763057
+      }
+    },
+    {
+      "epoch": 5,
+      "loss": 0.6503326407991923,
+      "validation": {
+        "predictions": 4145,
+        "references": 1040,
+        "iou_hits": 364,
+        "boundary_hits": 300,
+        "positive_action_queries": 793,
+        "miou": 0.4700473664636636,
+        "r1_iou_05": 0.4514501891551072,
+        "r1_iou_07": 0.3656998738965952,
+        "iou_precision": 0.08781664656212304,
+        "iou_recall": 0.35,
+        "iou_f1": 0.1404050144648023,
+        "boundary_precision": 0.07237635705669482,
+        "boundary_recall": 0.28846153846153844,
+        "boundary_f1": 0.11571841851494696
+      }
+    },
+    {
+      "epoch": 6,
+      "loss": 0.5721276231110096,
+      "validation": {
+        "predictions": 4595,
+        "references": 1040,
+        "iou_hits": 373,
+        "boundary_hits": 307,
+        "positive_action_queries": 793,
+        "miou": 0.47727550514215394,
+        "r1_iou_05": 0.45649432534678436,
+        "r1_iou_07": 0.3745271122320303,
+        "iou_precision": 0.08117519042437432,
+        "iou_recall": 0.35865384615384616,
+        "iou_f1": 0.1323868677905945,
+        "boundary_precision": 0.06681175190424374,
+        "boundary_recall": 0.2951923076923077,
+        "boundary_f1": 0.10896184560780835
+      }
+    },
+    {
+      "epoch": 7,
+      "loss": 0.5088260444310996,
+      "validation": {
+        "predictions": 3885,
+        "references": 1040,
+        "iou_hits": 371,
+        "boundary_hits": 303,
+        "positive_action_queries": 793,
+        "miou": 0.4807529013136674,
+        "r1_iou_05": 0.45775535939470363,
+        "r1_iou_07": 0.37831021437578816,
+        "iou_precision": 0.09549549549549549,
+        "iou_recall": 0.35673076923076924,
+        "iou_f1": 0.15065989847715736,
+        "boundary_precision": 0.077992277992278,
+        "boundary_recall": 0.29134615384615387,
+        "boundary_f1": 0.12304568527918781
+      }
+    },
+    {
+      "epoch": 8,
+      "loss": 0.4539071351289749,
+      "validation": {
+        "predictions": 3415,
+        "references": 1040,
+        "iou_hits": 365,
+        "boundary_hits": 300,
+        "positive_action_queries": 793,
+        "miou": 0.46939841185799347,
+        "r1_iou_05": 0.4489281210592686,
+        "r1_iou_07": 0.3745271122320303,
+        "iou_precision": 0.10688140556368961,
+        "iou_recall": 0.35096153846153844,
+        "iou_f1": 0.1638608305274972,
+        "boundary_precision": 0.08784773060029283,
+        "boundary_recall": 0.28846153846153844,
+        "boundary_f1": 0.13468013468013468
+      }
+    },
+    {
+      "epoch": 9,
+      "loss": 0.40648633201534934,
+      "validation": {
+        "predictions": 4055,
+        "references": 1040,
+        "iou_hits": 375,
+        "boundary_hits": 317,
+        "positive_action_queries": 793,
+        "miou": 0.480298802541229,
+        "r1_iou_05": 0.45775535939470363,
+        "r1_iou_07": 0.37957124842370743,
+        "iou_precision": 0.09247842170160296,
+        "iou_recall": 0.3605769230769231,
+        "iou_f1": 0.14720314033366044,
+        "boundary_precision": 0.0781750924784217,
+        "boundary_recall": 0.30480769230769234,
+        "boundary_f1": 0.12443572129538763
+      }
+    },
+    {
+      "epoch": 10,
+      "loss": 0.37070835857437207,
+      "validation": {
+        "predictions": 3345,
+        "references": 1040,
+        "iou_hits": 365,
+        "boundary_hits": 304,
+        "positive_action_queries": 793,
+        "miou": 0.47040845224908234,
+        "r1_iou_05": 0.4527112232030265,
+        "r1_iou_07": 0.37326607818411095,
+        "iou_precision": 0.10911808669656203,
+        "iou_recall": 0.35096153846153844,
+        "iou_f1": 0.16647662485746864,
+        "boundary_precision": 0.09088191330343796,
+        "boundary_recall": 0.2923076923076923,
+        "boundary_f1": 0.138654503990878
+      }
+    },
+    {
+      "epoch": 11,
+      "loss": 0.3392643570326842,
+      "validation": {
+        "predictions": 3703,
+        "references": 1040,
+        "iou_hits": 381,
+        "boundary_hits": 308,
+        "positive_action_queries": 793,
+        "miou": 0.4704249289236157,
+        "r1_iou_05": 0.45901639344262296,
+        "r1_iou_07": 0.3707440100882724,
+        "iou_precision": 0.10288954901431271,
+        "iou_recall": 0.3663461538461538,
+        "iou_f1": 0.16065781151170144,
+        "boundary_precision": 0.0831758034026465,
+        "boundary_recall": 0.29615384615384616,
+        "boundary_f1": 0.12987560615644106
+      }
+    },
+    {
+      "epoch": 12,
+      "loss": 0.3065916207547371,
+      "validation": {
+        "predictions": 3098,
+        "references": 1040,
+        "iou_hits": 349,
+        "boundary_hits": 293,
+        "positive_action_queries": 793,
+        "miou": 0.4500991821582963,
+        "r1_iou_05": 0.4274905422446406,
+        "r1_iou_07": 0.36065573770491804,
+        "iou_precision": 0.11265332472562944,
+        "iou_recall": 0.33557692307692305,
+        "iou_f1": 0.16868052199130015,
+        "boundary_precision": 0.09457714654615881,
+        "boundary_recall": 0.28173076923076923,
+        "boundary_f1": 0.1416143064282262
+      }
+    },
+    {
+      "epoch": 13,
+      "loss": 0.27725704667659906,
+      "validation": {
+        "predictions": 2834,
+        "references": 1040,
+        "iou_hits": 351,
+        "boundary_hits": 297,
+        "positive_action_queries": 793,
+        "miou": 0.44524308590471806,
+        "r1_iou_05": 0.4224464060529634,
+        "r1_iou_07": 0.3505674653215637,
+        "iou_precision": 0.12385321100917432,
+        "iou_recall": 0.3375,
+        "iou_f1": 0.18120805369127516,
+        "boundary_precision": 0.10479887085391673,
+        "boundary_recall": 0.28557692307692306,
+        "boundary_f1": 0.15332989158492513
+      }
+    },
+    {
+      "epoch": 14,
+      "loss": 0.25811624412353223,
+      "validation": {
+        "predictions": 3348,
+        "references": 1040,
+        "iou_hits": 368,
+        "boundary_hits": 301,
+        "positive_action_queries": 793,
+        "miou": 0.4581795545582532,
+        "r1_iou_05": 0.43757881462799497,
+        "r1_iou_07": 0.3669609079445145,
+        "iou_precision": 0.10991636798088411,
+        "iou_recall": 0.35384615384615387,
+        "iou_f1": 0.16773017319963537,
+        "boundary_precision": 0.08990442054958184,
+        "boundary_recall": 0.28942307692307695,
+        "boundary_f1": 0.13719234275296263
+      }
+    },
+    {
+      "epoch": 15,
+      "loss": 0.23896526465049156,
+      "validation": {
+        "predictions": 2702,
+        "references": 1040,
+        "iou_hits": 346,
+        "boundary_hits": 288,
+        "positive_action_queries": 793,
+        "miou": 0.43811982713991,
+        "r1_iou_05": 0.416141235813367,
+        "r1_iou_07": 0.3493064312736444,
+        "iou_precision": 0.12805329385640266,
+        "iou_recall": 0.3326923076923077,
+        "iou_f1": 0.18492784607161947,
+        "boundary_precision": 0.10658771280532939,
+        "boundary_recall": 0.27692307692307694,
+        "boundary_f1": 0.153928380545163
+      }
+    },
+    {
+      "epoch": 16,
+      "loss": 0.22065409055122961,
+      "validation": {
+        "predictions": 2677,
+        "references": 1040,
+        "iou_hits": 345,
+        "boundary_hits": 292,
+        "positive_action_queries": 793,
+        "miou": 0.4339374487083456,
+        "r1_iou_05": 0.416141235813367,
+        "r1_iou_07": 0.3417402269861286,
+        "iou_precision": 0.1288756070227867,
+        "iou_recall": 0.3317307692307692,
+        "iou_f1": 0.18563357546408393,
+        "boundary_precision": 0.10907732536421368,
+        "boundary_recall": 0.28076923076923077,
+        "boundary_f1": 0.15711595372612322
+      }
+    },
+    {
+      "epoch": 17,
+      "loss": 0.20198982085746067,
+      "validation": {
+        "predictions": 2615,
+        "references": 1040,
+        "iou_hits": 329,
+        "boundary_hits": 274,
+        "positive_action_queries": 793,
+        "miou": 0.40934735240878606,
+        "r1_iou_05": 0.38461538461538464,
+        "r1_iou_07": 0.3203026481715006,
+        "iou_precision": 0.12581261950286807,
+        "iou_recall": 0.31634615384615383,
+        "iou_f1": 0.18002735978112175,
+        "boundary_precision": 0.10478011472275335,
+        "boundary_recall": 0.26346153846153847,
+        "boundary_f1": 0.14993160054719562
+      }
+    },
+    {
+      "epoch": 18,
+      "loss": 0.19134660323078817,
+      "validation": {
+        "predictions": 2563,
+        "references": 1040,
+        "iou_hits": 337,
+        "boundary_hits": 278,
+        "positive_action_queries": 793,
+        "miou": 0.4149954827238231,
+        "r1_iou_05": 0.39470365699873894,
+        "r1_iou_07": 0.3291298865069357,
+        "iou_precision": 0.1314865392118611,
+        "iou_recall": 0.32403846153846155,
+        "iou_f1": 0.18706633361087982,
+        "boundary_precision": 0.10846664065548185,
+        "boundary_recall": 0.2673076923076923,
+        "boundary_f1": 0.15431584790452402
+      }
+    },
+    {
+      "epoch": 19,
+      "loss": 0.17601630696310447,
+      "validation": {
+        "predictions": 2289,
+        "references": 1040,
+        "iou_hits": 318,
+        "boundary_hits": 258,
+        "positive_action_queries": 793,
+        "miou": 0.3892001574686338,
+        "r1_iou_05": 0.37326607818411095,
+        "r1_iou_07": 0.3076923076923077,
+        "iou_precision": 0.13892529488859764,
+        "iou_recall": 0.3057692307692308,
+        "iou_f1": 0.19104836287173324,
+        "boundary_precision": 0.1127129750982962,
+        "boundary_recall": 0.24807692307692308,
+        "boundary_f1": 0.1550015019525383
+      }
+    },
+    {
+      "epoch": 20,
+      "loss": 0.16899834025937777,
+      "validation": {
+        "predictions": 2150,
+        "references": 1040,
+        "iou_hits": 307,
+        "boundary_hits": 255,
+        "positive_action_queries": 793,
+        "miou": 0.38617954692790096,
+        "r1_iou_05": 0.3694829760403531,
+        "r1_iou_07": 0.3026481715006305,
+        "iou_precision": 0.1427906976744186,
+        "iou_recall": 0.2951923076923077,
+        "iou_f1": 0.19247648902821315,
+        "boundary_precision": 0.1186046511627907,
+        "boundary_recall": 0.24519230769230768,
+        "boundary_f1": 0.15987460815047022
+      }
+    },
+    {
+      "epoch": 21,
+      "loss": 0.15279939617388524,
+      "validation": {
+        "predictions": 1828,
+        "references": 1040,
+        "iou_hits": 300,
+        "boundary_hits": 250,
+        "positive_action_queries": 793,
+        "miou": 0.372668801018617,
+        "r1_iou_05": 0.35435056746532156,
+        "r1_iou_07": 0.29760403530895335,
+        "iou_precision": 0.16411378555798686,
+        "iou_recall": 0.28846153846153844,
+        "iou_f1": 0.20920502092050208,
+        "boundary_precision": 0.13676148796498905,
+        "boundary_recall": 0.2403846153846154,
+        "boundary_f1": 0.17433751743375175
+      }
+    },
+    {
+      "epoch": 22,
+      "loss": 0.14330989635334565,
+      "validation": {
+        "predictions": 2129,
+        "references": 1040,
+        "iou_hits": 299,
+        "boundary_hits": 249,
+        "positive_action_queries": 793,
+        "miou": 0.3686888845297575,
+        "r1_iou_05": 0.3505674653215637,
+        "r1_iou_07": 0.28877679697351827,
+        "iou_precision": 0.14044152184124,
+        "iou_recall": 0.2875,
+        "iou_f1": 0.1887030609024929,
+        "boundary_precision": 0.11695631751996242,
+        "boundary_recall": 0.23942307692307693,
+        "boundary_f1": 0.15714736509940044
+      }
+    },
+    {
+      "epoch": 23,
+      "loss": 0.13626971995601286,
+      "validation": {
+        "predictions": 1967,
+        "references": 1040,
+        "iou_hits": 286,
+        "boundary_hits": 227,
+        "positive_action_queries": 793,
+        "miou": 0.353290340618151,
+        "r1_iou_05": 0.33417402269861285,
+        "r1_iou_07": 0.27112232030264816,
+        "iou_precision": 0.14539908490086426,
+        "iou_recall": 0.275,
+        "iou_f1": 0.1902228134353176,
+        "boundary_precision": 0.1154041687849517,
+        "boundary_recall": 0.21826923076923077,
+        "boundary_f1": 0.1509810442301297
+      }
+    },
+    {
+      "epoch": 24,
+      "loss": 0.12720319210336758,
+      "validation": {
+        "predictions": 2010,
+        "references": 1040,
+        "iou_hits": 295,
+        "boundary_hits": 247,
+        "positive_action_queries": 793,
+        "miou": 0.35158740710515246,
+        "r1_iou_05": 0.34047919293820933,
+        "r1_iou_07": 0.27616645649432536,
+        "iou_precision": 0.14676616915422885,
+        "iou_recall": 0.28365384615384615,
+        "iou_f1": 0.19344262295081968,
+        "boundary_precision": 0.12288557213930348,
+        "boundary_recall": 0.2375,
+        "boundary_f1": 0.1619672131147541
+      }
+    },
+    {
+      "epoch": 25,
+      "loss": 0.12331304310892637,
+      "validation": {
+        "predictions": 1935,
+        "references": 1040,
+        "iou_hits": 284,
+        "boundary_hits": 225,
+        "positive_action_queries": 793,
+        "miou": 0.3439295961197158,
+        "r1_iou_05": 0.33417402269861285,
+        "r1_iou_07": 0.27112232030264816,
+        "iou_precision": 0.1467700258397933,
+        "iou_recall": 0.27307692307692305,
+        "iou_f1": 0.19092436974789917,
+        "boundary_precision": 0.11627906976744186,
+        "boundary_recall": 0.21634615384615385,
+        "boundary_f1": 0.15126050420168066
+      }
+    },
+    {
+      "epoch": 26,
+      "loss": 0.12267366173462226,
+      "validation": {
+        "predictions": 1718,
+        "references": 1040,
+        "iou_hits": 278,
+        "boundary_hits": 239,
+        "positive_action_queries": 793,
+        "miou": 0.34207831376739484,
+        "r1_iou_05": 0.3266078184110971,
+        "r1_iou_07": 0.27490542244640603,
+        "iou_precision": 0.16181606519208383,
+        "iou_recall": 0.2673076923076923,
+        "iou_f1": 0.20159535895576505,
+        "boundary_precision": 0.13911525029103608,
+        "boundary_recall": 0.2298076923076923,
+        "boundary_f1": 0.17331399564902103
+      }
+    },
+    {
+      "epoch": 27,
+      "loss": 0.1097353473592263,
+      "validation": {
+        "predictions": 1633,
+        "references": 1040,
+        "iou_hits": 282,
+        "boundary_hits": 233,
+        "positive_action_queries": 793,
+        "miou": 0.34350138223953164,
+        "r1_iou_05": 0.32786885245901637,
+        "r1_iou_07": 0.27364438839848676,
+        "iou_precision": 0.1726883037354562,
+        "iou_recall": 0.27115384615384613,
+        "iou_f1": 0.21099887766554434,
+        "boundary_precision": 0.14268218003674218,
+        "boundary_recall": 0.22403846153846155,
+        "boundary_f1": 0.1743359521137299
+      }
+    },
+    {
+      "epoch": 28,
+      "loss": 0.10107470409801374,
+      "validation": {
+        "predictions": 1529,
+        "references": 1040,
+        "iou_hits": 254,
+        "boundary_hits": 205,
+        "positive_action_queries": 793,
+        "miou": 0.3154034833451378,
+        "r1_iou_05": 0.30012610340479196,
+        "r1_iou_07": 0.2547288776796974,
+        "iou_precision": 0.16612164813603664,
+        "iou_recall": 0.24423076923076922,
+        "iou_f1": 0.1977423121837291,
+        "boundary_precision": 0.1340745585349902,
+        "boundary_recall": 0.1971153846153846,
+        "boundary_f1": 0.15959517321915143
+      }
+    },
+    {
+      "epoch": 29,
+      "loss": 0.10049652879914413,
+      "validation": {
+        "predictions": 1454,
+        "references": 1040,
+        "iou_hits": 261,
+        "boundary_hits": 220,
+        "positive_action_queries": 793,
+        "miou": 0.32164650254625915,
+        "r1_iou_05": 0.3076923076923077,
+        "r1_iou_07": 0.2471626733921816,
+        "iou_precision": 0.17950481430536452,
+        "iou_recall": 0.25096153846153846,
+        "iou_f1": 0.20930232558139536,
+        "boundary_precision": 0.15130674002751032,
+        "boundary_recall": 0.21153846153846154,
+        "boundary_f1": 0.1764234161988773
+      }
+    },
+    {
+      "epoch": 30,
+      "loss": 0.09537815464517245,
+      "validation": {
+        "predictions": 1598,
+        "references": 1040,
+        "iou_hits": 263,
+        "boundary_hits": 207,
+        "positive_action_queries": 793,
+        "miou": 0.31681863268579485,
+        "r1_iou_05": 0.30138713745271123,
+        "r1_iou_07": 0.2471626733921816,
+        "iou_precision": 0.16458072590738423,
+        "iou_recall": 0.2528846153846154,
+        "iou_f1": 0.19939347990902198,
+        "boundary_precision": 0.1295369211514393,
+        "boundary_recall": 0.19903846153846153,
+        "boundary_f1": 0.15693707354056102
+      }
+    },
+    {
+      "epoch": 31,
+      "loss": 0.0923230443508006,
+      "validation": {
+        "predictions": 1367,
+        "references": 1040,
+        "iou_hits": 251,
+        "boundary_hits": 203,
+        "positive_action_queries": 793,
+        "miou": 0.3026455275677681,
+        "r1_iou_05": 0.2837326607818411,
+        "r1_iou_07": 0.23707440100882723,
+        "iou_precision": 0.18361375274323335,
+        "iou_recall": 0.24134615384615385,
+        "iou_f1": 0.20855837141670128,
+        "boundary_precision": 0.1485003657644477,
+        "boundary_recall": 0.1951923076923077,
+        "boundary_f1": 0.1686746987951807
+      }
+    },
+    {
+      "epoch": 32,
+      "loss": 0.0912004780310851,
+      "validation": {
+        "predictions": 1635,
+        "references": 1040,
+        "iou_hits": 273,
+        "boundary_hits": 222,
+        "positive_action_queries": 793,
+        "miou": 0.33097623501371926,
+        "r1_iou_05": 0.31651954602774274,
+        "r1_iou_07": 0.2610340479192938,
+        "iou_precision": 0.1669724770642202,
+        "iou_recall": 0.2625,
+        "iou_f1": 0.20411214953271029,
+        "boundary_precision": 0.13577981651376148,
+        "boundary_recall": 0.21346153846153845,
+        "boundary_f1": 0.16598130841121495
+      }
+    },
+    {
+      "epoch": 33,
+      "loss": 0.09823152408576928,
+      "validation": {
+        "predictions": 1471,
+        "references": 1040,
+        "iou_hits": 254,
+        "boundary_hits": 209,
+        "positive_action_queries": 793,
+        "miou": 0.31449685932503807,
+        "r1_iou_05": 0.296343001261034,
+        "r1_iou_07": 0.24968474148802017,
+        "iou_precision": 0.1726716519374575,
+        "iou_recall": 0.24423076923076922,
+        "iou_f1": 0.20230983671843886,
+        "boundary_precision": 0.14208021753908906,
+        "boundary_recall": 0.20096153846153847,
+        "boundary_f1": 0.16646754281162884
+      }
+    },
+    {
+      "epoch": 34,
+      "loss": 0.08887890887518342,
+      "validation": {
+        "predictions": 1529,
+        "references": 1040,
+        "iou_hits": 236,
+        "boundary_hits": 179,
+        "positive_action_queries": 793,
+        "miou": 0.2778002002385486,
+        "r1_iou_05": 0.2686002522068096,
+        "r1_iou_07": 0.21941992433795712,
+        "iou_precision": 0.15434924787442772,
+        "iou_recall": 0.22692307692307692,
+        "iou_f1": 0.1837290774620475,
+        "boundary_precision": 0.1170699803793329,
+        "boundary_recall": 0.17211538461538461,
+        "boundary_f1": 0.13935383417672245
+      }
+    },
+    {
+      "epoch": 35,
+      "loss": 0.08677894795456757,
+      "validation": {
+        "predictions": 1266,
+        "references": 1040,
+        "iou_hits": 237,
+        "boundary_hits": 191,
+        "positive_action_queries": 793,
+        "miou": 0.285673509540173,
+        "r1_iou_05": 0.27490542244640603,
+        "r1_iou_07": 0.22950819672131148,
+        "iou_precision": 0.1872037914691943,
+        "iou_recall": 0.22788461538461538,
+        "iou_f1": 0.20555073720728534,
+        "boundary_precision": 0.15086887835703003,
+        "boundary_recall": 0.18365384615384617,
+        "boundary_f1": 0.16565481352992195
+      }
+    },
+    {
+      "epoch": 36,
+      "loss": 0.07975155377330688,
+      "validation": {
+        "predictions": 1262,
+        "references": 1040,
+        "iou_hits": 241,
+        "boundary_hits": 202,
+        "positive_action_queries": 793,
+        "miou": 0.2943682577172067,
+        "r1_iou_05": 0.2837326607818411,
+        "r1_iou_07": 0.23833543505674654,
+        "iou_precision": 0.19096671949286848,
+        "iou_recall": 0.23173076923076924,
+        "iou_f1": 0.20938314509122502,
+        "boundary_precision": 0.1600633914421553,
+        "boundary_recall": 0.19423076923076923,
+        "boundary_f1": 0.17549956559513466
+      }
+    },
+    {
+      "epoch": 37,
+      "loss": 0.07285109340714721,
+      "validation": {
+        "predictions": 1300,
+        "references": 1040,
+        "iou_hits": 245,
+        "boundary_hits": 200,
+        "positive_action_queries": 793,
+        "miou": 0.29869729464009487,
+        "r1_iou_05": 0.2862547288776797,
+        "r1_iou_07": 0.2421185372005044,
+        "iou_precision": 0.18846153846153846,
+        "iou_recall": 0.23557692307692307,
+        "iou_f1": 0.2094017094017094,
+        "boundary_precision": 0.15384615384615385,
+        "boundary_recall": 0.19230769230769232,
+        "boundary_f1": 0.17094017094017094
+      }
+    }
+  ],
+  "schema": "automatic-actions-v1",
+  "completed": true,
+  "smoke": false,
+  "test_read": false,
+  "selection_metric": "boundary_f1",
+  "seed": 6116,
+  "batch_size": 8,
+  "threads": 1,
+  "patience": 8,
+  "enabled_for_inference": false,
+  "epochs_completed": 37,
+  "negative_policy": "Unannotated actions are treated as background; annotation completeness is assumed.",
+  "review_status": "not_enabled_insufficient_precision",
+  "review_reason": "Boundary precision/recall are too low for the requested precise automatic localization; validation threshold diagnostics did not resolve false positives.",
+  "verification_file": "verification.json"
+}

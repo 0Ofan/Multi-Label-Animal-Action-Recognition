@@ -24,3 +24,7 @@ features/
 research_workspace/
 research_restore_test/
 research_output/
+*.pt
+*.pth
+*.safetensors
+deployment/acceptance_local/

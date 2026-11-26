@@ -1,0 +1,112 @@
+{
+  "epochs_completed": 40,
+  "selected_epoch": 34,
+  "train": {
+    "predictions": 5540,
+    "references": 4864,
+    "iou_hits": 2718,
+    "boundary_hits": 2432,
+    "positive_action_queries": 3622,
+    "miou": 0.664906717189787,
+    "r1_iou_05": 0.6921590281612369,
+    "r1_iou_07": 0.6305908337934842,
+    "iou_precision": 0.4906137184115523,
+    "iou_recall": 0.5587993421052632,
+    "iou_f1": 0.5224913494809689,
+    "boundary_precision": 0.4389891696750903,
+    "boundary_recall": 0.5,
+    "boundary_f1": 0.4675124951941561
+  },
+  "valid": {
+    "predictions": 1010,
+    "references": 1040,
+    "iou_hits": 234,
+    "boundary_hits": 187,
+    "positive_action_queries": 793,
+    "miou": 0.29313366217727554,
+    "r1_iou_05": 0.287515762925599,
+    "r1_iou_07": 0.24337957124842372,
+    "iou_precision": 0.2316831683168317,
+    "iou_recall": 0.225,
+    "iou_f1": 0.22829268292682928,
+    "boundary_precision": 0.18514851485148515,
+    "boundary_recall": 0.1798076923076923,
+    "boundary_f1": 0.1824390243902439
+  },
+  "old_valid": {
+    "predictions": 1454,
+    "references": 1040,
+    "iou_hits": 261,
+    "boundary_hits": 220,
+    "positive_action_queries": 793,
+    "miou": 0.32164650254625915,
+    "r1_iou_05": 0.3076923076923077,
+    "r1_iou_07": 0.2471626733921816,
+    "iou_precision": 0.17950481430536452,
+    "iou_recall": 0.25096153846153846,
+    "iou_f1": 0.20930232558139536,
+    "boundary_precision": 0.15130674002751032,
+    "boundary_recall": 0.21153846153846154,
+    "boundary_f1": 0.1764234161988773
+  },
+  "activity_signal": {
+    "train": {
+      "foreground_mean": 0.8117243564509381,
+      "temporal_background_mean": 0.20628892040628072
+    },
+    "valid": {
+      "foreground_mean": 0.5378708740448336,
+      "temporal_background_mean": 0.31563163080470114
+    }
+  },
+  "wrong_class_predictions": 608,
+  "whole_video_predictions": 832,
+  "metrics_recomputed_match": true,
+  "records_match_saved": true,
+  "real_video_inference_matches_cache": true,
+  "exports_validated": true,
+  "original_checkpoint_unchanged": true,
+  "source_sha256": "dbc6053b36a9e23a14be9138d992fc9c3f480d2e9da096d08f558d1c2e8543cd",
+  "checkpoint_sha256": "58c9f0325a8c38ec0cf43067ec21d78e25c4a2b4ef8415be9b8de1d5da473ea1",
+  "best_diagnostic_threshold": {
+    "threshold": 0.4,
+    "validation": {
+      "predictions": 1313,
+      "references": 1040,
+      "iou_hits": 274,
+      "boundary_hits": 219,
+      "positive_action_queries": 793,
+      "miou": 0.34089706203012293,
+      "r1_iou_05": 0.3354350567465322,
+      "r1_iou_07": 0.27994955863808324,
+      "iou_precision": 0.2086824067022087,
+      "iou_recall": 0.26346153846153847,
+      "iou_f1": 0.23289417764555886,
+      "boundary_precision": 0.1667936024371668,
+      "boundary_recall": 0.21057692307692308,
+      "boundary_f1": 0.18614534636634084
+    }
+  },
+  "highest_diagnostic_precision": {
+    "threshold": 0.95,
+    "validation": {
+      "predictions": 39,
+      "references": 1040,
+      "iou_hits": 19,
+      "boundary_hits": 17,
+      "positive_action_queries": 793,
+      "miou": 0.024546126686000865,
+      "r1_iou_05": 0.02395964691046658,
+      "r1_iou_07": 0.02269861286254729,
+      "iou_precision": 0.48717948717948717,
+      "iou_recall": 0.01826923076923077,
+      "iou_f1": 0.03521779425393883,
+      "boundary_precision": 0.4358974358974359,
+      "boundary_recall": 0.016346153846153847,
+      "boundary_f1": 0.03151065801668211
+    }
+  },
+  "enabled_for_inference": false,
+  "precision_goal_met": false,
+  "test_read": false
+}

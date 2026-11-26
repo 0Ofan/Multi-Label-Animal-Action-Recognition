@@ -1,0 +1,55 @@
+{
+  "page_checks": [
+    {
+      "language": "zh",
+      "page": "video",
+      "passed": true
+    },
+    {
+      "language": "zh",
+      "page": "results",
+      "passed": true
+    },
+    {
+      "language": "zh",
+      "page": "evaluation",
+      "passed": true
+    },
+    {
+      "language": "en",
+      "page": "video",
+      "passed": true
+    },
+    {
+      "language": "en",
+      "page": "results",
+      "passed": true
+    },
+    {
+      "language": "en",
+      "page": "evaluation",
+      "passed": true
+    }
+  ],
+  "real_inference_schema_passed": true,
+  "predicted_labels": [
+    "Walking"
+  ],
+  "original_time_detection_status": "ready",
+  "all_six_methods_retained": true,
+  "populated_results_checks": [
+    {
+      "language": "zh",
+      "populated_results": true,
+      "download_buttons": 3
+    },
+    {
+      "language": "en",
+      "populated_results": true,
+      "download_buttons": 3
+    }
+  ],
+  "all_six_model_selectors_rendered": true,
+  "browser_visual_review_completed": false,
+  "fresh_teammate_install_tested": false
+}

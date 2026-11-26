@@ -1,0 +1,102 @@
+[
+  {
+    "video_id": "AJDDHWBO",
+    "references": [
+      {
+        "class_id": 114,
+        "interval": [
+          0.941,
+          7.0
+        ]
+      }
+    ],
+    "detection": {
+      "status": "ready",
+      "model": "automatic-actions-v1",
+      "experimental": true,
+      "duration": 7.0,
+      "segments": [
+        {
+          "class_id": 39,
+          "action": "Eating",
+          "start": 0.0,
+          "end": 7.0,
+          "score": 0.8639554699746158
+        }
+      ],
+      "max_time_bin_seconds": 0.375,
+      "calibrated": false
+    }
+  },
+  {
+    "video_id": "AKFJYBGG",
+    "references": [
+      {
+        "class_id": 88,
+        "interval": [
+          0.825,
+          1.722
+        ]
+      },
+      {
+        "class_id": 88,
+        "interval": [
+          2.887,
+          4.081
+        ]
+      },
+      {
+        "class_id": 76,
+        "interval": [
+          2.532,
+          2.97
+        ]
+      }
+    ],
+    "detection": {
+      "status": "ready",
+      "model": "automatic-actions-v1",
+      "experimental": true,
+      "duration": 4.208333333333333,
+      "segments": [
+        {
+          "class_id": 87,
+          "action": "Sensing",
+          "start": 0.0,
+          "end": 4.208333333333333,
+          "score": 0.5960162723364114
+        },
+        {
+          "class_id": 47,
+          "action": "Flapping",
+          "start": 0.875,
+          "end": 1.125,
+          "score": 0.40406615680671965
+        },
+        {
+          "class_id": 88,
+          "action": "Shaking",
+          "start": 1.125,
+          "end": 1.875,
+          "score": 0.8900064645280915
+        },
+        {
+          "class_id": 76,
+          "action": "Preening",
+          "start": 2.625,
+          "end": 2.875,
+          "score": 0.6739850405429486
+        },
+        {
+          "class_id": 88,
+          "action": "Shaking",
+          "start": 3.375,
+          "end": 3.875,
+          "score": 0.9607469849496184
+        }
+      ],
+      "max_time_bin_seconds": 0.33333333333333304,
+      "calibrated": false
+    }
+  }
+]

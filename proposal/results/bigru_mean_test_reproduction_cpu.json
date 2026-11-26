@@ -1,0 +1,1095 @@
+{
+  "evaluation_unit": "whole_video",
+  "split": "test",
+  "videos": 447,
+  "model": "bigru_mean",
+  "checkpoint_epoch": 39,
+  "fixed_threshold": 0.1,
+  "max_score_difference_from_saved": 0.0008737444877624512,
+  "metrics": {
+    "map": 0.3712631427993269,
+    "macro_f1": 0.3693162304091762,
+    "classes_with_positive_support": 31,
+    "concurrent_subset": {
+      "videos": 108,
+      "concurrent_labels": 290,
+      "detected_concurrent_labels": 207,
+      "recall": 0.7137931034482758,
+      "primary_predictions": 432,
+      "correct_primary_predictions": 221,
+      "precision": 0.5115740740740741
+    },
+    "per_class": [
+      {
+        "class_id": 1,
+        "action": "Attacking",
+        "ap": 0.1200258393578017,
+        "positive_videos": 6,
+        "f1": 0.2,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            429,
+            12
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "ap": 0.40703826492511097,
+        "positive_videos": 54,
+        "f1": 0.38857142857142857,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            306,
+            87
+          ],
+          [
+            20,
+            34
+          ]
+        ]
+      },
+      {
+        "class_id": 7,
+        "action": "Being Eaten",
+        "ap": 0.2881944444444444,
+        "positive_videos": 4,
+        "f1": 0.2857142857142857,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            441,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 8,
+        "action": "Biting",
+        "ap": 0.17317068671896063,
+        "positive_videos": 8,
+        "f1": 0.3157894736842105,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            431,
+            8
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 13,
+        "action": "Carrying In Mouth",
+        "ap": 0.02890745298386945,
+        "positive_videos": 4,
+        "f1": 0.0,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            441,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "ap": 0.6023656489357485,
+        "positive_videos": 42,
+        "f1": 0.6296296296296297,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            373,
+            32
+          ],
+          [
+            8,
+            34
+          ]
+        ]
+      },
+      {
+        "class_id": 16,
+        "action": "Climbing",
+        "ap": 0.07741696765166622,
+        "positive_videos": 5,
+        "f1": 0.13333333333333333,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            433,
+            9
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 26,
+        "action": "Displaying Defensive Pose",
+        "ap": 0.3815891472868217,
+        "positive_videos": 4,
+        "f1": 0.6666666666666666,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            441,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 27,
+        "action": "Disturbing Another Animal",
+        "ap": 0.42989021362334706,
+        "positive_videos": 7,
+        "f1": 0.6153846153846154,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            438,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "class_id": 32,
+        "action": "Doing A Face Dip",
+        "ap": 0.6675438596491228,
+        "positive_videos": 5,
+        "f1": 0.5454545454545454,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            439,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 37,
+        "action": "Drinking",
+        "ap": 0.8013199369582349,
+        "positive_videos": 9,
+        "f1": 0.6363636363636364,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            432,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      {
+        "class_id": 39,
+        "action": "Eating",
+        "ap": 0.43191397997889625,
+        "positive_videos": 48,
+        "f1": 0.45098039215686275,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            368,
+            31
+          ],
+          [
+            25,
+            23
+          ]
+        ]
+      },
+      {
+        "class_id": 44,
+        "action": "Exploring",
+        "ap": 0.05705286534927517,
+        "positive_videos": 8,
+        "f1": 0.15384615384615385,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            435,
+            4
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 46,
+        "action": "Fighting",
+        "ap": 0.2658726621494337,
+        "positive_videos": 8,
+        "f1": 0.21052631578947367,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            430,
+            9
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      {
+        "class_id": 47,
+        "action": "Flapping",
+        "ap": 0.26488672859825724,
+        "positive_videos": 9,
+        "f1": 0.15384615384615385,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            411,
+            27
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 50,
+        "action": "Flying",
+        "ap": 0.30073865699257113,
+        "positive_videos": 21,
+        "f1": 0.3050847457627119,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            397,
+            29
+          ],
+          [
+            12,
+            9
+          ]
+        ]
+      },
+      {
+        "class_id": 53,
+        "action": "Grooming",
+        "ap": 0.44047474834876404,
+        "positive_videos": 5,
+        "f1": 0.4444444444444444,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            440,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "class_id": 59,
+        "action": "Hugging",
+        "ap": 0.34159779614325064,
+        "positive_videos": 3,
+        "f1": 0.3333333333333333,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            442,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 61,
+        "action": "Jumping",
+        "ap": 0.15963164041008662,
+        "positive_videos": 14,
+        "f1": 0.20408163265306123,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            403,
+            30
+          ],
+          [
+            9,
+            5
+          ]
+        ]
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "ap": 0.5747138991789515,
+        "positive_videos": 117,
+        "f1": 0.5846153846153846,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            217,
+            113
+          ],
+          [
+            22,
+            95
+          ]
+        ]
+      },
+      {
+        "class_id": 63,
+        "action": "Landing",
+        "ap": 0.4837535777183713,
+        "positive_videos": 10,
+        "f1": 0.35294117647058826,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            419,
+            18
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      },
+      {
+        "class_id": 70,
+        "action": "Moving",
+        "ap": 0.6308821116881388,
+        "positive_videos": 59,
+        "f1": 0.5625,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            309,
+            79
+          ],
+          [
+            5,
+            54
+          ]
+        ]
+      },
+      {
+        "class_id": 76,
+        "action": "Preening",
+        "ap": 0.49042637752353657,
+        "positive_videos": 16,
+        "f1": 0.46511627906976744,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            414,
+            17
+          ],
+          [
+            6,
+            10
+          ]
+        ]
+      },
+      {
+        "class_id": 85,
+        "action": "Running",
+        "ap": 0.25948894433675646,
+        "positive_videos": 14,
+        "f1": 0.3018867924528302,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            402,
+            31
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "ap": 0.5288073949229498,
+        "positive_videos": 110,
+        "f1": 0.48863636363636365,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            181,
+            156
+          ],
+          [
+            24,
+            86
+          ]
+        ]
+      },
+      {
+        "class_id": 88,
+        "action": "Shaking",
+        "ap": 0.013691404724252282,
+        "positive_videos": 5,
+        "f1": 0.0,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            440,
+            2
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "ap": 0.38517534779904267,
+        "positive_videos": 17,
+        "f1": 0.3880597014925373,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            393,
+            37
+          ],
+          [
+            4,
+            13
+          ]
+        ]
+      },
+      {
+        "class_id": 96,
+        "action": "Spitting Venom",
+        "ap": 0.6240379990379991,
+        "positive_videos": 6,
+        "f1": 0.5454545454545454,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            431,
+            10
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "class_id": 106,
+        "action": "Swimming",
+        "ap": 0.48386217719551056,
+        "positive_videos": 9,
+        "f1": 0.35714285714285715,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            424,
+            14
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "class_id": 110,
+        "action": "Turning Around",
+        "ap": 0.23657350888884224,
+        "positive_videos": 5,
+        "f1": 0.2222222222222222,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            439,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "ap": 0.5581131432591201,
+        "positive_videos": 67,
+        "f1": 0.507177033492823,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            291,
+            89
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      }
+    ]
+  },
+  "saved_metrics": {
+    "map": 0.3712894337923615,
+    "macro_f1": 0.36972979533887024,
+    "classes_with_positive_support": 31,
+    "concurrent_subset": {
+      "videos": 108,
+      "concurrent_labels": 290,
+      "detected_concurrent_labels": 207,
+      "recall": 0.7137931034482758,
+      "primary_predictions": 432,
+      "correct_primary_predictions": 221,
+      "precision": 0.5115740740740741
+    },
+    "per_class": [
+      {
+        "class_id": 1,
+        "action": "Attacking",
+        "ap": 0.1200258393578017,
+        "positive_videos": 6,
+        "f1": 0.2,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            429,
+            12
+          ],
+          [
+            4,
+            2
+          ]
+        ]
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "ap": 0.4068347790721644,
+        "positive_videos": 54,
+        "f1": 0.38857142857142857,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            306,
+            87
+          ],
+          [
+            20,
+            34
+          ]
+        ]
+      },
+      {
+        "class_id": 7,
+        "action": "Being Eaten",
+        "ap": 0.2881944444444444,
+        "positive_videos": 4,
+        "f1": 0.2857142857142857,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            441,
+            2
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 8,
+        "action": "Biting",
+        "ap": 0.17317068671896063,
+        "positive_videos": 8,
+        "f1": 0.3157894736842105,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            431,
+            8
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 13,
+        "action": "Carrying In Mouth",
+        "ap": 0.02890745298386945,
+        "positive_videos": 4,
+        "f1": 0.0,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            441,
+            2
+          ],
+          [
+            4,
+            0
+          ]
+        ]
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "ap": 0.6023656489357485,
+        "positive_videos": 42,
+        "f1": 0.6296296296296297,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            373,
+            32
+          ],
+          [
+            8,
+            34
+          ]
+        ]
+      },
+      {
+        "class_id": 16,
+        "action": "Climbing",
+        "ap": 0.07741696765166622,
+        "positive_videos": 5,
+        "f1": 0.13333333333333333,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            433,
+            9
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 26,
+        "action": "Displaying Defensive Pose",
+        "ap": 0.3815891472868217,
+        "positive_videos": 4,
+        "f1": 0.6666666666666666,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            441,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 27,
+        "action": "Disturbing Another Animal",
+        "ap": 0.42989021362334706,
+        "positive_videos": 7,
+        "f1": 0.6153846153846154,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            438,
+            2
+          ],
+          [
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "class_id": 32,
+        "action": "Doing A Face Dip",
+        "ap": 0.6675438596491228,
+        "positive_videos": 5,
+        "f1": 0.5454545454545454,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            439,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 37,
+        "action": "Drinking",
+        "ap": 0.8013199369582349,
+        "positive_videos": 9,
+        "f1": 0.6363636363636364,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            432,
+            6
+          ],
+          [
+            2,
+            7
+          ]
+        ]
+      },
+      {
+        "class_id": 39,
+        "action": "Eating",
+        "ap": 0.43191656685392243,
+        "positive_videos": 48,
+        "f1": 0.45098039215686275,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            368,
+            31
+          ],
+          [
+            25,
+            23
+          ]
+        ]
+      },
+      {
+        "class_id": 44,
+        "action": "Exploring",
+        "ap": 0.05705286534927517,
+        "positive_videos": 8,
+        "f1": 0.16666666666666666,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            436,
+            3
+          ],
+          [
+            7,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 46,
+        "action": "Fighting",
+        "ap": 0.2658726621494337,
+        "positive_videos": 8,
+        "f1": 0.21052631578947367,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            430,
+            9
+          ],
+          [
+            6,
+            2
+          ]
+        ]
+      },
+      {
+        "class_id": 47,
+        "action": "Flapping",
+        "ap": 0.26488672859825724,
+        "positive_videos": 9,
+        "f1": 0.15384615384615385,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            411,
+            27
+          ],
+          [
+            6,
+            3
+          ]
+        ]
+      },
+      {
+        "class_id": 50,
+        "action": "Flying",
+        "ap": 0.30077463909710944,
+        "positive_videos": 21,
+        "f1": 0.3050847457627119,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            397,
+            29
+          ],
+          [
+            12,
+            9
+          ]
+        ]
+      },
+      {
+        "class_id": 53,
+        "action": "Grooming",
+        "ap": 0.44047474834876404,
+        "positive_videos": 5,
+        "f1": 0.4444444444444444,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            440,
+            2
+          ],
+          [
+            3,
+            2
+          ]
+        ]
+      },
+      {
+        "class_id": 59,
+        "action": "Hugging",
+        "ap": 0.34159779614325064,
+        "positive_videos": 3,
+        "f1": 0.3333333333333333,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            442,
+            2
+          ],
+          [
+            2,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 61,
+        "action": "Jumping",
+        "ap": 0.15963164041008662,
+        "positive_videos": 14,
+        "f1": 0.20408163265306123,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            403,
+            30
+          ],
+          [
+            9,
+            5
+          ]
+        ]
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "ap": 0.5744653545615587,
+        "positive_videos": 117,
+        "f1": 0.5846153846153846,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            217,
+            113
+          ],
+          [
+            22,
+            95
+          ]
+        ]
+      },
+      {
+        "class_id": 63,
+        "action": "Landing",
+        "ap": 0.4837535777183713,
+        "positive_videos": 10,
+        "f1": 0.35294117647058826,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            419,
+            18
+          ],
+          [
+            4,
+            6
+          ]
+        ]
+      },
+      {
+        "class_id": 70,
+        "action": "Moving",
+        "ap": 0.6309501304002253,
+        "positive_videos": 59,
+        "f1": 0.5625,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            309,
+            79
+          ],
+          [
+            5,
+            54
+          ]
+        ]
+      },
+      {
+        "class_id": 76,
+        "action": "Preening",
+        "ap": 0.4904850974295847,
+        "positive_videos": 16,
+        "f1": 0.46511627906976744,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            414,
+            17
+          ],
+          [
+            6,
+            10
+          ]
+        ]
+      },
+      {
+        "class_id": 85,
+        "action": "Running",
+        "ap": 0.25948894433675646,
+        "positive_videos": 14,
+        "f1": 0.3018867924528302,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            402,
+            31
+          ],
+          [
+            6,
+            8
+          ]
+        ]
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "ap": 0.52879923765733,
+        "positive_videos": 110,
+        "f1": 0.48863636363636365,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            181,
+            156
+          ],
+          [
+            24,
+            86
+          ]
+        ]
+      },
+      {
+        "class_id": 88,
+        "action": "Shaking",
+        "ap": 0.013691404724252282,
+        "positive_videos": 5,
+        "f1": 0.0,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            440,
+            2
+          ],
+          [
+            5,
+            0
+          ]
+        ]
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "ap": 0.38517534779904267,
+        "positive_videos": 17,
+        "f1": 0.3880597014925373,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            393,
+            37
+          ],
+          [
+            4,
+            13
+          ]
+        ]
+      },
+      {
+        "class_id": 96,
+        "action": "Spitting Venom",
+        "ap": 0.6240379990379991,
+        "positive_videos": 6,
+        "f1": 0.5454545454545454,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            431,
+            10
+          ],
+          [
+            0,
+            6
+          ]
+        ]
+      },
+      {
+        "class_id": 106,
+        "action": "Swimming",
+        "ap": 0.48386217719551056,
+        "positive_videos": 9,
+        "f1": 0.35714285714285715,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            424,
+            14
+          ],
+          [
+            4,
+            5
+          ]
+        ]
+      },
+      {
+        "class_id": 110,
+        "action": "Turning Around",
+        "ap": 0.23657350888884224,
+        "positive_videos": 5,
+        "f1": 0.2222222222222222,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            439,
+            3
+          ],
+          [
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "ap": 0.5592230441814546,
+        "positive_videos": 67,
+        "f1": 0.507177033492823,
+        "confusion_2x2_tn_fp_fn_tp": [
+          [
+            291,
+            89
+          ],
+          [
+            14,
+            53
+          ]
+        ]
+      }
+    ]
+  }
+}

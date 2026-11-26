@@ -1,0 +1,46 @@
+{
+  "valid": {
+    "attention_original_threshold": {
+      "map": 0.4519981279305259,
+      "macro_f1": 0.432144519496151,
+      "threshold": 0.3
+    },
+    "attention_fusion_threshold": {
+      "map": 0.4519981279305259,
+      "macro_f1": 0.4289003196868982,
+      "threshold": 0.2
+    },
+    "fusion_original_threshold": {
+      "map": 0.4581194971177915,
+      "macro_f1": 0.4273867535687975,
+      "threshold": 0.3
+    },
+    "fusion_selected_threshold": {
+      "map": 0.4581194971177915,
+      "macro_f1": 0.4329751110057472,
+      "threshold": 0.2
+    }
+  },
+  "test": {
+    "attention_original_threshold": {
+      "map": 0.3894116959198026,
+      "macro_f1": 0.3777886329805314,
+      "threshold": 0.3
+    },
+    "attention_fusion_threshold": {
+      "map": 0.3894116959198026,
+      "macro_f1": 0.40083501949274547,
+      "threshold": 0.2
+    },
+    "fusion_original_threshold": {
+      "map": 0.3963988461159969,
+      "macro_f1": 0.38228006571762985,
+      "threshold": 0.3
+    },
+    "fusion_selected_threshold": {
+      "map": 0.3963988461159969,
+      "macro_f1": 0.4148539645087479,
+      "threshold": 0.2
+    }
+  }
+}

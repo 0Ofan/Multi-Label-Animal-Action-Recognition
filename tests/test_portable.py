@@ -28,6 +28,42 @@ class PortableTests(unittest.TestCase):
         for kind in ("mean","bigru_mean","bigru_attention"):
             h=VideoMAEProposalHead(kind).eval();x=torch.randn(3,8,768);lens=torch.tensor([1,3,8]);mask=torch.arange(8)[None]<lens[:,None]
             before=h(x,lens,mask);x[~mask]=1e4;torch.testing.assert_close(before,h(x,lens,mask))
+    def test_semantic_search_fallback(self):
+        from animalact2.dashboard.ui.services.search import search_actions
+        for query, expected in (("climb",16),("攀爬",16),("jump",61),("aggressive",1),("游泳",106)):
+            result=search_actions(query,classes())
+            self.assertEqual(result["provider"],"local")
+            self.assertIn(expected,result["ids"],query)
+    def test_llm_match_validation(self):
+        from animalact2.dashboard.ui.services.search import parse_matches
+        names={row["class_id"]:row["name"] for row in classes()}
+        content='```json\n{"matches":[{"id":16,"reason":"climbing"},{"id":999,"reason":"unknown"},{"name":"Biting","reason":"bite"},{"id":"1"}]}\n```'
+        ids,reasons=parse_matches(content,names)
+        self.assertEqual(ids,[16,8,1]);self.assertEqual(reasons[16],"climbing")
+    def test_llm_success_and_failure(self):
+        from unittest.mock import patch
+        from animalact2.dashboard.ui.services.search import search_actions
+        settings={"api_key":"x","base_url":"https://example.invalid/v1","model":"m"}
+        with patch("animalact2.dashboard.ui.services.search._chat",return_value='{"matches":[{"id":118,"reason":"yawn"},{"id":16,"reason":"climb"}]}'):
+            result=search_actions("climb or yawn",classes(),settings)
+        self.assertEqual((result["provider"],result["ids"],result["model"]),("llm",[118,16],"m"))
+        with patch("animalact2.dashboard.ui.services.search._chat",side_effect=RuntimeError("offline")):
+            result=search_actions("climb",classes(),settings)
+        self.assertEqual(result["provider"],"local");self.assertIn(16,result["ids"]);self.assertIn("offline",result["error"])
+    def test_llm_settings(self):
+        from unittest.mock import patch
+        from animalact2.dashboard.ui.services.search import llm_settings
+        settings=llm_settings({"llm":{"api_key":"k","base_url":"https://api.deepseek.com/","model":"deepseek-chat"}})
+        self.assertEqual(settings,dict(api_key="k",base_url="https://api.deepseek.com",model="deepseek-chat"))
+        with patch.dict(os.environ,{"ANIMALACT2_LLM_API_KEY":"","ANIMALACT2_LLM_BASE_URL":"","ANIMALACT2_LLM_MODEL":""}):
+            self.assertIsNone(llm_settings({}))
+    def test_search_relevance_sort(self):
+        from animalact2.dashboard.ui.services.presentation import score_rows
+        rows=[dict(class_id=i,name=f"Class {i}",score=.1*(3-i),selected=False,main_evaluation=True,above_threshold=False,eligible_for_prediction=True) for i in range(3)]
+        result={"class_scores":rows}
+        out=score_rows(result,order="Search relevance",limit="All 119",query_ids=[2,0],relevance={2:0,0:1})
+        self.assertEqual([row["class_id"] for row in out],[2,0])
+        self.assertEqual(score_rows(result,query_ids=[]),[])
     @unittest.skipUnless(os.environ.get("RUN_MODEL_SMOKE")=="1","enable real pretrained CPU smoke explicitly")
     def test_real_encoder(self):
         from animalact2.dashboard.predictor import Predictor

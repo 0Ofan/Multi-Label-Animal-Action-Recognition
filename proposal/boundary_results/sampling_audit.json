@@ -1,0 +1,29 @@
+{
+  "videos": 2521,
+  "sampled_frames": 55565,
+  "cache_bytes": 119319024,
+  "time_bin_seconds_percentiles": [
+    0.25,
+    0.25,
+    0.375,
+    0.375
+  ],
+  "train_positive_queries": 3735,
+  "valid_positive_queries": 809,
+  "whole_video_baseline": {
+    "positive_queries": 809,
+    "negative_queries": 809,
+    "miou": 0.6120294781818371,
+    "boundary_hit_at_0_5s": 0.44128553770086526,
+    "r1_iou_05": 0.5772558714462299,
+    "r1_iou_07": 0.4783683559950556,
+    "miss_rate": 0.0,
+    "negative_false_positive_rate": 1.0
+  },
+  "geometry_only_boundary_hit_upper_bound": 0.9913473423980222,
+  "manifest_sha256": "733250246f16ec00f361d252b5e901aa3cae0ec36a06a9db9d403e293641d327",
+  "torch_version": "2.14.1+cpu",
+  "device": "cpu",
+  "test_read": false,
+  "caveat": "Geometry upper bound assumes correct reference choice; it is not model accuracy."
+}

@@ -30,7 +30,7 @@ def recognize(state, runtime, device):
     upload = state.get("upload")
     if not upload or not upload.get("metadata"):
         raise ValueError("Choose a readable video before running recognition.")
-    identity=(upload["fingerprint"],state.get("model_key","attention"),state.get("window_start",0.),state.get("window_end"))
+    identity=recognition_identity(state)
     if state.get("recognition", {}).get("identity") == identity:
         return state["recognition"]
     if state.get("running"):
@@ -50,3 +50,10 @@ def recognize(state, runtime, device):
         raise
     finally:
         state["running"] = False
+
+
+def recognition_identity(state):
+    from deployment.final_artifacts import manifest
+    model_release = manifest()["archive"]["SHA256"]
+    return (state.get("upload", {}).get("fingerprint"), state.get("model_key", "attention"),
+            state.get("window_start", 0.), state.get("window_end"), "automatic-actions-v1", model_release)

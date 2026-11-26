@@ -1,0 +1,11 @@
+{
+  "unit_tests_passed": 5,
+  "original_six_model_split_metrics_reproduced": true,
+  "fusion_independent_arithmetic_verified": true,
+  "valid_test_metrics_recomputed": true,
+  "raw_video_inference_passed": true,
+  "raw_video_id": "QVNSCPIF",
+  "raw_vs_saved_score_max_difference": 0.00017772018909445464,
+  "raw_vs_saved_selected_labels_match": true,
+  "note": "Runtime versions differ from historical training; inference scores may differ slightly."
+}

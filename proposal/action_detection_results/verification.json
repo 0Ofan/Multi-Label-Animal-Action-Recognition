@@ -1,0 +1,72 @@
+{
+  "epochs_completed": 37,
+  "selected_epoch": 29,
+  "validation": {
+    "predictions": 1454,
+    "references": 1040,
+    "iou_hits": 261,
+    "boundary_hits": 220,
+    "positive_action_queries": 793,
+    "miou": 0.32164650254625915,
+    "r1_iou_05": 0.3076923076923077,
+    "r1_iou_07": 0.2471626733921816,
+    "iou_precision": 0.17950481430536452,
+    "iou_recall": 0.25096153846153846,
+    "iou_f1": 0.20930232558139536,
+    "boundary_precision": 0.15130674002751032,
+    "boundary_recall": 0.21153846153846154,
+    "boundary_f1": 0.1764234161988773
+  },
+  "recomputation_matches_checkpoint": true,
+  "recomputed_records_match_saved": true,
+  "real_video_inference_matches_cache": true,
+  "real_video_ids": [
+    "AJDDHWBO",
+    "AKFJYBGG"
+  ],
+  "exports_validated": true,
+  "wrong_class_predictions": 710,
+  "whole_video_predictions": 822,
+  "best_threshold_by_boundary_f1": {
+    "threshold": 0.6,
+    "validation": {
+      "predictions": 1234,
+      "references": 1040,
+      "iou_hits": 243,
+      "boundary_hits": 204,
+      "positive_action_queries": 793,
+      "miou": 0.2991747921221532,
+      "r1_iou_05": 0.2862547288776797,
+      "r1_iou_07": 0.23329129886506936,
+      "iou_precision": 0.19692058346839547,
+      "iou_recall": 0.23365384615384616,
+      "iou_f1": 0.21372031662269128,
+      "boundary_precision": 0.16531604538087522,
+      "boundary_recall": 0.19615384615384615,
+      "boundary_f1": 0.17941952506596306
+    }
+  },
+  "highest_boundary_precision_in_grid": {
+    "threshold": 0.95,
+    "validation": {
+      "predictions": 358,
+      "references": 1040,
+      "iou_hits": 117,
+      "boundary_hits": 91,
+      "positive_action_queries": 793,
+      "miou": 0.15054495504519044,
+      "r1_iou_05": 0.1437578814627995,
+      "r1_iou_07": 0.11979823455233292,
+      "iou_precision": 0.3268156424581006,
+      "iou_recall": 0.1125,
+      "iou_f1": 0.16738197424892703,
+      "boundary_precision": 0.2541899441340782,
+      "boundary_recall": 0.0875,
+      "boundary_f1": 0.1301859799713877
+    }
+  },
+  "checkpoint_sha256": "4a83cb954e5eb084ae240fe82eb5b033a931aed8682776788bccd95b2db8d8b0",
+  "test_read": false,
+  "enabled_for_inference": false,
+  "precision_goal_met": false
+}

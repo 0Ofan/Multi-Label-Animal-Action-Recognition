@@ -1,0 +1,56 @@
+{
+  "diagnostic_only": true,
+  "torch_version": "2.14.1+cpu",
+  "train_only": true,
+  "initial_metrics_match": true,
+  "variants": {
+    "reference_loss": {
+      "epoch": 190,
+      "metrics": {
+        "predictions": 120,
+        "references": 73,
+        "iou_hits": 60,
+        "boundary_hits": 57,
+        "positive_action_queries": 46,
+        "miou": 0.7816505428799969,
+        "r1_iou_05": 0.8260869565217391,
+        "r1_iou_07": 0.782608695652174,
+        "iou_precision": 0.5,
+        "iou_recall": 0.821917808219178,
+        "iou_f1": 0.6217616580310881,
+        "boundary_precision": 0.475,
+        "boundary_recall": 0.7808219178082192,
+        "boundary_f1": 0.5906735751295337
+      },
+      "recomputation_matches": true,
+      "foreground_activity_mean": 0.9934714490292119,
+      "temporal_background_activity_mean": 0.7472948507643213,
+      "checkpoint_sha256": "c4adc20be4f085e5fc7d55581c2f3cb91df508960acefe36ae1e4812498a1699"
+    },
+    "balanced_loss": {
+      "epoch": 60,
+      "metrics": {
+        "predictions": 74,
+        "references": 73,
+        "iou_hits": 71,
+        "boundary_hits": 70,
+        "positive_action_queries": 46,
+        "miou": 0.9015211270425867,
+        "r1_iou_05": 0.9782608695652174,
+        "r1_iou_07": 0.9565217391304348,
+        "iou_precision": 0.9594594594594594,
+        "iou_recall": 0.9726027397260274,
+        "iou_f1": 0.9659863945578231,
+        "boundary_precision": 0.9459459459459459,
+        "boundary_recall": 0.958904109589041,
+        "boundary_f1": 0.9523809523809523
+      },
+      "recomputation_matches": true,
+      "foreground_activity_mean": 0.853467639170441,
+      "temporal_background_activity_mean": 0.1356457237893825,
+      "checkpoint_sha256": "b7bcccf8f451c8a421312d93de43fc5aafe806301119dd637ed3feb5b3d022fa"
+    }
+  },
+  "historical_checkpoint_unchanged": true,
+  "production_detector_still_disabled": true
+}

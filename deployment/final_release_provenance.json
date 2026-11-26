@@ -1,0 +1,31 @@
+{
+  "release": "v2.1-final-integrated",
+  "source_archive": "AnimalAct_最新版.zip",
+  "source_archive_SHA256": "4a42f56ffb18fbc6149dea4c6f7718953d052fe56674012e0b2bfaf8d2a1a22c",
+  "source_files": 466,
+  "original_checkpoint_files_verified": 20,
+  "cloud_compatibility_changes": [
+    "animalact2/dashboard/ui/app.py",
+    "animalact2/dashboard/ui/components/ui.py",
+    "animalact2/dashboard/ui/i18n.py",
+    "animalact2/dashboard/ui/pages/video.py",
+    "animalact2/dashboard/ui/services/resources.py",
+    "animalact2/dashboard/ui/services/state.py",
+    "ensemble_integration/backend.py",
+    "proposal/predict.py",
+    "README.md",
+    "scripts/restore.py"
+  ],
+  "historical_research_paths_unchanged_from_previous_publication": [
+    "animalact2/release_v1",
+    "animalact2/first_round",
+    "animalact2/phase2_4",
+    "animalact2/phase2_5"
+  ],
+  "weights_retrained": false,
+  "thresholds_modified": false,
+  "dataset_accessed_for_verification": false,
+  "test_inference_performed": false,
+  "source_model_config_and_results_preserved": true,
+  "streamlit_url": "https://multi-label-animal-action-recognition-xh8tppjnmarxt9wuhk6wbx.streamlit.app/"
+}

@@ -1,0 +1,125 @@
+[
+  {
+    "video_id": "AJDDHWBO",
+    "references": [
+      {
+        "class_id": 114,
+        "interval": [
+          0.941,
+          7.0
+        ]
+      }
+    ],
+    "detection": {
+      "status": "ready",
+      "model": "automatic-actions-v1",
+      "experimental": true,
+      "duration": 7.0,
+      "segments": [
+        {
+          "class_id": 39,
+          "action": "Eating",
+          "start": 0.0,
+          "end": 7.0,
+          "score": 0.4454804740375889
+        }
+      ],
+      "max_time_bin_seconds": 0.375,
+      "calibrated": false
+    },
+    "export_validated": true
+  },
+  {
+    "video_id": "AKFJYBGG",
+    "references": [
+      {
+        "class_id": 88,
+        "interval": [
+          0.825,
+          1.722
+        ]
+      },
+      {
+        "class_id": 88,
+        "interval": [
+          2.887,
+          4.081
+        ]
+      },
+      {
+        "class_id": 76,
+        "interval": [
+          2.532,
+          2.97
+        ]
+      }
+    ],
+    "detection": {
+      "status": "ready",
+      "model": "automatic-actions-v1",
+      "experimental": true,
+      "duration": 4.208333333333333,
+      "segments": [
+        {
+          "class_id": 2,
+          "action": "Attending",
+          "start": 0.0,
+          "end": 4.208333333333333,
+          "score": 0.5488495948018622
+        },
+        {
+          "class_id": 15,
+          "action": "Chirping",
+          "start": 0.0,
+          "end": 4.208333333333333,
+          "score": 0.9786447045994412
+        },
+        {
+          "class_id": 87,
+          "action": "Sensing",
+          "start": 0.0,
+          "end": 4.208333333333333,
+          "score": 0.30377180914749496
+        },
+        {
+          "class_id": 88,
+          "action": "Shaking",
+          "start": 1.125,
+          "end": 1.375,
+          "score": 0.9270438973260544
+        },
+        {
+          "class_id": 76,
+          "action": "Preening",
+          "start": 1.125,
+          "end": 2.125,
+          "score": 0.854175433103077
+        },
+        {
+          "class_id": 88,
+          "action": "Shaking",
+          "start": 2.125,
+          "end": 3.375,
+          "score": 0.8253761862628362
+        },
+        {
+          "class_id": 76,
+          "action": "Preening",
+          "start": 2.875,
+          "end": 3.125,
+          "score": 0.9509189992555014
+        },
+        {
+          "class_id": 88,
+          "action": "Shaking",
+          "start": 3.375,
+          "end": 4.208333333333333,
+          "score": 0.9371256047340166
+        }
+      ],
+      "max_time_bin_seconds": 0.33333333333333304,
+      "calibrated": false
+    },
+    "export_validated": true
+  }
+]

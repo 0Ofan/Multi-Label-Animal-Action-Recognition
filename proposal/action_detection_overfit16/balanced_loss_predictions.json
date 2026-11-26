@@ -1,0 +1,1143 @@
+[
+  {
+    "video_id": "NJMDNXDO",
+    "references": [
+      {
+        "class_id": 2,
+        "interval": [
+          0.0,
+          1.254
+        ]
+      },
+      {
+        "class_id": 2,
+        "interval": [
+          2.495,
+          3.125
+        ]
+      },
+      {
+        "class_id": 101,
+        "interval": [
+          0.0,
+          1.019
+        ]
+      },
+      {
+        "class_id": 49,
+        "interval": [
+          1.733,
+          3.125
+        ]
+      },
+      {
+        "class_id": 114,
+        "interval": [
+          1.185,
+          2.372
+        ]
+      },
+      {
+        "class_id": 1,
+        "interval": [
+          1.196,
+          2.373
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 101,
+        "action": "Startled",
+        "start": 0.0,
+        "end": 1.125,
+        "score": 0.7218187100524083
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 0.0,
+        "end": 1.375,
+        "score": 0.7576520772814284
+      },
+      {
+        "class_id": 1,
+        "action": "Attacking",
+        "start": 1.125,
+        "end": 2.375,
+        "score": 0.672916920263073
+      },
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "start": 1.125,
+        "end": 2.375,
+        "score": 0.6675457933495785
+      },
+      {
+        "class_id": 49,
+        "action": "Fleeing",
+        "start": 1.625,
+        "end": 3.125,
+        "score": 0.7305021190492725
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 2.375,
+        "end": 3.125,
+        "score": 0.7676878007585922
+      }
+    ]
+  },
+  {
+    "video_id": "MLEMKEWB",
+    "references": [
+      {
+        "class_id": 114,
+        "interval": [
+          0.0,
+          1.8
+        ]
+      },
+      {
+        "class_id": 97,
+        "interval": [
+          1.8,
+          4.0
+        ]
+      },
+      {
+        "class_id": 87,
+        "interval": [
+          4.0,
+          5.5
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "start": 0.0,
+        "end": 1.875,
+        "score": 0.7817106472295616
+      },
+      {
+        "class_id": 97,
+        "action": "Spreading Wings",
+        "start": 1.875,
+        "end": 3.875,
+        "score": 0.6698028405420979
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 3.875,
+        "end": 5.5,
+        "score": 0.7065206464247842
+      }
+    ]
+  },
+  {
+    "video_id": "PSEFVDGW",
+    "references": [
+      {
+        "class_id": 63,
+        "interval": [
+          2.06,
+          2.713
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 0.0,
+        "end": 8.0,
+        "score": 0.3024837557243712
+      },
+      {
+        "class_id": 63,
+        "action": "Landing",
+        "start": 2.125,
+        "end": 2.625,
+        "score": 0.7124224397719033
+      }
+    ]
+  },
+  {
+    "video_id": "CIKIZUDI",
+    "references": [
+      {
+        "class_id": 62,
+        "interval": [
+          0.0,
+          1.375
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          2.5,
+          3.125
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          5.417,
+          6.0
+        ]
+      },
+      {
+        "class_id": 2,
+        "interval": [
+          1.5,
+          2.5
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          3.125,
+          5.417
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 0.0,
+        "end": 1.375,
+        "score": 0.7966901103813935
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 1.375,
+        "end": 2.375,
+        "score": 0.6018244890534701
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 2.375,
+        "end": 3.125,
+        "score": 0.6261863983003948
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 3.125,
+        "end": 5.375,
+        "score": 0.6427891530479513
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 5.375,
+        "end": 6.0,
+        "score": 0.630763585619398
+      }
+    ]
+  },
+  {
+    "video_id": "SUWGINQN",
+    "references": [
+      {
+        "class_id": 15,
+        "interval": [
+          0.0,
+          0.5
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          1.25,
+          2.5
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          3.75,
+          4.5
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 0.0,
+        "end": 0.375,
+        "score": 0.7049837377840781
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 1.125,
+        "end": 2.125,
+        "score": 0.5699664410026616
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 3.625,
+        "end": 4.375,
+        "score": 0.5859317161651755
+      }
+    ]
+  },
+  {
+    "video_id": "OOKBUHAQ",
+    "references": [
+      {
+        "class_id": 63,
+        "interval": [
+          4.094,
+          5.469
+        ]
+      },
+      {
+        "class_id": 13,
+        "interval": [
+          4.344,
+          4.969
+        ]
+      },
+      {
+        "class_id": 97,
+        "interval": [
+          4.344,
+          4.969
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          0.0,
+          3.594
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          4.344,
+          7.594
+        ]
+      },
+      {
+        "class_id": 2,
+        "interval": [
+          4.344,
+          7.844
+        ]
+      },
+      {
+        "class_id": 87,
+        "interval": [
+          4.469,
+          7.594
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 0.0,
+        "end": 7.625,
+        "score": 0.7871167570873422
+      },
+      {
+        "class_id": 63,
+        "action": "Landing",
+        "start": 4.125,
+        "end": 5.375,
+        "score": 0.6033021060357406
+      },
+      {
+        "class_id": 13,
+        "action": "Carrying In Mouth",
+        "start": 4.375,
+        "end": 4.875,
+        "score": 0.5988765190546316
+      },
+      {
+        "class_id": 97,
+        "action": "Spreading Wings",
+        "start": 4.375,
+        "end": 4.875,
+        "score": 0.4529022577577662
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 4.375,
+        "end": 7.625,
+        "score": 0.7115116757412396
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 4.375,
+        "end": 7.916666666666667,
+        "score": 0.755537898969998
+      }
+    ]
+  },
+  {
+    "video_id": "PACTSMWW",
+    "references": [
+      {
+        "class_id": 62,
+        "interval": [
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          5.0,
+          6.375
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          6.875,
+          7.625
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          8.125,
+          9.625
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          11.125,
+          12.875
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          13.375,
+          14.0
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          16.0,
+          17.208
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          1.0,
+          5.0
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          6.375,
+          6.875
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          7.625,
+          8.125
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          9.625,
+          11.125
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          12.875,
+          13.375
+        ]
+      },
+      {
+        "class_id": 15,
+        "interval": [
+          14.0,
+          16.0
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 0.0,
+        "end": 0.875,
+        "score": 0.7544314681095756
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 0.875,
+        "end": 4.875,
+        "score": 0.6040330424612417
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 4.875,
+        "end": 6.375,
+        "score": 0.550099807231274
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 6.375,
+        "end": 6.875,
+        "score": 0.593505166085323
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 6.875,
+        "end": 7.625,
+        "score": 0.7413739685956718
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 7.625,
+        "end": 8.125,
+        "score": 0.7132667817475659
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 8.125,
+        "end": 9.625,
+        "score": 0.7447227307417683
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 9.625,
+        "end": 11.125,
+        "score": 0.7693617419468184
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 11.125,
+        "end": 12.875,
+        "score": 0.8013721239574084
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 12.875,
+        "end": 13.375,
+        "score": 0.7184137667171012
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 13.375,
+        "end": 13.875,
+        "score": 0.7162949534022167
+      },
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 14.375,
+        "end": 15.875,
+        "score": 0.7031185653214367
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 15.875,
+        "end": 17.208333333333332,
+        "score": 0.8548953999508344
+      }
+    ]
+  },
+  {
+    "video_id": "YVYLPLVZ",
+    "references": [
+      {
+        "class_id": 2,
+        "interval": [
+          0.019,
+          1.443
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          1.439,
+          8.468
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 0.0,
+        "end": 1.375,
+        "score": 0.6138201712799144
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 1.375,
+        "end": 8.375,
+        "score": 0.6106304312472104
+      }
+    ]
+  },
+  {
+    "video_id": "OSTMOHGA",
+    "references": [
+      {
+        "class_id": 62,
+        "interval": [
+          0.0,
+          4.208
+        ]
+      },
+      {
+        "class_id": 100,
+        "interval": [
+          0.547,
+          4.208
+        ]
+      },
+      {
+        "class_id": 44,
+        "interval": [
+          0.927,
+          2.516
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 0.0,
+        "end": 4.208333333333333,
+        "score": 0.872724590420809
+      },
+      {
+        "class_id": 100,
+        "action": "Standing in alert",
+        "start": 0.625,
+        "end": 4.208333333333333,
+        "score": 0.7795772749424618
+      },
+      {
+        "class_id": 44,
+        "action": "Exploring",
+        "start": 0.875,
+        "end": 2.625,
+        "score": 0.5030576381361136
+      }
+    ]
+  },
+  {
+    "video_id": "CPXYOSBA",
+    "references": [
+      {
+        "class_id": 87,
+        "interval": [
+          2.756,
+          3.939
+        ]
+      },
+      {
+        "class_id": 87,
+        "interval": [
+          5.558,
+          7.902
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 2.875,
+        "end": 3.875,
+        "score": 0.2830089213431384
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 5.625,
+        "end": 8.125,
+        "score": 0.6400003067239044
+      }
+    ]
+  },
+  {
+    "video_id": "XKKAKPTK",
+    "references": [
+      {
+        "class_id": 15,
+        "interval": [
+          0.0,
+          4.757
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          4.803,
+          6.258
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          12.884,
+          13.749
+        ]
+      },
+      {
+        "class_id": 2,
+        "interval": [
+          4.81,
+          6.227
+        ]
+      },
+      {
+        "class_id": 2,
+        "interval": [
+          12.891,
+          13.74
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 15,
+        "action": "Chirping",
+        "start": 0.0,
+        "end": 4.875,
+        "score": 0.5989517042952857
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 4.875,
+        "end": 6.125,
+        "score": 0.5813435023791953
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 4.875,
+        "end": 6.375,
+        "score": 0.6014192212763363
+      },
+      {
+        "class_id": 2,
+        "action": "Attending",
+        "start": 12.875,
+        "end": 14.0,
+        "score": 0.692077579741756
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 12.875,
+        "end": 14.0,
+        "score": 0.7667032312492469
+      }
+    ]
+  },
+  {
+    "video_id": "DTXTKPKK",
+    "references": [
+      {
+        "class_id": 45,
+        "interval": [
+          0.0,
+          0.875
+        ]
+      },
+      {
+        "class_id": 89,
+        "interval": [
+          0.0,
+          1.167
+        ]
+      },
+      {
+        "class_id": 89,
+        "interval": [
+          4.5,
+          5.583
+        ]
+      },
+      {
+        "class_id": 89,
+        "interval": [
+          8.292,
+          9.119
+        ]
+      },
+      {
+        "class_id": 89,
+        "interval": [
+          10.066,
+          10.982
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          1.125,
+          2.625
+        ]
+      },
+      {
+        "class_id": 114,
+        "interval": [
+          2.625,
+          6.875
+        ]
+      },
+      {
+        "class_id": 114,
+        "interval": [
+          7.0,
+          10.5
+        ]
+      },
+      {
+        "class_id": 87,
+        "interval": [
+          6.375,
+          7.0
+        ]
+      },
+      {
+        "class_id": 87,
+        "interval": [
+          10.5,
+          11.0
+        ]
+      },
+      {
+        "class_id": 37,
+        "interval": [
+          6.5,
+          7.583
+        ]
+      },
+      {
+        "class_id": 76,
+        "interval": [
+          7.375,
+          11.0
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 45,
+        "action": "Falling",
+        "start": 0.0,
+        "end": 0.875,
+        "score": 0.6650728155674616
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "start": 0.0,
+        "end": 1.125,
+        "score": 0.7326995711813774
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 1.125,
+        "end": 2.625,
+        "score": 0.6702810027848218
+      },
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "start": 2.625,
+        "end": 6.875,
+        "score": 0.8039740534636972
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "start": 4.375,
+        "end": 5.625,
+        "score": 0.5204983146230255
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 6.375,
+        "end": 6.875,
+        "score": 0.4817625355487683
+      },
+      {
+        "class_id": 37,
+        "action": "Drinking",
+        "start": 6.375,
+        "end": 7.625,
+        "score": 0.6185131944370844
+      },
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "start": 6.875,
+        "end": 10.375,
+        "score": 0.7887155797972939
+      },
+      {
+        "class_id": 76,
+        "action": "Preening",
+        "start": 7.375,
+        "end": 11.0,
+        "score": 0.7414431612977136
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "start": 7.875,
+        "end": 8.125,
+        "score": 0.3404591841014299
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "start": 8.375,
+        "end": 9.125,
+        "score": 0.5918035023819452
+      },
+      {
+        "class_id": 89,
+        "action": "Shaking Head",
+        "start": 10.125,
+        "end": 11.0,
+        "score": 0.6602985777272652
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 10.375,
+        "end": 11.0,
+        "score": 0.6352292317967138
+      }
+    ]
+  },
+  {
+    "video_id": "LVRTDMYV",
+    "references": [
+      {
+        "class_id": 1,
+        "interval": [
+          1.844,
+          3.219
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 1,
+        "action": "Attacking",
+        "start": 1.875,
+        "end": 3.125,
+        "score": 0.773329202199354
+      }
+    ]
+  },
+  {
+    "video_id": "DXBQHUXS",
+    "references": [
+      {
+        "class_id": 56,
+        "interval": [
+          1.676,
+          2.657
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 56,
+        "action": "Hissing",
+        "start": 1.625,
+        "end": 2.625,
+        "score": 0.42769579629232035
+      }
+    ]
+  },
+  {
+    "video_id": "BBWWNAMC",
+    "references": [
+      {
+        "class_id": 114,
+        "interval": [
+          0.0,
+          2.674
+        ]
+      },
+      {
+        "class_id": 114,
+        "interval": [
+          4.76,
+          8.079
+        ]
+      },
+      {
+        "class_id": 87,
+        "interval": [
+          3.297,
+          5.26
+        ]
+      },
+      {
+        "class_id": 85,
+        "interval": [
+          7.007,
+          12.709
+        ]
+      },
+      {
+        "class_id": 62,
+        "interval": [
+          0.0,
+          3.847
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "start": 0.0,
+        "end": 2.625,
+        "score": 0.7503820047418714
+      },
+      {
+        "class_id": 62,
+        "action": "Keeping still",
+        "start": 0.0,
+        "end": 3.875,
+        "score": 0.8014354395453296
+      },
+      {
+        "class_id": 87,
+        "action": "Sensing",
+        "start": 3.375,
+        "end": 4.625,
+        "score": 0.6002127370026762
+      },
+      {
+        "class_id": 114,
+        "action": "Walking",
+        "start": 4.875,
+        "end": 8.125,
+        "score": 0.694595989447612
+      },
+      {
+        "class_id": 85,
+        "action": "Running",
+        "start": 7.125,
+        "end": 12.625,
+        "score": 0.6914705545888782
+      }
+    ]
+  },
+  {
+    "video_id": "CFFFYNPO",
+    "references": [
+      {
+        "class_id": 85,
+        "interval": [
+          0.19,
+          0.883
+        ]
+      },
+      {
+        "class_id": 1,
+        "interval": [
+          0.901,
+          2.432
+        ]
+      },
+      {
+        "class_id": 1,
+        "interval": [
+          3.082,
+          4.833
+        ]
+      },
+      {
+        "class_id": 81,
+        "interval": [
+          3.118,
+          4.485
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "class_id": 85,
+        "action": "Running",
+        "start": 0.125,
+        "end": 0.875,
+        "score": 0.559365570286377
+      },
+      {
+        "class_id": 1,
+        "action": "Attacking",
+        "start": 0.875,
+        "end": 2.375,
+        "score": 0.7192218505337895
+      },
+      {
+        "class_id": 81,
+        "action": "Retaliating",
+        "start": 3.125,
+        "end": 4.375,
+        "score": 0.6982310207351398
+      },
+      {
+        "class_id": 1,
+        "action": "Attacking",
+        "start": 3.125,
+        "end": 4.833333333333333,
+        "score": 0.8370857680424315
+      }
+    ]
+  }
+]
