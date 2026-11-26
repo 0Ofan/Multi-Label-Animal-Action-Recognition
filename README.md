@@ -32,6 +32,8 @@ Linux/macOS将Python路径换为`.venv/bin/python`。`scripts/restore.py final`�
 
 ## 网页Bonus：按查询定位动作
 
+已在Windows、Linux CPU环境通过53项检查，并在当前公网网站完成两条查询、区间导出、页面切换及分类结果隔离验收。记录见[bonus_acceptance.json](deployment/bonus_acceptance.json)。验收使用自制合成视频，不代表定位准确率。
+
 在Video页上传视频后，向下找到 **Query-based temporal grounding (Bonus)** / **自然语言时序定位（Bonus）**：
 
 1. 输入英文模板，例如 `A goat is walking.`。也可展开查询生成器，选择训练动物名称和动作，再点击“使用此查询”。

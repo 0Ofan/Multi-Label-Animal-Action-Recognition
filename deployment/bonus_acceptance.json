@@ -43,5 +43,20 @@
     "input": "self-generated synthetic video"
   },
   "current_streamlit_url": "https://cnnproject-comp6116.streamlit.app/",
-  "cloud_acceptance": "pending hosted process refresh"
+  "cloud_acceptance": {
+    "url": "https://cnnproject-comp6116.streamlit.app/",
+    "http_status": 200,
+    "passed": true,
+    "query_exports_verified": true,
+    "query_only_results_and_navigation_verified": true,
+    "invalid_query_clears_only_grounding_and_preserves_classification": true,
+    "chinese_controls_verified": true,
+    "queries_run": [
+      "A goat is walking.",
+      "A goat is eating."
+    ],
+    "input": "self-generated 10-second synthetic video; no dataset video or annotation used",
+    "interpretation": "Execution and UI acceptance only, not semantic accuracy; both queries may rank the entire video first."
+  },
+  "temporary_local_server_stopped": true
 }
