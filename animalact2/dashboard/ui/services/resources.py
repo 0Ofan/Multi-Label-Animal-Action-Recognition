@@ -54,21 +54,6 @@ class Runtime:
         self._initialization_lock=RLock()
         self._resnet={}
         self._ensemble=None
-    def ground(self, path, query, device="cpu"):
-        from animalact2.dashboard.grounding import prepare_query, predict, validate_result
-        query, _, _ = prepare_query(query)
-        if device not in ("cpu", "cuda"):
-            raise ValueError("Device must be cpu or cuda")
-        if not DIRECT:
-            value = request("/api/grounding?" + urlencode(dict(query=query, device=device)),
-                            Path(path).read_bytes(),
-                            {"Content-Type":"application/octet-stream", "X-Filename":quote(Path(path).name)})
-            return validate_result(value)
-        with self._initialization_lock:
-            if device not in self._resnet:
-                from proposal.predict import ProposalPredictor
-                self._resnet[device] = ProposalPredictor(device)
-            return predict(self._resnet[device], path, query)
     @property
     def loaded_devices(self):
         devices = set(self._direct.predictors) if DIRECT and self._direct is not None else set() if DIRECT else set(request("/health")["loaded_devices"])
@@ -126,9 +111,7 @@ class Runtime:
         return self._with_actions(path, result, device, start, end)
 
 @st.cache_resource(show_spinner=False)
-def get_runtime():
-    """Shared runtime v2.1.1: includes the independent Bonus query endpoint."""
-    return Runtime()
+def get_runtime(): return Runtime()
 
 @st.cache_data(show_spinner=False)
 def model_info(key="attention"):

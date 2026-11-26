@@ -4,7 +4,6 @@ import json
 import tempfile
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
-from threading import RLock
 from urllib.parse import urlparse,parse_qs,unquote
 from .registry import model_info,OUT
 from .video import MAX_BYTES,SUPPORTED,inspect_video
@@ -17,8 +16,6 @@ class Server(ThreadingHTTPServer):
         super().__init__(address,Handler)
         from .predictor import Runtime
         self.runtime=Runtime()
-        self.grounding_predictors={}
-        self.grounding_lock=RLock()
 
 class Handler(BaseHTTPRequestHandler):
     def setup(self):
@@ -30,11 +27,8 @@ class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
         p=urlparse(self.path); q=parse_qs(p.query)
         try:
-            if p.path=="/health": value=dict(status="ok",version="AnimalAct 2.0",loaded_devices=sorted(set(self.server.runtime.predictors) | set(self.server.grounding_predictors)))
+            if p.path=="/health": value=dict(status="ok",version="AnimalAct 2.0",loaded_devices=list(self.server.runtime.predictors))
             elif p.path=="/api/models": value=[model_info(k) for k in ("attention","bigru_mean")]
-            elif p.path=="/api/grounding":
-                from .grounding import model_info as grounding_info
-                value=grounding_info()
             elif p.path=="/api/evaluation": value=evaluation(q.get("kind",["summary"])[0],q.get("model",["model3"])[0],int(q.get("seed",[42])[0]))
             else: self.send_json(404,{"error":"Endpoint not found"}); return
             self.send_json(200,value)
@@ -42,15 +36,10 @@ class Handler(BaseHTTPRequestHandler):
         except Exception as exc: self.send_json(500,{"error":"Experiment/model information could not be loaded: "+str(exc)})
     def do_POST(self):
         p=urlparse(self.path); q=parse_qs(p.query)
-        if p.path not in ("/api/predict", "/api/grounding"): self.send_json(404,{"error":"Endpoint not found"}); return
+        if p.path!="/api/predict": self.send_json(404,{"error":"Endpoint not found"}); return
         try:
-            is_grounding=p.path=="/api/grounding"
-            if is_grounding:
-                from .grounding import prepare_query
-                query, _, _=prepare_query(q.get("query", [""])[0])
-            else:
-                key=q.get("model",["attention"])[0]; model_info(key)
-            device=q.get("device",["cpu" if is_grounding else "cuda"])[0]
+            key=q.get("model",["attention"])[0]; model_info(key)
+            device=q.get("device",["cuda"])[0]
             if device not in ("cuda","cpu"): raise ValueError("Device must be cuda or cpu")
             n=int(self.headers.get("Content-Length","0"))
             if not 0<n<=MAX_BYTES:
@@ -58,8 +47,6 @@ class Handler(BaseHTTPRequestHandler):
             name=Path(unquote(self.headers.get("X-Filename","upload.mp4")).replace("\\","/")).name
             if Path(name).suffix.lower() not in SUPPORTED: raise ValueError("Unsupported video format")
             start=float(q.get("start",[0])[0]); end=q.get("end",[None])[0]; end=None if end is None else float(end)
-            if is_grounding and (start != 0. or end is not None):
-                raise ValueError("Query localization requires the complete video")
             temp=OUT/".runtime/uploads"; temp.mkdir(parents=True,exist_ok=True)
             with tempfile.TemporaryDirectory(prefix="request_",dir=temp) as directory:
                 path=Path(directory)/("upload"+Path(name).suffix.lower())
@@ -67,18 +54,9 @@ class Handler(BaseHTTPRequestHandler):
                 if len(data)!=n: raise ValueError("Incomplete video upload")
                 path.write_bytes(data)
                 inspect_video(path)
-                if is_grounding:
-                    from proposal.predict import ProposalPredictor
-                    from .grounding import predict as predict_grounding
-                    with self.server.grounding_lock:
-                        if device not in self.server.grounding_predictors:
-                            self.server.grounding_predictors[device]=ProposalPredictor(device)
-                        result=predict_grounding(self.server.grounding_predictors[device],path,query)
-                    self.send_json(200,result)
-                else:
-                    result=self.server.runtime.predict(path,key,device,start,end)
-                    result["video_id"]=Path(name).stem
-                    self.send_json(200,validate_prediction(result))
+                result=self.server.runtime.predict(path,key,device,start,end)
+                result["video_id"]=Path(name).stem
+                self.send_json(200,validate_prediction(result))
         except (ValueError,KeyError) as exc:
             self.close_connection=True; self.send_json(400,{"error":str(exc)})
         except Exception as exc:

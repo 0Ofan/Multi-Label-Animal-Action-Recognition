@@ -6,8 +6,6 @@ from .uploads import checked_name, fingerprint, probe, temporary_video
 def clear(state):
     for key in ("upload", "recognition", "recognition_error", "running"):
         state.pop(key, None)
-    invalidate_grounding(state)
-    state["grounding_running"] = False
     state["uploader_revision"] = state.get("uploader_revision", 0)+1
 
 
@@ -16,8 +14,6 @@ def accept_upload(state, filename, content):
     if state.get("upload", {}).get("fingerprint") == key:
         return False
     state.pop("recognition", None); state.pop("recognition_error", None)
-    invalidate_grounding(state)
-    state["grounding_running"] = False
     state["running"] = False
     for field in ("window_start_input","window_end_input"):
         state.pop(field,None)
@@ -61,44 +57,3 @@ def recognition_identity(state):
     model_release = manifest()["archive"]["SHA256"]
     return (state.get("upload", {}).get("fingerprint"), state.get("model_key", "attention"),
             state.get("window_start", 0.), state.get("window_end"), "automatic-actions-v1", model_release)
-
-
-def invalidate_grounding(state):
-    for key in ("grounding_result", "grounding_error"):
-        state.pop(key, None)
-
-
-def grounding_identity(state):
-    from animalact2.dashboard.grounding import model_info
-    info = model_info()
-    return (state.get("upload", {}).get("fingerprint"),
-            " ".join(str(state.get("grounding_query", "")).split()).casefold(),
-            info["checkpoint_SHA256"], info["classification_SHA256"])
-
-
-def ground(state, runtime):
-    from animalact2.dashboard.grounding import prepare_query, validate_result
-    upload = state.get("upload")
-    if not upload or not upload.get("metadata"):
-        raise ValueError("Choose a readable video before running query localization.")
-    identity = grounding_identity(state)
-    if state.get("grounding_result", {}).get("identity") == identity:
-        return state["grounding_result"]
-    if state.get("grounding_running"):
-        raise RuntimeError("Query localization is already in progress.")
-    invalidate_grounding(state)
-    state["grounding_running"] = True
-    try:
-        query, _, _ = prepare_query(state.get("grounding_query", ""))
-        with temporary_video(upload["filename"], upload["content"]) as path:
-            result = validate_result(runtime.ground(path, query, device="cpu"))
-        if grounding_identity(state) != identity:
-            raise RuntimeError("The video or query changed. Run query localization again.")
-        envelope = dict(filename=upload["filename"], fingerprint=upload["fingerprint"], result=result, identity=identity)
-        state["grounding_result"] = envelope
-        return envelope
-    except Exception as exc:
-        state["grounding_error"] = str(exc)
-        raise
-    finally:
-        state["grounding_running"] = False

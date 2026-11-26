@@ -15,7 +15,7 @@ jobs:
           cache: pip
       - run: python -m pip install -r requirements.txt
       - run: python scripts/restore.py all
-      - run: python -m unittest tests.test_portable tests.test_i18n tests.test_proposal tests.test_action_detection tests.test_boundary_grounding tests.test_final_deployment tests.test_bonus_grounding -v
+      - run: python -m unittest tests.test_portable tests.test_i18n tests.test_proposal tests.test_action_detection tests.test_boundary_grounding tests.test_final_deployment -v
         env:
           RUN_MODEL_SMOKE: '1'
           RUN_FINAL_SMOKE: '1'

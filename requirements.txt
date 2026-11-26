@@ -1,4 +1,4 @@
-# AnimalAct v2.1.1 Bonus interface: refresh the hosted Python process.
+# AnimalAct stable v2.1 restored: refresh the hosted Python process.
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch==2.14.1+cpu
 torchvision==0.29.1+cpu

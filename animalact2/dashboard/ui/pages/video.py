@@ -5,7 +5,6 @@ from animalact2.dashboard.ui.components.ui import header, metrics, tags, probabi
 from animalact2.dashboard.ui.services import resources
 from animalact2.dashboard.ui.services.state import accept_upload, recognize, clear, recognition_identity
 from animalact2.dashboard.video import SUPPORTED as SUPPORTED_EXTENSIONS
-from animalact2.dashboard.ui.components.grounding import render_input as render_grounding
 
 
 def upload_changed(key):
@@ -96,4 +95,3 @@ def render():
         def results():
             st.session_state["nav"] = "Results"; st.query_params["page"] = "results"
         st.button(t("View detailed results →"), on_click=results, width="stretch", key='ui_video_94')
-    render_grounding()
