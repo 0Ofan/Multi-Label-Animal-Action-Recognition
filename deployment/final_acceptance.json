@@ -45,9 +45,9 @@
   "protection": {
     "original_checkpoint_files_verified": 20,
     "training_performed": false,
-    "feature_extraction_performed": false,
     "test_dataset_inference_performed": false,
     "thresholds_changed": false,
-    "raw_dataset_published": false
+    "raw_dataset_published": false,
+    "training_feature_cache_reextracted": false
   }
 }
